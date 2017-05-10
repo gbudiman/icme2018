@@ -1,0 +1,16 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  border-radius: 0px
+}
+
+.footer {
+  border-top: 1px solid #383838;
+  background-color: #dfdfdf;
+  color: #383838;
+  text-align: center;
+  font-style: italic;
+  margin-top: 2.5em;
+}
