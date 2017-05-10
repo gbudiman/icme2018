@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title ICME 2018
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    %nav{class: 'navbar navbar-inverse'}
+      %div{class: 'container-fluid'}
+        %div{class: 'navbar-header'}
+          %button{type: 'button', class: 'navbar-toggle collapsed', 'data-toggle' => 'collapse', 'data-target' => '#sitenav'}
+            %span{class: 'icon-bar'}
+            %span{class: 'icon-bar'}
+            %span{class: 'icon-bar'}
+          %a{class: 'navbar-brand', href: '/'} ICME 2018
+        %div{class: 'collapse navbar-collapse pull-right', id: 'sitenav'}
+          %ul{class: 'nav navbar-nav'}
+            %li
+              %a{href: '#'} Papers
+            %li
+              %a{href: '#'} Sponsors
+            %li
+              %a{href: '/schedule'} Schedule
+    = yield
