@@ -2,14 +2,14 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title ICME 2018
+    %title ICME 2018 - IEEE International Conference on Multimedia and Expo
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = stylesheet_link_tag    'main', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     = stylesheet_link_tag    "https://fonts.googleapis.com/css?family=Lato"
   %body
-    %nav{class: 'navbar navbar-inverse'}
+    %nav{class: 'navbar navbar-inverse navbar-fixed-top'}
       %div{class: 'container-fluid'}
         %div{class: 'navbar-header'}
           %button{type: 'button', class: 'navbar-toggle collapsed', 'data-toggle' => 'collapse', 'data-target' => '#sitenav'}
@@ -26,7 +26,7 @@
             %li
               %a{href: '/schedule'} Schedule
 
-    %div{class: 'container-fluid'}
+    %div{class: 'container-fluid', id: 'main-content'}
       = yield
-    %div{class: 'container-fluid footer'}
+    %div{class: 'footer'}
       ICME 2018
