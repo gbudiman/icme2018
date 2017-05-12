@@ -25,7 +25,7 @@ body {
 }
 
 .parallax {
-  background-image: url("san_diego_night.jpg");
+  background-image: url("/assets/san_diego_night.jpg");
   min-height: 505px;
   //background-attachment: fixed;
   background-repeat: repeat-x;
