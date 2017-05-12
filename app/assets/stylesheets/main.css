@@ -3,6 +3,9 @@ body {
   overflow-x: hidden;
 }
 
+.anchor-nolink {
+  pointer-events: none;
+}
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
