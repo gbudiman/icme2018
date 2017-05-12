@@ -1,0 +1,51 @@
+/* line 1, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+/* line 6, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.anchor-nolink {
+  pointer-events: none;
+}
+
+/* line 9, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px;
+}
+
+/* line 15, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.footer {
+  border-top: 1px solid #888;
+  color: #888;
+  text-align: center;
+  font-style: italic;
+  margin-top: 2.5em;
+}
+
+/* line 23, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.navbar {
+  border-radius: 0px;
+}
+
+/* line 27, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.parallax {
+  background-image: url(/assets/san_diego_night-331a7e342066a1a18675a37624b0a63f258a7dc6e2584395a103fb29bd318129.jpg);
+  min-height: 505px;
+  background-repeat: repeat-x;
+  margin-left: -500px;
+  margin-right: -500px;
+  margin-top: -128px;
+}
+
+/* line 37, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+#jumbotron-title {
+  text-align: center;
+}
+
+/* line 41, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+#main-content {
+  margin-top: 5em;
+}
