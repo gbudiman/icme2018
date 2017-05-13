@@ -25,17 +25,21 @@ body {
 }
 
 .parallax {
-  background-image: image-url("san_diego_night.jpg");
-  min-height: 505px;
+  background-image: image-url("san_diego.jpg");
+  min-height: 288px;
   //background-attachment: fixed;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   margin-left: -500px;
   margin-right: -500px;
-  margin-top: -128px;
+  margin-top: -24px;
 }
 
 .sponsor-logo {
   height: 40px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
 }
 
 #jumbotron-title {
