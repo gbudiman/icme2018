@@ -20,25 +20,8 @@
           %a{class: 'navbar-brand', href: '/'} ICME 2018
         %div{class: 'collapse navbar-collapse pull-right', id: 'sitenav'}
           %ul{class: 'nav navbar-nav'}
-            - if params[:action] == 'paper'
-              %li{class: 'active'}
-                %a{href: '#', class: 'anchor-nolink'} Papers
-            - else
-              %li
-                %a{href: '/paper'} Papers
-            - if params[:action] == 'schedule'
-              %li{class: 'active'}
-                %a{href: '#', class: 'anchor-nolink'} Schedule
-            - else
-              %li
-                %a{href: '/schedule'} Schedule
-            - if params[:action] == 'sponsor'
-              %li{class: 'active'}
-                %a{href: '#', class: 'anchor-nolink'} Sponsors
-            - else
-              %li
-                %a{href: '/sponsor'} Sponsors
-            
+            = render 'general'
+            = render 'calls'
 
     %div{class: 'container-fluid', id: 'main-content'}
       = yield

@@ -1,0 +1,7 @@
+- items = { paper: 'Papers', workshop: 'Workshops', tutorial: 'Tutorials', specsess: 'Special Session', panel: 'Panels' }
+
+- add_class = items[params[:action].to_sym] ? 'active' : ''
+- title = 'Calls'
+
+= render 'menu_dropdown', add_class: add_class, items: items, title: title
+
