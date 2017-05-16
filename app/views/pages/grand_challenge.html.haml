@@ -1,0 +1,49 @@
+%div{class: 'col-xs-12'}
+  %h1 Grand Challenges
+  %p IEEE ICME 2018 Grand Challenges is an industry-sponsored program at the IEEE ICME 2018 Conference comprising multimedia-related contests. Each contest is organized by one or more industry sponsors.
+
+  %p The contests are intended to be challenging as well as entertaining, and may provide (cash) awards. Both individuals and teams are welcome to participate in the contests. Winners of each contest will be invited to participate in a final Grand Challenge presentation and award ceremony at IEEE ICME 2018.
+
+  %p IEEE ICME 2018 is inviting proposals for its Grand Challenges program. To submit a proposal for a Grand Challenge, please complete the form below, and submit it to the IEEE ICME 2018 grand challenges chairs.
+
+  %p Proposals should include a one page call for participation, including a Grand Challenge description, evaluation criteria, guidelines, and submission deadline. Challenges may be either soft (i.e., producing an output judged by humans) or hard (where the output is compared to ground truth). Examples of possible Grand Challenges:
+
+  %ul
+    %li Estimate the geo-coordinates for each of a test set of images.
+    %li Produce a panoramic image for a set of tourist photos of a place.
+    %li Image retrieval: Produce an algorithm for rank ordering image search results.
+    %li Social media prediction: Predict which images from a set, if posted to social media, will gather more “likes”.
+
+  //= render 'deadline', target: :grand_challenge
+  = render 'chairs', target: :grand_challenge
+
+  %h3 Form
+  %table{class: 'table table-striped table-hover col-xs-12 col-md-8 col-lg-6'}
+    %tbody
+      %tr
+        %td Host Organization*
+        %td
+      %tr
+        %td Coordinator Contacts
+        %td
+      %tr
+        %td Challenge TItle
+        %td <Company Name> Grand Challenge: <Challenge Name>
+      %tr
+        %td Challenge Description
+        %td [max 500 words + web site for further details]
+      %tr
+        %td Dataset/APIs/Library URL
+        %td
+      %tr
+        %td Evaluation Criteria
+        %td [max 500 words]
+      %tr
+        %td Deadline of Submission
+        %td
+      %tr
+        %td Submission Guidelines
+        %td
+      %tr
+        %td Additional Information
+        %td

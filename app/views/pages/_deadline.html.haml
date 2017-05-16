@@ -1,0 +1,12 @@
+:ruby
+  if !target.is_a?(Array)
+    target = [target]
+  end
+
+%h3 Important Dates
+%ul
+  - target.each do |t|
+    - data = DateHelper::get spec: t
+    %li #{data[:title]} submission deadline: #{data[:proposal]}
+    - if data[:notification]
+      %li #{data[:title]} acceptance notification: #{data[:notification]}

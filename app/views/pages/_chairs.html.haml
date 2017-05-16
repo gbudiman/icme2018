@@ -1,0 +1,6 @@
+- data = ContactHelper::get_contact spec: target
+
+%h3 #{data[:title]}
+%ul
+  - data[:members].each do |m|
+    %li= m
