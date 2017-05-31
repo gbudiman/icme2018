@@ -1,12 +1,12 @@
 %li{class: "dropdown #{add_class}"}
-  %a{class: 'dropdown-toggle', 'data-toggle': 'dropdown', href: '#'}
+  %a{class: 'dropdown-toggle', 'data-toggle': 'dropdown', href: '#', role: 'button'}
     = title
     %span{class: 'caret'}
   %ul{class: 'dropdown-menu dropdown-menu-right'}
     - items.each do |link, item|
       - if params[:action] == link.to_s
-        %li{class: 'active pull-right'}
+        %li{class: 'active'}
           %a{href: '#', class: 'anchor-nolink'} #{item}
       - else
-        %li{class: 'pull-right'}
+        %li
           %a{href: "/#{link}"} #{item}

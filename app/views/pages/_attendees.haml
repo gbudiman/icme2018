@@ -1,0 +1,6 @@
+- items = { registration_desk: 'Registration Desk', registration: 'Registration', visa: 'Visa Information', venue: 'Venue and Travel', local: 'Local Information', accommodations: 'Accommodations', attractions: 'San Diego Attractions', social: 'Social Events'}
+
+- add_class = items[params[:action].to_sym] ? 'active' : ''
+
+= render 'menu_dropdown', add_class: add_class, items: items, title: title
+

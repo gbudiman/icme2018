@@ -20,8 +20,13 @@
           %a{class: 'navbar-brand', href: '/'} ICME 2018
         %div{class: 'collapse navbar-collapse pull-right', id: 'sitenav'}
           %ul{class: 'nav navbar-nav'}
-            = render 'general'
-            = render 'calls'
+            = render partial: 'general', locals: {title: 'General'}
+            = render partial: 'calls', locals: {title: 'Calls'}
+            = render partial: 'conference', locals: {title: 'Conference'}
+            = render partial: 'industry', locals: {title: 'Industry'}
+            = render partial: 'authors', locals: {title: 'Authors'}
+            = render partial: 'students', locals: {title: 'Students'}
+            = render partial: 'attendees', locals: {title: 'Attendees'}
 
     %div{class: 'container-fluid', id: 'main-content'}
       = yield

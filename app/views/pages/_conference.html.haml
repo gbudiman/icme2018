@@ -1,0 +1,6 @@
+- items = { conf_glance: 'At a Glance', conf_schedule: 'Schedule', conf_plenary: 'Plenary Talks', conf_papers: 'Papers', conf_workshops: 'Workshops', conf_tutorials: 'Tutorials', conf_sessions: 'Special Sessions', conf_panels: 'Panels', conf_demo: 'Demonstrations', conf_challenges: 'Grand Challenges', conf_students: 'Student Program', conf_industry: 'Industry Forum', conf_expo: 'Hands-on Expo', conf_awards: 'Awards'}
+
+- add_class = items[params[:action].to_sym] ? 'active' : ''
+
+= render 'menu_dropdown', add_class: add_class, items: items, title: title
+
