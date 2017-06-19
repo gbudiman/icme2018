@@ -81,16 +81,16 @@ module ContactHelper
       title: 'Local/Event Chair',
       members: ['Sunil Kumar, SDSU, USA']
     },
-    industrial_advisory: {
-      title: 'Industrial Advisory Board',
-      members: ['Kevin Jou',
-                'Ton Kalker',
-                'Chang Yeong Kim',
-                'Haizhou Li',
-                'Wei-Ying Ma',
-                'John Smith',
-                'Raj Talluri']
-    }
+    # industrial_advisory: {
+    #   title: 'Industrial Advisory Board',
+    #   members: ['Kevin Jou',
+    #             'Ton Kalker',
+    #             'Chang Yeong Kim',
+    #             'Haizhou Li',
+    #             'Wei-Ying Ma',
+    #             'John Smith',
+    #             'Raj Talluri']
+    # }
   }
 
   def self.get_contact spec: nil

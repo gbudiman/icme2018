@@ -14,8 +14,16 @@ var layout_helper = (function() {
       .css('margin-right', half_negative + 'px');
   }
 
+  var adjust_map = function() {
+    var venuemap = $('#venuemap');
+    var parent_width = venuemap.parent().width();
+
+    venuemap.css('width', parent_width + 'px');
+  }
+
   return {
-    adjust_background: adjust_background
+    adjust_background: adjust_background,
+    adjust_map: adjust_map
   }
 })()
 
@@ -24,5 +32,6 @@ $(function() {
 
   $(window).resize(function() {
     layout_helper.adjust_background();
+    layout_helper.adjust_map();
   })
 })
