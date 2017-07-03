@@ -47,12 +47,13 @@ module ContactHelper
     },
     grand_challenge: {
       title: 'Grand Challenges Chair',
-      members: ['Vasudev Bhaskaran, Qualcomm, USA']
+      members: ['Vasudev Bhaskaran, Qualcomm, USA',
+                'Lei Zhang, MSR, USA']
     },
     industrial_program: {
       title: 'Industrial Program Chairs',
       members: ['Khaled El-Maleh, Qualcomm, USA',
-                'Felix Fernandes, Apple, USA']
+                'Yan Ye, InterDigital, USA']
     },
     student_program: {
       title: 'Student Program Chair',
