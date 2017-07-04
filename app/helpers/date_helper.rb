@@ -35,6 +35,15 @@ module DateHelper
                           type: :nopropose},
     camera_demo:        { title: 'Camera-Ready Demo Paper', 
                           proposal: 'May 11, 2018',
+                          type: :nopropose},
+    industry_forum:     { title: 'Industry Forum',
+                          proposal: 'October 23, 2017'},
+    industry_track:     { title: 'Industry Track Paper',
+                          proposal: 'December 1, 2017',
+                          notification: 'March 12, 2018',
+                          type: :nopropose},
+    industry_track_cr:  { title: 'Camera-Ready Industry Track Paper',
+                          proposal: 'April 13, 2018',
                           type: :nopropose}
   }
 
