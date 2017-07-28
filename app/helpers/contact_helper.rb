@@ -93,9 +93,9 @@ module ContactHelper
     publication: {
       title: 'Publication Chair',
       members: ['Alessandro Piva, U. of Florence, Italy'],
-      photos: [nil]
+      photos: ['Alessandro Piva']
     },
-    publication: {
+    publicity: {
       title: 'Publicity Chairs',
       members: ['Panayiotis Georgiou, USC, USA',
                 'William Grosky, U. of Michigan, USA',
