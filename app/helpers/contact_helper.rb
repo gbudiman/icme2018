@@ -35,7 +35,7 @@ module ContactHelper
       title: 'Workshop Chairs',
       members: ['Mohan S. Kankanhalli, NUS, Singapore',
                 'Kai Yang, Bell Labs, USA'],
-      photos: [nil,
+      photos: ['Mohan Kankanhalli',
                nil]
     },
     tutorial: {
@@ -50,7 +50,7 @@ module ContactHelper
       members: ['Jiebo Luo, U. of Rochester, USA',
                 'Qi Tian, UT San Antonio, USA'],
       photos: ['Jiebo Luo',
-               nil]
+               'Qi Tian']
     },
     special_session: {
       title: 'Special Session Chairs',
@@ -83,7 +83,7 @@ module ContactHelper
     student_program: {
       title: 'Student Program Chair',
       members: ['Prasad Calyam, U. of Missouri, USA'],
-      photos: [nil]
+      photos: ['Prasad Calyam']
     },
     finance: {
       title: 'Finance Chair',
