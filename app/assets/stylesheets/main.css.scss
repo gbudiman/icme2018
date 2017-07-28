@@ -42,6 +42,32 @@ body {
   background-color: black;
 }
 
+.oc-photo {
+  height: 140px;
+  width: 140px;
+  border: 1px solid #aaa;
+}
+
+.oc-name {
+  //font-weight: bold;
+  //font-size: 110%;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: 4px;
+  width: 140px;
+}
+
+.oc-cell {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.oc-container {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
 #jumbotron-title {
   text-align: center;
 }

@@ -51,11 +51,39 @@ body {
 }
 
 /* line 45, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-photo {
+  height: 140px;
+  width: 140px;
+  border: 1px solid #aaa;
+}
+
+/* line 51, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-name {
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: 4px;
+  width: 140px;
+}
+
+/* line 61, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-cell {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+/* line 66, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-container {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+/* line 71, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #jumbotron-title {
   text-align: center;
 }
 
-/* line 49, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 75, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #main-content {
   margin-top: 5em;
 }

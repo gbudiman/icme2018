@@ -1,13 +1,20 @@
-%div{class: 'container col-xs-12'}
-  %div{class: 'col-xs-12'}
-    %h1 Organizing Committee
+%div{class: 'col-xs-12'}
+  %h1 Organizing Committee
 
-    - ContactHelper::get_contact.each do |k, v|
-      %div{class: 'col-xs-12 col-sm-6'}
-        %h3= v[:title]
-
-        - v[:members].each do |m|
-          %div= m 
+  %div{class: 'row'}
+  - ContactHelper::get_contact.each do |k, v|
+    %div{class: 'col-xs-12'}
+      %div{class: 'panel panel-primary oc-container'}
+        %div{class: 'panel-heading'}
+          %h4= v[:title]
+        %div{class: 'panel-body'}
+          - v[:members].zip(v[:photos]).each do |m|
+            %div{class: 'col-xs-6 col-sm-4 col-md-3 col-lg-2 oc-cell'}
+              %div{}
+                %img{class: 'oc-photo',
+                     src: "#{asset_path('photos/' + (m[1] == nil ? 'user_placeholder' : m[1]) + '.jpg')}"}
+              %div{}
+                %div{class: 'oc-name'}= m[0]
 
   / %div{class: 'col-xs-12 col-sm-6'}
   /   %h3 General Chairs
