@@ -1,12 +1,12 @@
-%div{class: 'col-xs-12'}
-  %h1 Schedule
-  %table{class: 'table table-hover'}
-    %thead
+
+%h1 Schedule
+%table{class: 'table table-hover'}
+  %thead
+    %tr
+      %th{class: 'col-xs-4 text-center'} Date
+      %th{class: 'col-xs-8 text-center'} Event
+  %tbody
+    - DateHelper::get_sorted().each do |d|
       %tr
-        %th{class: 'col-xs-4 text-center'} Date
-        %th{class: 'col-xs-8 text-center'} Event
-    %tbody
-      - DateHelper::get_sorted().each do |d|
-        %tr
-          %td= d[:date].strftime('%B %d, %Y')
-          %td= d[:title]
+        %td= d[:date].strftime('%B %d, %Y')
+        %td= d[:title]

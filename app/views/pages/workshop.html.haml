@@ -1,23 +1,23 @@
-%div{class: 'col-xs-12'}
-  %h1 Call for Workshops
-  %p 
-    We seek proposals from individuals and teams interested in organizing vivid and compelling workshops. A workshop proposal should provide the following information:
 
-    %ol
-      %li Title, scope, topics and duration (half or full day) of the workshop
-      %li Workshop format (papers, demos, panels, invited speakers, etc.)
-      %li 
-        Rationale
-        %ul
-          %li How the workshop is related to ICME;
-          %li Why the topic is current and important;
-          %li Why the workshop may attract a significant number of submissions of good quality;
-          %li Difference from other workshops and conferences covering similar topics
-      %li History of the workshop if any (where it was held, number of submissions, number of accepted papers, numbers of attendees in past years)
-      %li Organizing team and tentative committee lists (organizers, steering committee if any, confirmed TPC members, endorsement by society TCs, etc.).
+%h1 Call for Workshops
+%p 
+  We seek proposals from individuals and teams interested in organizing vivid and compelling workshops. A workshop proposal should provide the following information:
+
+  %ol
+    %li Title, scope, topics and duration (half or full day) of the workshop
+    %li Workshop format (papers, demos, panels, invited speakers, etc.)
+    %li 
+      Rationale
+      %ul
+        %li How the workshop is related to ICME;
+        %li Why the topic is current and important;
+        %li Why the workshop may attract a significant number of submissions of good quality;
+        %li Difference from other workshops and conferences covering similar topics
+    %li History of the workshop if any (where it was held, number of submissions, number of accepted papers, numbers of attendees in past years)
+    %li Organizing team and tentative committee lists (organizers, steering committee if any, confirmed TPC members, endorsement by society TCs, etc.).
 
 
-  %p Please include a draft call for papers, if available. 
+%p Please include a draft call for papers, if available. 
 
-  = render 'deadline', target: [:workshop_proposal, :workshop_paper, :camera_workshop]
-  = render 'chairs', target: :workshop
+= render 'deadline', target: [:workshop_proposal, :workshop_paper, :camera_workshop]
+= render 'chairs', target: :workshop
