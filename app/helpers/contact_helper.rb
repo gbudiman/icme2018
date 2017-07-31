@@ -18,11 +18,11 @@ module ContactHelper
                 'Mugen Peng, Beijing U of Posts & Telecom, China',
                 'Junsong Yuan, NTU, Singapore'],
       photos: ['Pamela Cosman',
-               nil,
+               'Yap-Peng Tan',
                'Sanghoon Lee',
                'Min Chen',
                nil,
-               nil]
+               'Junsong Yuan']
     },
     plenary: {
       title: 'Plenary Chairs',
@@ -71,7 +71,7 @@ module ContactHelper
       members: ['Vasudev Bhaskaran, Qualcomm, USA',
                 'Lei Zhang, MSR, USA'],
       photos: [nil,
-               nil]
+               'Lei Zhang']
     },
     industrial_program: {
       title: 'Industrial Program Chairs',
@@ -88,7 +88,7 @@ module ContactHelper
     finance: {
       title: 'Finance Chair',
       members: ['Yan Sun, U. of Rhode Island, USA'],
-      photos: [nil]
+      photos: ['Yan Sun']
     },
     publication: {
       title: 'Publication Chair',
