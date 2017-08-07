@@ -6,7 +6,7 @@ module ContactHelper
                 'Truong Nguyen, UCSD, USA',
                 'Wenjun Zeng, MSRA, China'],
       photos: ['Jay Kuo',
-               nil,
+               'Truong Nguyen',
                'Wenjun Zeng']
     },
     program: {
@@ -21,29 +21,29 @@ module ContactHelper
                'Yap-Peng Tan',
                'Sanghoon Lee',
                'Min Chen',
-               nil,
+               'Mugen Peng',
                'Junsong Yuan']
     },
     plenary: {
       title: 'Plenary Chairs',
       members: ['John Apostolopoulos, Cisco, USA',
                 'Haohong Wang, TCL, USA'],
-      photos: [nil,
+      photos: ['John Apostolopoulos',
                'Hao Hong']
     },
     workshop: {
       title: 'Workshop Chairs',
       members: ['Mohan S. Kankanhalli, NUS, Singapore',
-                'Kai Yang, Bell Labs, USA'],
+                'Kai Yang, Tongji University, China'],
       photos: ['Mohan Kankanhalli',
-               nil]
+               'Kai Yang']
     },
     tutorial: {
       title: 'Tutorial Chairs',
       members: ['Jane Wang, UBC, Canada',
                 'Vicky Zhao, Tsinghua, China'],
-      photos: [nil,
-               nil]
+      photos: ['Jane Wang',
+               'Vicky Zhao']
     },
     panel: {
       title: 'Panel Chairs',
@@ -57,13 +57,13 @@ module ContactHelper
       members: ['Yonggang Wen, NTU, Singapore',
                 'Chia-Wen Lin, NTHU, Taiwan'],
       photos: ['Yonggang Wen',
-               nil]
+               'Chia-Wen Lin']
     },
     demo_expo: {
       title: 'Demo/Expo Chairs',
       members: ['Michel Sarkis, Qualcomm, USA',
                 'Heather Yu, Huawei, USA'],
-      photos: [nil,
+      photos: ['Michael Sarkis',
                nil]
     },
     grand_challenge: {
@@ -77,7 +77,7 @@ module ContactHelper
       title: 'Industrial Program Chairs',
       members: ['Khaled El-Maleh, Qualcomm, USA',
                 'Yan Ye, InterDigital, USA'],
-      photos: [nil,
+      photos: ['Khaled El-Maleh',
                'Yan Ye']
     },
     student_program: {
@@ -101,7 +101,10 @@ module ContactHelper
                 'William Grosky, U. of Michigan, USA',
                 'Mark Liao, Acad. Sinica, Taiwan',
                 'Liang Zhou, Nanjing U. of Posts & Telecommunication, China'],
-      photos: [nil, nil, nil, nil]
+      photos: ['Panayiotis Georgiou', 
+               'William Grosky', 
+               'Mark Liao',
+               'Liang Zhou']
     },
     registration: {
       title: 'Registration Chair',
