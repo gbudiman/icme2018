@@ -64,13 +64,13 @@ module ContactHelper
       members: ['Michel Sarkis, Qualcomm, USA',
                 'Heather Yu, Huawei, USA'],
       photos: ['Michael Sarkis',
-               nil]
+               'Heather Yu']
     },
     grand_challenge: {
       title: 'Grand Challenges Chair',
       members: ['Vasudev Bhaskaran, Qualcomm, USA',
                 'Lei Zhang, MSR, USA'],
-      photos: [nil,
+      photos: ['Vasudev Bhaskaran',
                'Lei Zhang']
     },
     industrial_program: {
