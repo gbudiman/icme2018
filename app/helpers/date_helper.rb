@@ -54,13 +54,15 @@ module DateHelper
       #s[Date.parse(v[:proposal])] = v[:title] + ' Proposoal';
       s.push({
         date: Date.parse(v[:proposal]),
-        title: v[:title] + ((v[:type] || :nil) == :nopropose ? '' : ' Proposal')
+        title: v[:title] + ((v[:type] || :nil) == :nopropose ? '' : ' Proposal'),
+        affix: :due
       })
       if v[:notification]
         #s[Date.parse(v[:notification])] = v[:title] + ' Notification';
         s.push({
           date: Date.parse(v[:notification]),
-          title: v[:title] + ' Notification'
+          title: v[:title],
+          affix: :notification
         })
       end
     end

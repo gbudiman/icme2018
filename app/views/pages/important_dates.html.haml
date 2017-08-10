@@ -9,4 +9,9 @@
     - DateHelper::get_sorted().each do |d|
       %tr
         %td= d[:date].strftime('%B %d, %Y')
-        %td= d[:title]
+        %td
+          = d[:title]
+          - if d[:affix] == :due
+            %span{class: 'date-due'} Due
+          - elsif d[:affix] == :notification
+            %span{class: 'date-notification'} Notification
