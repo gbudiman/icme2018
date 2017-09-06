@@ -57,7 +57,9 @@ module ContactHelper
       members: ['Yonggang Wen, NTU, Singapore',
                 'Chia-Wen Lin, NTHU, Taiwan'],
       photos: ['Yonggang Wen',
-               'Chia-Wen Lin']
+               'Chia-Wen Lin'],
+      emails: ['ygwen@ntu.edu.sg',
+               'cwlin@ee.nthu.edu.tw']
     },
     demo_expo: {
       title: 'Demo/Expo Chairs',

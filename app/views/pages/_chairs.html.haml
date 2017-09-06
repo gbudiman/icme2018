@@ -2,5 +2,10 @@
 
 %h3 #{data[:title]}
 %ul
-  - data[:members].each do |m|
-    %li= m
+  - data[:members].zip(data[:emails] || []).each do |m|
+    %li 
+      = m[0]
+      - if m[1]
+        \(
+        %a{href: "mailto:#{m[1]}"}= m[1]
+        \)
