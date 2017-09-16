@@ -41,23 +41,33 @@ body {
 }
 
 /* line 37, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
-.sponsor-logo {
-  height: 40px;
+.sponsor-container {
+  height: 80px;
 }
 
 /* line 41, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.sponsor-logo {
+  max-height: 64px;
+  max-width: 150px;
+  margin: 8px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 50, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
 }
 
-/* line 45, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 54, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 .oc-photo {
   height: 140px;
   width: 140px;
   border: 1px solid #aaa;
 }
 
-/* line 51, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 60, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 .oc-name {
   border-left: 1px solid #aaa;
   border-right: 1px solid #aaa;
@@ -66,24 +76,30 @@ body {
   width: 140px;
 }
 
-/* line 61, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 70, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 .oc-cell {
   padding-bottom: 8px;
   padding-top: 8px;
 }
 
-/* line 66, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 75, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 .oc-container {
   margin-right: 4px;
   margin-left: 4px;
 }
 
-/* line 71, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 80, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.date-due {
+  color: red;
+  font-weight: bold;
+}
+
+/* line 85, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #jumbotron-title {
   text-align: center;
 }
 
-/* line 75, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 89, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #main-content {
   margin-top: 5em;
 }

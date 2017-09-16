@@ -63,9 +63,11 @@ module ContactHelper
     },
     demo_expo: {
       title: 'Demo/Expo Chairs',
-      members: ['Michel Sarkis, Qualcomm, USA',
+      members: ['Liangping Ma, InterDigital, USA',
+                'Michel Sarkis, Qualcomm, USA',
                 'Heather Yu, Huawei, USA'],
-      photos: ['Michael Sarkis',
+      photos: ['Liangping Ma',
+               'Michael Sarkis',
                'Heather Yu']
     },
     grand_challenge: {

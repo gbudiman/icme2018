@@ -34,9 +34,17 @@ body {
   margin-top: -24px;
 }
 
+.sponsor-container {
+  height: 80px;
+}
+
 .sponsor-logo {
-  max-height: 32px;
-  max-width: 96px;
+  max-height: 64px;
+  max-width: 150px;
+  margin: 8px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
