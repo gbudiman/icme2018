@@ -12,6 +12,9 @@ module DateHelper
     tutorial:           { title: 'Tutorial', 
                           proposal: 'September 25, 2017', 
                           notification: 'October 2, 2017'},
+    grand_challenge:    { title: 'Grand Challenge',
+                          proposal: 'October 15, 2017',
+                          notification: 'November 15, 2017' },
     regular_abstract:   { title: 'Regular Paper Abstract', 
                           proposal: 'November 24, 2017',
                           type: :nopropose},
@@ -50,13 +53,26 @@ module DateHelper
   def self.get_sorted()
     s = Array.new
 
-    @date.each do |k, v|
+    marked_date = @date.dup
+    marked_date[:is_today] = { proposal: (Time.now + 8.days).strftime('%B %d, %Y') }
+
+    marked_date.each do |k, v|
       #s[Date.parse(v[:proposal])] = v[:title] + ' Proposoal';
-      s.push({
-        date: Date.parse(v[:proposal]),
-        title: v[:title] + ((v[:type] || :nil) == :nopropose ? '' : ' Proposal'),
-        affix: :due
-      })
+
+      if k == :is_today
+        s.push({
+          date: Date.parse(v[:proposal]),
+          title: 'Today',
+          affix: :highlight_today
+        })
+      else
+        s.push({
+          date: Date.parse(v[:proposal]),
+          title: v[:title] + ((v[:type] || :nil) == :nopropose ? '' : ' Proposal'),
+          affix: :due
+        })
+      end
+
       if v[:notification]
         #s[Date.parse(v[:notification])] = v[:title] + ' Notification';
         s.push({
