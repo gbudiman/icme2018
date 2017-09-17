@@ -54,7 +54,7 @@ module DateHelper
     s = Array.new
 
     marked_date = @date.dup
-    marked_date[:is_today] = { proposal: (Time.now + 8.days).strftime('%B %d, %Y') }
+    marked_date[:is_today] = { proposal: Time.now.strftime('%B %d, %Y') }
 
     marked_date.each do |k, v|
       #s[Date.parse(v[:proposal])] = v[:title] + ' Proposoal';
