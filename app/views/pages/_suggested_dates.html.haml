@@ -1,0 +1,13 @@
+%h3
+  Suggested Dates
+  %span{style: 'font-size: 60%'}
+    \(
+    = info
+    \)
+%ul
+  - entries.each do |entry|
+    - wdata = DateHelper::get spec: (target.to_s + '_' + entry).to_sym
+    - if wdata[:proposal]
+      %li #{wdata[:title]} submission deadline: #{wdata[:proposal]}
+    - if wdata[:notification]
+      %li #{wdata[:title]} notification: #{wdata[:notification]}

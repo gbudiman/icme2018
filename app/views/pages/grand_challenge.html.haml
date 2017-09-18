@@ -17,6 +17,9 @@
   %li Social media prediction: Predict which images from a set, if posted to social media, will gather more “likes”.
 
 = render 'deadline', target: :grand_challenge
+= render 'suggested_dates', target: :grand_challenge_suggested,
+                            entries: ['winner_paper', 'acceptance', 'camera_ready_paper'],
+                            info: 'to include the grand challenge papers into ICME 2018 proceeding'
 = render 'chairs', target: :grand_challenge
 
 %h3 Form

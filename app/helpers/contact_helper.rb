@@ -75,7 +75,9 @@ module ContactHelper
       members: ['Vasudev Bhaskaran, Qualcomm, USA',
                 'Lei Zhang, MSR, USA'],
       photos: ['Vasudev Bhaskaran',
-               'Lei Zhang']
+               'Lei Zhang'],
+      emails: ['vasudevb@qti.qualcomm.com',
+               'leizhang@microsoft.com']
     },
     industrial_program: {
       title: 'Industrial Program Chairs',
