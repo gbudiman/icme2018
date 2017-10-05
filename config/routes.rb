@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get      '/grand_challenge', to: 'pages#grand_challenge'
   get      '/student_participation', to: 'pages#student_participation'
   get      '/nsf_travel', to: 'pages#nsf_travel'
-  get      '/industry_forums', to: 'pages#industry_forums'
+  get      '/industry_track_papers', to: 'pages#industry_track_papers'
   get      '/expo', to: 'pages#expo'
   get      '/sponsorship', to: 'pages#sponsorship'
   get      '/presentation', to: 'pages#presentation'
