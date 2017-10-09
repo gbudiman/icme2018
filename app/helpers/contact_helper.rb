@@ -33,10 +33,12 @@ module ContactHelper
     },
     workshop: {
       title: 'Workshop Chairs',
-      members: ['Mohan S. Kankanhalli, NUS, Singapore',
+      members: ['Mohan Kankanhalli, NUS, Singapore',
                 'Kai Yang, Tongji University, China'],
       photos: ['Mohan Kankanhalli',
-               'Kai Yang']
+               'Kai Yang'],
+      emails: ['mohan@comp.nus.edu.sg',
+               'kaiyang@tongji.edu.cn']
     },
     tutorial: {
       title: 'Tutorial Chairs',
