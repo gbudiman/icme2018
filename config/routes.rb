@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get      '/tutorial', to: 'pages#tutorial'
   get      '/special_session', to: 'pages#special_session'
   get      '/panel', to: 'pages#panel'
-  get      '/demo', to: 'pages#demo'
+  #get      '/demo', to: 'pages#demo'
   get      '/grand_challenge', to: 'pages#grand_challenge'
   get      '/student_participation', to: 'pages#student_participation'
   get      '/nsf_travel', to: 'pages#nsf_travel'

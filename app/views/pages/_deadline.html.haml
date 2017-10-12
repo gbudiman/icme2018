@@ -7,6 +7,14 @@
 %ul
   - target.each do |t|
     - data = DateHelper::get spec: t
-    %li #{data[:title]} proposal submission deadline: #{data[:proposal]}
+    %li 
+      = data[:title] 
+      - if data[:type] != :nopropose
+        proposal 
+      submission deadline: #{data[:proposal]}
     - if data[:notification]
-      %li #{data[:title]} proposal acceptance notification: #{data[:notification]}
+      %li 
+        = data[:title]
+        - if data[:type] != :nopropose
+          proposal 
+        acceptance notification: #{data[:notification]}
