@@ -70,7 +70,10 @@ module ContactHelper
                 'Heather Yu, Huawei, USA'],
       photos: ['Liangping Ma',
                'Michael Sarkis',
-               'Heather Yu']
+               'Heather Yu'],
+      emails: [nil,
+               'msarkis@qti.qualcomm.com',
+               nil]
     },
     grand_challenge: {
       title: 'Grand Challenges Chair',
