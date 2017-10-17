@@ -2,7 +2,8 @@ module DateHelper
   @date = {
     special_session:    { title: 'Special Session', 
                           proposal: 'October 2, 2017', 
-                          notification: 'October 16, 2017'},
+                          notification: 'October 16, 2017',
+                          notified: true},
     workshop_proposal:  { title: 'Workshop', 
                           proposal: 'October 23, 2017', 
                           notification: 'November 6, 2017'},
@@ -11,7 +12,8 @@ module DateHelper
                           notification: 'October 2, 2017'},
     tutorial:           { title: 'Tutorial', 
                           proposal: 'September 25, 2017', 
-                          notification: 'October 2, 2017'},
+                          notification: 'October 2, 2017',
+                          notified: true},
     grand_challenge:    { title: 'Grand Challenge',
                           proposal: 'October 15, 2017',
                           notification: 'November 15, 2017' },
@@ -89,7 +91,8 @@ module DateHelper
         s.push({
           date: Date.parse(v[:notification]),
           title: v[:title],
-          affix: :notification
+          affix: :notification,
+          notified: v[:notified]
         })
       end
     end
