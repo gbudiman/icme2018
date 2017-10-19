@@ -2,11 +2,11 @@ module SponsorHelper
   @@sponsors = {
     platinum: {
       title: 'Platinum Sponsors',
-      logos: ['logos/acer', 'logos/adobe', 'logos/huawei', 'logos/interdigital', 'logos/qualcomm']
+      logos: ['logos/acer', 'logos/adobe', 'logos/interdigital', 'logos/qualcomm']
     },
     silver: {
       title: 'Silver Sponsors',
-      logos: ['logos/mediatek', 'logos/microsoft', 'logos/mitsubishi'],
+      logos: ['logos/mediatek', 'logos/mitsubishi'],
     },
     bronze: {
       title: 'Bronze Sponsors',
@@ -15,6 +15,10 @@ module SponsorHelper
     orgs: {
       title: 'Organizational Sponsors',
       logos: ['IEEE', 'IEEE_CS', 'CAS', 'ComSoc', 'IEEE_SPS', 'logos/apsipa']
+    },
+    pot: {
+      title: 'Other Potential Sponsors',
+      logos: ['logos/huawei', 'logos/microsoft']
     }
   }
 
