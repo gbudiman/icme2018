@@ -103,4 +103,8 @@ module DateHelper
   def self.get spec:
     return @date[spec]
   end
+
+  def self.get_deadline spec: 
+    return @date[spec][:proposal]
+  end
 end

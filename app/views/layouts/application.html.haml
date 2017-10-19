@@ -33,7 +33,14 @@
     %div{class: 'container-fluid footer'}
       ICME 2018
       %br
-      %br
-      - ['IEEE', 'IEEE_CS', 'CAS', 'ComSoc', 'IEEE_SPS', 'logos/apsipa', 'logos/acer', 'logos/adobe', 'logos/interdigital', 'logos/lenovo', 'logos/mediatek', 'logos/microsoft', 'logos/mitsubishi', 'logos/qualcomm'].each do |l|
-        %div{class: 'col-xs-6 col-sm-3 sponsor-container'}
-          =image_tag "#{l}.png", class: 'sponsor-logo'
+
+      - SponsorHelper.get_sponsors.each do |key, data|
+        %div{class: 'col-xs-12 sponsor-level'}
+          = data[:title]
+          %div{class: 'row'}
+          - data[:logos].each do |company|
+            %div{class: 'col-xs-6 col-sm-3 sponsor-container'}
+              =image_tag "#{company}.png", class: 'sponsor-logo'
+
+
+

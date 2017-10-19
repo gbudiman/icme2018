@@ -43,7 +43,9 @@
 
 %p If you are submitting a paper to an approved Workshop, please see the appropriate Workshop site for more information. All Workshop papers will have the following commonalities:
 %ul
-  %li Submission deadline: <TBD>.
+  %li 
+    Submission deadline:
+    = DateHelper::get_deadline spec: :workshop_paper
   %li Length: Papers must be no longer than 6 pages, including all text, figures, and references.
   %li Format: Workshop papers have the same format as regular papers. (See the example paper under the General Information section below.) However, they need not be double blind.
   %li Review: Reviews will be handled directly by the Workshop organizers.
@@ -63,7 +65,9 @@
     If you are submitting an Industry Track paper, follow the instructions here. Industry Track papers include papers associated with an approved Industry Forum or technical papers from industry members addressing the practice and applications of multimedia.
 
   %ul
-    %li Submission deadline: <TBD>.
+    %li 
+      Submission deadline: 
+      = DateHelper::get_deadline spec: :industry_track
     %li Length: Papers must be no longer than 4 pages, including all text, figures, and references.
     %li Review: Review will follow the same procedure as workshop papers, where novelty, presentation quality and experimental validation will be considered.
     %li Submission site: <TBD>. Papers must be submitted under “Industry Program”. Submissions may be accompanied by up to 30 MB of supplemental material following the same guidelines as regular and special session papers.
@@ -77,7 +81,9 @@
   for further information.
 
   %ul 
-    %li Submission deadline: <TBD>.
+    %li 
+      Submission deadline:
+      = DateHelper::get_deadline spec: :demo_paper
     %li Length: Submissions must be no longer than 1 page.
     %li Format: Like a regular paper, a demo “paper” must include an abstract of approximately 100-150 words. The remainder of the paper should include the elements listed in the Call for Demonstrations, and may include figures. Submissions may be accompanied by up to 30 MB of supplemental material such as a video.
     %li Submission site: <TBD>. Papers must be submitted under “Demo Program”.
@@ -94,7 +100,9 @@
 %p 
   If you are submitting a contribution to an approved Grand Challenge, please see the appropriate Grand Challenge site for specific information. Most Grand Challenges will have the following commonalities:
   %ul 
-    %li Submission deadline: <TBD>.
+    %li 
+      Submission deadline:
+      = DateHelper::get_deadline spec: :grand_challenge
     %li Format: Challenges may solicit a written component and/or a data component. For challenges that solicit a written component, the corresponding papers will generally be formatted like an Industry Track paper, with a 4-page limit. For challenges that solicit data for evaluation, the data format will be specified on the appropriate Grand Challenge site.
     %li 
       Submission: Submit the written component via 
@@ -134,7 +142,10 @@
 %p 
   The following links point to an example paper containing detailed formatting guidelines. They also constitute templates for Microsoft Word and LaTeX submissions.
   %ul
-    %li TBD
+    %li
+      %a{href: "#{asset_path('icme2017template.docx')}"} Example paper with detailed formatting instructions and Microsoft Word template
+    %li
+      %a{href: "#{asset_path('icme2017_template.zip')}"} Example paper with detailed instructions and LaTeX template (zip file)
 
 
 %p We recommend that you use the Word file or LaTeX files to produce your document, since they have been set up to meet the formatting guidelines detailed in the example paper. When using these files, double-check the paper size in your page setup to make sure you are using the letter-size paper layout (8.5 inch X 11 inch). The LaTeX environment files specify suitable margins, page layout, text, and a bibliography style.
