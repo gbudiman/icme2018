@@ -2,7 +2,7 @@ module SponsorHelper
   @@sponsors = {
     platinum: {
       title: 'Platinum Sponsors',
-      logos: ['logos/acer', 'logos/adobe', 'logos/interdigital', 'logos/qualcomm']
+      logos: ['logos/acer', 'logos/adobe', 'logos/interdigital']
     },
     silver: {
       title: 'Silver Sponsors',
@@ -18,7 +18,7 @@ module SponsorHelper
     },
     pot: {
       title: 'Other Potential Sponsors',
-      logos: ['logos/huawei', 'logos/microsoft']
+      logos: ['logos/huawei', 'logos/microsoft', 'logos/qualcomm']
     }
   }
 
