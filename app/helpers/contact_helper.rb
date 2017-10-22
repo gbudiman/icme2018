@@ -69,7 +69,7 @@ module ContactHelper
                 'Michel Sarkis, Qualcomm, USA',
                 'Heather Yu, Huawei, USA'],
       photos: ['Liangping Ma',
-               'Michael Sarkis',
+               'Michel Sarkis',
                'Heather Yu'],
       emails: [nil,
                'msarkis@qti.qualcomm.com',
