@@ -121,15 +121,20 @@ body {
   margin-right: 8px;
   margin-bottom: 8px;
   float: left;
-  max-width: 192px;
+  width: 192px;
 }
 
 /* line 111, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.tutorial-heading {
+  border-bottom: 1px solid #888;
+}
+
+/* line 116, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #jumbotron-title {
   text-align: center;
 }
 
-/* line 115, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 120, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #main-content {
   margin-top: 5em;
 }

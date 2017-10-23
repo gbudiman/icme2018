@@ -1,35 +1,159 @@
 
 %h1 Tutorial
 
-%table{class: 'table'}
-	%thead
-		%tr
-			%th Topic
-			%th Speakers
-	%tbody
-		%tr
-			%td
-				%a{href: "#{asset_path('docs/Delivering Traditional and Omnidirectional Media.docx')}" } Delivering Traditional and Omnidirectional Media
-			%td
-				Ali C. Begen (Ozyegin University)
-				%br
-				Liangping Ma (InterDigital, Inc.)
-				%br
-				Christian Timmerer (Institute of Information Technology (ITEC))
-		%tr
-			%td
-				%a{href: "#{asset_path('docs/Interactive Augmented Reality with Meta 2.docx')}" } Interactive Augmented Reality with Meta 2
-			%td
-				Kari Pulli, Charles Niu, Paulo Jansen (Meta Co.)
-		%tr
-			%td
-				%a{href: "#{asset_path('docs/Multimedia and Language.docx')}" } Multimedia and Language: Bridging Multimedia and Natural Language with Deep Learning
-			%td
-				Tao Mei (Microsoft Research, China)
-				%br
-				Jiebo Luo (University of Rochester, USA)
-		%tr
-			%td
-				%a{href: "#{asset_path('docs/Trends and Recent Developments in Video Coding Standardization.docx')}" } Trends and Recent Developments in Video Coding Standardization
-			%td
-				Jens-Rainer Ohm, Mathias Wien (RWTH Aachen University)
+%div{class: 'panel-group', id: 'accordion'}
+	
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-1'} 
+					Delivering Traditional and Omnidirectional Media
+		%div{id: 'collapse-1', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'tutorial-heading'} Abstract
+
+				%p Universal media access as proposed in the late 90s is now closer to reality. Users can generate, distribute and consume almost any media content, anywhere, anytime and with/on any device. A major technical breakthrough was the adaptive streaming over HTTP resulting in the standardization of MPEG-DASH, which is now successfully deployed in most platforms. The next challenge in adaptive media streaming is virtual reality applications and, specifically, omnidirectional (360°) media streaming.
+
+				%p This tutorial first presents a detailed overview of adaptive streaming of both traditional and omnidirectional media, and focuses on the basic principles and paradigms for adaptive streaming. New ways to deliver such media are explored and industry practices are presented. The tutorial then continues with an introduction to the fundamentals of communications over 5G and looks into mobile multimedia applications that are newly enabled or dramatically enhanced by 5G.
+
+				%p A dedicated section in the tutorial covers the much-debated issues related to quality of experience. Additionally, the tutorial provides insights into the standards, open research problems and various efforts that are underway in the streaming industry.
+
+				%h4{class: 'tutorial-heading'} Learning Objectives
+
+				%p 
+					Upon attending this tutorial, the participants will have an overview and understanding of the following topics:
+					%ul
+						%li Principles of HTTP adaptive streaming for the Web/HTML5
+						%li Principles of omnidirectional (360) media delivery
+						%li Content generation, distribution and consumption workflows
+						%li Standards and emerging technologies, new delivery schemes in the adaptive streaming space
+						%li Measuring, quantifying and improving quality of experience
+						%li Fundamental technologies of 5G
+						%li Features and services enabled or enhanced by 5G
+						%li Current and future research on delivering traditional and omnidirectional media
+
+				%h4{class: 'tutorial-heading'} Table of Contents
+
+				%p
+					Part I: Streaming (Presented by Dr. Begen and Dr. Timmerer)
+					%ul
+						%li Survey of well-established streaming solutions (DASH, CMAF and Apple HLS)
+						%li HTML5 video and media extensions
+						%li Multi-bitrate encoding, and encapsulation and encryption workflows
+						%li Common issues in scaling and improving quality, multi-screen/hybrid delivery
+						%li Acquisition, projection, coding and packaging of 360 video
+						%li Delivery, decoding and rendering methods
+						%li The developing MPEG-OMAF and MPEG-I standards
+				%p
+					Part II: Communications over 5G (Presented by Dr. Ma and Dr. Begen)
+					%ul
+						%li 5G fundamentals: radio access and core network
+						%li Multimedia signal processing and communications
+						%li Emerging mobile multimedia use cases
+						%li Detailed analysis for selected use cases
+						%li Improving QoE
+
+				%h4{class: 'tutorial-heading'} Speakers
+				%img{src: "#{asset_path('photos/Ali Begen.jpg')}", class: 'keynote-bio'}
+				%p 
+					%strong Ali C. Begen 
+					recently joined the computer science department at Ozyegin University. Previously, he was a research and development engineer at Cisco, where he has architected, designed and developed algorithms, protocols, products and solutions in the service provider and enterprise video domains. Currently, in addition to teaching and research, he provides consulting services to industrial, legal, and academic institutions through Networked Media, a company he co-founded. Begen holds a Ph.D. degree in electrical and computer engineering from Georgia Tech. He received a number of scholarly and industry awards, and he has editorial positions in prestigious magazines and journals in the field. He is a senior member of the IEEE and a senior member of the ACM. In January 2016, he was elected as a distinguished lecturer by the IEEE Communications Society. Further information on his projects, publications, talks, and teaching, standards and professional activities can be found
+					%a{href: 'http://ali.begen.net'} http://ali.begen.net
+				%div{style: 'clear: both'}
+
+				%img{src: "#{asset_path('photos/Liangping Ma.jpg')}", class: 'keynote-bio'}
+				%p
+					%strong Liangping Ma 
+					is with InterDigital, Inc., San Diego, CA. He is an IEEE Communication Society Distinguished Lecturer focusing on 5G technologies and standards, video communication and cognitive radios. He is an InterDigital delegate to the 3GPP New Radio standards. His current research interests include various aspects about ultra-reliable and low-latency communication, such as channel coding, multiple access and resource allocation. Previously, he led the research on Quality of Experience (QoE) driven system optimization for video streaming and interactive video communication. Prior to joining InterDigital in 2009, he was with San Diego Research Center and Argon ST (acquired by Boeing), where he led research on cognitive radios and wireless sensor networks and served as the principal investigators of two projects supported by the Department of Defense and the National Science Foundation, respectively. He is the co-inventor of more than 40 patents and the author/co-author of more than 50 journal and conference papers. He has been the Chair of the San Diego Chapter of the IEEE Communication Society since 2014. He received his PhD from University of Delaware in 2004 and his B.S. from Wuhan University, China, in 1998.
+				%div{style: 'clear: both'}
+
+				%img{src: "#{asset_path('photos/Christian Timmerer.jpg')}", class: 'keynote-bio'}
+				%p
+					%strong Christian Timmerer 
+					received his M.Sc. (Dipl.-Ing.) in January 2003 and his Ph.D. (Dr.techn.) in June 2006 (for research on the adaptation of scalable multimedia content in streaming and constrained environments) both from the Alpen-Adria-Universität (AAU) Klagenfurt. He joined the AAU in 1999 (as a system administrator) and is currently an Associate Professor at the Institute of Information Technology (ITEC) within the Multimedia Communication Group. His research interests include immersive multimedia communications, streaming, adaptation, quality of experience, and sensory experience. He was the general chair of WIAMIS 2008, QoMEX 2013 and MMSys 2016, and has participated in several EC-funded projects, notably DANAE, ENTHRONE, P2P-Next, ALICANTE, SocialSensor, COST IC1003 QUALINET and ICoSOLE. He also participated in ISO/MPEG work for several years, notably in the area of MPEG-21, MPEG-M, MPEG-V, and MPEG-DASH where he also served as a standard editor. In 2012, he co-founded 
+					%a{href: 'http://www.bitmovin.com/'} Bitmovin
+					to provide professional services around MPEG-DASH where he currently holds the position of the Chief Innovation Officer (CIO).
+				%div{style: 'clear: both'}
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-2'} 
+					Interactive Augmented Reality with Meta 2
+		%div{id: 'collapse-2', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'tutorial-heading'} Abstract
+
+				%p Optical See-Through Augmented Reality, as supported by devices like Meta 2, Hololens, etc., provides a new medium. In this tutorial we will introduce the benefits of optical see-through AR over video see-through AR, which you could get by adding a video camera to a VR headset. We will also discuss the benefits over wearable AR over cellphone-powered AR, such as that your hands are free and are available as natural input devices, and that the AR graphics is directly registered with your vision. We will demonstrate various AR applications, and we will show how you can create your own using Meta SDK.
+
+				%h4{class: 'tutorial-heading'} Speakers
+
+				%img{src: "#{asset_path('photos/Kari Pulli.jpg')}", class: 'keynote-bio'}
+				%p 
+					%strong Kari Pulli 
+					is CTO at Meta. Before joining Meta, Kari worked as CTO of the Imaging and Camera Technologies Group at Intel influencing the architecture of future IPUs. He was VP of Computational Imaging at Light and before that he led research teams at NVIDIA Research (Senior Director) and at Nokia Research (Nokia Fellow) on Computational Photography, Computer Vision, and Augmented Reality. He headed Nokia's graphics technology, and contributed to many Khronos and JCP mobile graphics and media standards, and wrote a book on mobile 3D graphics. Kari holds CS degrees from University of Minnesota (BSc), University of Oulu (MSc, Lic. Tech.), University of Washington (PhD); and an MBA from University of Oulu. He has taught and worked as a researcher at Stanford University, University of Oulu, and MIT.
+				%div{style: 'clear: both'}
+				%img{src: "#{asset_path('photos/Charles Niu.jpg')}", class: 'keynote-bio'}
+				%p
+					%strong Charles Niu 
+					is a developer at Meta, and has worked on numerous prototyping and demo projects. He worked as a lead for Meta's showcase at Sundance 2017, and has had his work showcased at numerous expos. He first picked up AR/VR development at UC Berkeley where he was an active member of the VR community there. At Meta, Charles actively explores novel approaches to HCI design to improve user experience.
+				%div{style: 'clear: both'}
+				%img{src: "#{asset_path('photos/Paulo Jansen.jpg')}", class: 'keynote-bio'}
+				%p
+					%strong Paulo Jansen 
+					is a SW Engineer at Meta, working on interactive augmented reality applications for the Meta AR headset. He has a MSc in Computer Science with emphasis in Image Processing applied to VR and AR from UFMA (Brazil), where he worked as a research assistant. Paulo&#39;s professional interests include Computer Graphics, Image Processing, and VR / AR interactive applications.
+				%div{style: 'clear: both'}
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-3'} 
+					Trends and Recent Developments in Video Coding Standardization
+		%div{id: 'collapse-3', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'tutorial-heading'} Abstract					
+
+				%p While HEVC is the state‐of‐the‐art video compression standard with profiles addressing virtually all video‐related products of today, the next generation of standards is already taking shape, showing significant performance improvements relative to this established technology. At the same time, the target application space evolves further towards higher picture resolution, higher dynamic range, fast motion capture, or previously unaddressed formats such as 360° video. The signal properties of this content open the door for different designs of established coding tools as well as the introduction of new algorithmic concepts which have not been applied in the context of video coding before. Specifically, the required ultra‐high picture resolutions and the projection operations in the context of processing VR/360° video provide exciting options for new developments.
+
+				%p This tutorial will provide a comprehensive overview on recent developments and perspectives in the area of video coding. As a central element, the work performed in the Joint Video Exploration Team (JVET) of ITU‐T SG16/Q6 (VCEG) and ISO/IEC JTC1 SC29WG11 (MPEG) is covered, but trends outside of the tracks of standardization bodies are considered as well. By the time of the tutorial, results of the Call for Proposals on the next generation video compression standard will be available, and technologies under consideration for establishing a test model will be reported. Subjective and objective quality assessment of new approaches in comparison to HEVC will be discussed as well. The focus of the tutorial is on algorithms, tools and concepts for future video compression technology with significantly increased performance. In this context, also the potential of methods related to perceptional models, synthesis of perceptional equivalent content, higher precision of motion compensation, and deep learning based approaches will be discussed.
+
+				%h4{class: 'tutorial-heading'} Speakers
+
+				%img{src: "#{asset_path('photos/Jens-Rainer Ohm.jpg')}", class: 'keynote-bio'}
+				%p 
+					%strong Jens‐Rainer Ohm 
+					holds the chair position of the Institute of Communication Engineering at RWTH Aachen University, Germany since 2000. His research and teaching activities cover the areas of motion-compensated, stereoscopic and 3‐D image processing, multimedia signal coding, transmission and content description, audio signal analysis, as well as fundamental topics of signal processing and digital communication systems.
+				%p Since 1998, he participates in the work of the Moving Picture Experts Group (MPEG). He has been chairing co‐chairing various standardization activities in video coding, namely the MPEG Video Subgroup since 2002, the Joint Video Team (JVT) of MPEG and ITU‐T SG 16 VCEG from 2005 to 2009, and currently, the Joint Collaborative Team on Video Coding (JCT‐VC), as well as the Joint Video Exploration Team (JVET).
+				%p Prof. Ohm has authored textbooks on multimedia signal processing, analysis and coding, on communication engineering and signal transmission, as well as numerous papers in the fields mentioned above. 
+
+				%div{style: 'clear: both'}
+				%img{src: "#{asset_path('photos/Mathias Wien.jpg')}", class: 'keynote-bio'}
+				%p
+					%strong Mathias Wien 
+					received the Diploma and Dr.‐Ing. degrees from RWTH Aachen University, Germany, in 1997 and 2004, respectively. He currently works as a senior research scientist and head of administration, as well as lecturer, holding a permanent position at the Institute of Communication Engineering of RWTH Aachen University, Germany. His research interests include image and video processing, space‐frequency adaptive and scalable video compression, and robust video transmission.
+				%p Mathias has participated and contributed to ITU‐T VCEG, ISO/IEC MPEG, the Joint Video Team, and the Joint Collaborative Team on Video Coding (JCT‐VC) of VCEG and ISO/IEC MPEG in the standardization work towards AVC and HEVC. He has co‐chaired and coordinated several AdHoc groups as well as tooland core experiments. He has published the Springer textbook “High Efficiency Video Coding: Coding Tools and Specification”, which fully covers Version 1 of HEVC. An extended edition covering the subsequent versions of HEVC is in preparation. Mathias is member of the IEEE Signal Processing Society and the IEEE Circuits and Systems Society. At RWTH Aachen University, Mathias teaches the master level lecture “Video Coding: Algorithms and Specification”, among other topics. The lecture covers the state of the art in video coding including HEVC.
+				%div{style: 'clear: both'}
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-4'} 
+					Multimedia and Language: Bridging Multimedia and Natural Language with Deep Learning
+		%div{id: 'collapse-4', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'tutorial-heading'} Abstract	
+
+				%p Recognition of visual content has been a fundamental challenge in computer vision and multimedia for decades, where previous research predominantly focused on understanding visual content using a predefined yet limited vocabulary. Thanks to the recent development of deep learning techniques, researchers in both computer vision and multimedia communities are now striving to bridge multimedia with natural language, which can be regarded as the ultimate goal of visual understanding. We will present recent advances in exploring the synergy of multimedia content understanding and language processing techniques, including multimedia-language alignment, visual captioning and commenting, visual emotion analysis, visual question answering, visual storytelling, and as well as open issues for this emerging research area.		
+
+				%h4{class: 'tutorial-heading'} Speakers
+
+				%img{src: "#{asset_path('photos/Tao Mei.jpg')}", class: 'keynote-bio'}
+				%p 
+					%strong Tao Mei 
+					is a Senior Researcher and Research Manager with Microsoft Research Asia. His current research interests include multimedia analysis and computer vision. He is leading a team working on image and video analysis, vision and language, and multimedia search. He has authored or co-authored over 150 papers with 11 best paper awards. He holds over 50 filed U.S. patents (with 20 granted) and has shipped a dozen inventions and technologies to Microsoft products and services. He is an Editorial Board Member of IEEE Trans. on Multimedia, ACM Trans. on Multimedia Computing, Communications, and Applications, and Pattern Recognition. He is the General Co-chair of IEEE ICME 2019, the Program Co-chair of ACM Multimedia 2018, IEEE ICME 2015, and IEEE MMSP 2015. Tao is as a Fellow of IAPR and a Distinguished Scientist of ACM.
+				%div{style: 'clear: both'}
+				%img{src: "#{asset_path('photos/Jiebo Luo.jpg')}", class: 'keynote-bio'}
+				%p
+					%strong Jiebo Luo 
+					joined the University of Rochester in Fall 2011 after over fifteen years at Kodak Research Laboratories, where he was a Senior Principal Scientist leading research and advanced development. He has been involved in numerous technical conferences, including serving as the program co-chair of ACM Multimedia 2010, IEEE CVPR 2012, and IEEE ICIP 2017. He has served on the editorial boards of the IEEE Transactions on Pattern Analysis and Machine Intelligence, IEEE Transactions on Multimedia, IEEE Transactions on Circuits and Systems for Video Technology, Pattern Recognition, Machine Vision and Applications, and Journal of Electronic Imaging. He has authored over 300 technical papers and 90 US patents. Prof. Luo is a Fellow of the SPIE, IEEE, and IAPR.	
+				%div{style: 'clear: both'}

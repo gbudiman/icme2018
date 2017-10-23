@@ -105,7 +105,12 @@ body {
   margin-right: 8px;
   margin-bottom: 8px;
   float: left;
-  max-width: 192px;
+  width: 192px;
+}
+
+.tutorial-heading {
+  //text-decoration: underline;
+  border-bottom: 1px solid #888
 }
 
 #jumbotron-title {

@@ -13949,6 +13949,8 @@ return t.dispatch("turbolinks:before-render",{data:{newBody:e}})},r.prototype.no
 
 }).call(this);
 (function() {
+  var context = this;
+
   (function() {
     (function() {
       var slice = [].slice;
@@ -13964,6 +13966,8 @@ return t.dispatch("turbolinks:before-render",{data:{newBody:e}})},r.prototype.no
           "default_mount_path": "/cable",
           "protocols": ["actioncable-v1-json", "actioncable-unsupported"]
         },
+        WebSocket: window.WebSocket,
+        logger: window.console,
         createConsumer: function(url) {
           var ref;
           if (url == null) {
@@ -13995,19 +13999,19 @@ return t.dispatch("turbolinks:before-render",{data:{newBody:e}})},r.prototype.no
           return this.debugging = null;
         },
         log: function() {
-          var messages;
+          var messages, ref;
           messages = 1 <= arguments.length ? slice.call(arguments, 0) : [];
           if (this.debugging) {
             messages.push(Date.now());
-            return console.log.apply(console, ["[ActionCable]"].concat(slice.call(messages)));
+            return (ref = this.logger).log.apply(ref, ["[ActionCable]"].concat(slice.call(messages)));
           }
         }
       };
 
     }).call(this);
-  }).call(this);
+  }).call(context);
 
-  var ActionCable = this.ActionCable;
+  var ActionCable = context.ActionCable;
 
   (function() {
     (function() {
@@ -14178,13 +14182,13 @@ return t.dispatch("turbolinks:before-render",{data:{newBody:e}})},r.prototype.no
         Connection.prototype.open = function() {
           if (this.isActive()) {
             ActionCable.log("Attempted to open WebSocket, but existing socket is " + (this.getState()));
-            throw new Error("Existing connection must be closed before opening");
+            return false;
           } else {
             ActionCable.log("Opening WebSocket, current state is " + (this.getState()) + ", subprotocols: " + protocols);
             if (this.webSocket != null) {
               this.uninstallEventHandlers();
             }
-            this.webSocket = new WebSocket(this.consumer.url, protocols);
+            this.webSocket = new ActionCable.WebSocket(this.consumer.url, protocols);
             this.installEventHandlers();
             this.monitor.start();
             return true;
