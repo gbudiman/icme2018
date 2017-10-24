@@ -130,11 +130,50 @@ body {
 }
 
 /* line 116, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.jumbotron-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* line 121, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-indicators.carousel-landing {
+  color: black;
+}
+
+/* line 126, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-landing-caption {
+  text-align: center;
+}
+
+/* line 130, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-name {
+  font-style: italic;
+}
+
+/* line 134, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+img.carousel {
+  width: 160px;
+}
+
+/* line 138, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-indicators.carousel-landing > li {
+  background: white;
+  color: black;
+  border: 1px solid #333;
+}
+
+/* line 144, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-control.carousel-landing {
+  background: white;
+  color: #fff;
+}
+
+/* line 149, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #jumbotron-title {
   text-align: center;
 }
 
-/* line 120, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 153, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #main-content {
   margin-top: 5em;
 }
