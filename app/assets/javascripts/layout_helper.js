@@ -30,9 +30,9 @@ var layout_helper = (function() {
       .css('margin-left', half + 'px')
       .css('margin-right', half + 'px');
 
-    // $('.carousel-landing-caption')
-    //   .css('margin-left', half + 'px')
-    //   .css('margin-right', half + 'px');
+    $('.carousel-landing-caption')
+      .css('margin-left', half + 'px')
+      .css('margin-right', half + 'px');
 
     $('.carousel-indicators.carousel-landing')
       .css('top', (width - slice - 32) + 'px');
