@@ -1,27 +1,146 @@
 
 %h1 Special Sessions
 
-%ol
-	%li 
-		%strong Big Data Analytics: from Social Media to Physical Media
-		%p Organizers: Jenq-Neng Hwang, Caili Guo
- 
-	%li 
-		%strong Deep Metric Learning for Multimedia Computing
-		%p Organizers: Jiwen Lu, Xiuzhuang Zhou
- 
-	%li 
-		%strong Artificial intelligence for Multimedia Networking and Systems
-		%p Organizers: Han Hu, Nikolaos Thomos, Kenji Kanai
- 
-	%li 
-		%strong Point Cloud Compression
-		%p Organizers: Zhu Li, Euee S. Jang, Rufael Mekuria, Gary Li
- 
-	%li 
-		%strong Human Activity Analytics: Benchmark, Algorithms, and Applications
-		%p Organizers: Jiaying Liu and Xiaoyan Sun
+%div{class: 'panel-group', id: 'accordion'}
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-1'}
+					Big Data Analytics: from Social Media to Physical Media
+		%div{id: 'collapse-1', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Aims and Scope
+				%p We have witnessed the growing popularity of social networking services, such as FaceBook and Twitter based on structured text data, not to mention the even faster growing use of services based on unstructured media data, such as Periscope and Instagram, etc. Efficient analyses of the big mass of readily existing data from social media have created new opportunities to understand and predict the thoughts and behaviors of users. Many big data tools and applications are called for to meet such a high demand of data collections, such as Cloudera Impala and Microsoft Polybase. In the meanwhile, more and more Internet of Things (IoTs, such as the static and moving cameras and sensors) are being deployed on the cyber-physical infrastructure, where media data of physical objects are seamlessly collected and integrated into an Internet-like system so as to enable the physical objects and cyber-agents to interact with each other. The physical media, most of them are unstructured data, pose even higher challenges to the machine learning and data science community. Since both domains of big data, social media and physical media, are internet accessible and possibly correlated, it is thus beneficial to allow either side of data analytics to help the other side for better information and knowledge extraction. More specifically, how to take advantage of social media data analytics to more effectively and reliably detect/track/identify objects/events from physical media, so as to better narrow down the objects/events of main interest. On the other hand, the data analytics of physical media can certainly complement the insufficient descriptions or inferences made only by the structured text data or photos. In this special session, we intend to bring together researchers from both sides, the social media data science and physical media data analytics, so that either side can share the state-of- the-art accomplishments and better understand the current advances of the other side and seek the strategies of working together for better integration of both sides’ technologies, resulting in much more effective big data analytics systems.
 
-	%li
-		%strong Multimedia Edge Computing
-		%p Organizers: Lifeng Sun, Jianwei Huang
+				%h4{class: 'specsess-heading'} Topics
+				%p 
+					In this special session, we are soliciting original contributions on all aspects of the social media and physical media integration techniques, including but not limited to: 
+					%ul
+						%li Data analytics from surveillance camera arrays
+						%li Data analytics from on-road dash cameras and car IoT sensors
+						%li Social-guided multimedia representation learning
+						%li Cross-media information indexing and retrieving
+						%li User behaviors understanding from social and physical media
+						%li User portrait from social and physical media
+						%li Interpreting geographical and temporal contexts from social and physical media
+						%li Object Re-ID from social and physical media
+						%li Multimedia applications and services from social and physical media
+
+				%h4{class: 'specsess-heading'} Special Session Chair
+				= render 'chairs', target: :specsess_bda
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-4'}
+					Point Cloud Compression
+		%div{id: 'collapse-4', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Aims and Scope
+				%p Point cloud capture and compression is becoming a key enabling technology for content capture for immersive visual experiences, cultural heritage preservation, smart city and auto driving/navigations, etc. The underlying challenges on geometrical and graph signal processing, have sparked active research efforts on new insight and new tools for graph/geometrical signal representation, sampling, filtering, transform and compression. On the MPEG side, a new call for proposal was issued for standardization of the point cloud compression technology. 
+
+				%p In this special session, we will invite leading researchers in this topic area to contribute latest research results, reflecting the new state of art in point cloud compression technology and applications.
+
+				%h4{class: 'specsess-heading'} Topics
+				%p 
+					Topics of particular interest include, but are not limited to:
+					%ul
+						%li Point cloud capture and processing
+						%li Point cloud geometry compression
+						%li Dynamic point cloud geometry modeling and compression
+						%li Graph signal processing in point cloud compression
+						%li Video based point cloud geometry compression
+						%li Point cloud distortion and QoE metrics
+
+				%h4{class: 'specsess-heading'} Special Session Chair
+				= render 'chairs', target: :specsess_pcc
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-3'}
+					Human Activity Analytics: Benchmark, Algorithms, and Applications
+		%div{id: 'collapse-3', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Aims and Scope
+				%p Human activity analytics has been attracting an increasing attention. As a significant part of video understanding in the field of computer vision and multimedia, activity analytics such as Action Recognition and Action Detection remains a challenging problem. The technology will potentially facilitate a wide range of practical applications, such as intelligent video surveillance, human-computer interaction, video summary and understanding.
+
+				%p For human activity analysis, many great algorithms have been designed for RGB videos recorded by 2D cameras. Recently, with the prevalence of the affordable color-depth sensing cameras like Microsoft Kinect and pose estimation techniques, it is much easier and cheaper to obtain infrared data, depth maps and the 3D skeleton of human body. The access of multi modal data further boosts the research in general action analysis. Besides, many datasets have also been collected with benchmarks provided, to adapt more conceivable application scenarios.
+
+				%h4{class: 'specsess-heading'} Topics
+				%p 
+					Topics of particular interest include, but are not limited to:
+					%ul
+						%li Action Recognition / Detection
+						%li 3D Action Recognition / Detection
+						%li Multi-Modal Action Recognition / Detection
+						%li Zero-Shot Action Recognition
+						%li Temporal Action Localization in Untrimmed Video
+						%li Online Activity Prediction
+						%li Benchmark Datasets Supporting Activity Analytics
+						%li Home Surveillance, Action-Assisted Care, and Application Domains
+						%li Collective Activity Recognition
+
+				%h4{class: 'specsess-heading'} Special Session Chair
+				= render 'chairs', target: :specsess_haa
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-2'}
+					Multimedia Edge Computing
+		%div{id: 'collapse-2', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Aims and Scope
+				%p Driven by the proliferation of mobile devices and the availability of dedicated mobile media creation applications, the mobile multimedia traffic surges and has grown into an unprecedented level, which poses challenges on the traditional cloud-based architecture. This situation is further aggravated by the emergence of Virtual Reality, Augmented Reality and wearable technology, which poses stringent requirements in terms of latency. Traditional approach is to offload such data processing to the cloud, with consequent high traffic volumes in the backbone network and possible data latency increases. To cope with the exponentially increasing volume of data and balance local computation versus remote offloading for mobile multimedia application and service, recently, multimedia computing at the edge is promising, which allows computation and services to be hosted at the edge leveraging the emerging network architecture such as 5G, ICN, and smart Wi-Fi routers equipped with the computing, storage and communication ability. Multimedia Edge Computing makes these edge resources feasible to collect and process information locally and communicate with the back-end server coordinately, increasing the edge responsibility and reducing the network latency and bandwidth consumption. We believe a full investigation on the multimedia edge computing will definitely benefit the end users and the service providers in many aspects, such as the improved quality-of-experience, the reduced communication cost.
+
+				%p This special session aims at demonstrating how multimedia edge computing techniques has contributed and are contributing to multimedia applications and services. We are pleased to invite researches and practitioners from academia and industry to share their insights and cutting-edge results.
+
+				%h4{class: 'specsess-heading'} Topics
+				%p 
+					Topics of particular interest include, but are not limited to:
+					%ul
+						%li Content-aware Multimedia Pre-fetching and Caching at the Edge
+						%li Multimedia Fog Computing and Communication
+						%li Distributed Multimedia Big Data Management and Analytics
+						%li Learning Based Multimedia Processing at Mobile Device and Edge Network
+						%li Crowdsourced Mobile Multimedia Sensing
+						%li Multimodality-based Internet-of- things Applications
+						%li Delay Sensitive Edge Computing for AR Applications
+						%li Edge-assisted Social-aware Multimedia Content Sharing and Distribution
+						%li Multimedia Service Migration and Resource Allocation at the Edge
+						%li Privacy Reserved Mobile Multimedia Recognition and Classification
+						%li Cloudlet for Multimedia Application
+
+				%h4{class: 'specsess-heading'} Special Session Chair
+				= render 'chairs', target: :specsess_mec
+
+%h4{class: 'specsess-heading'} Submission Guideline
+%p
+	Special sessions are oral sessions, all submissions will go through a regular paper review process and the reviewing will be double blind. Authors are invited to submit a full paper (two-column format, 6 pages maximum). Only electronic submissions will be accepted. Please use 
+	%a{href: 'https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICME2018'}this link 
+	for submission and 
+	%a{href: '/author_info'} this submission guidelines.
+
+%h4{class: 'specsess-heading'} Important Dates
+= render 'deadline', target: [:regular_abstract, :regular_paper, :camera_regular], override: ['Abstract', 'Full Paper', 'Camera-Ready Paper']
+
+/ %li 
+/ 	%strong Deep Metric Learning for Multimedia Computing
+/ 	%p Organizers: Jiwen Lu, Xiuzhuang Zhou
+
+/ %li 
+/ 	%strong Artificial intelligence for Multimedia Networking and Systems
+/ 	%p Organizers: Han Hu, Nikolaos Thomos, Kenji Kanai
+
+/ %li 
+/ 	%strong Point Cloud Compression
+/ 	%p Organizers: Zhu Li, Euee S. Jang, Rufael Mekuria, Gary Li
+
+/ %li 
+/ 	%strong Human Activity Analytics: Benchmark, Algorithms, and Applications
+/ 	%p Organizers: Jiaying Liu and Xiaoyan Sun
+
+/ %li
+/ 	%strong Multimedia Edge Computing
+/ 	%p Organizers: Lifeng Sun, Jianwei Huang

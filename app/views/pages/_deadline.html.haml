@@ -3,12 +3,14 @@
     target = [target]
   end
 
-%h3 Important Dates
+- if not defined?(override)
+  %h3 Important Dates
+  
 %ul
-  - target.each do |t|
+  - target.each_with_index do |t, i|
     - data = DateHelper::get spec: t
     %li 
-      = data[:title] 
+      = defined?(override) ? override[i] : data[:title] 
       - if data[:type] != :nopropose
         proposal 
       submission deadline: #{data[:proposal]}

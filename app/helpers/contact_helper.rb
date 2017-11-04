@@ -127,6 +127,35 @@ module ContactHelper
       members: ['Sunil Kumar, SDSU, USA'],
       photos: ['Sunil Kumar']
     },
+    specsess_bda: {
+      title: '',
+      members: ['Jenq-Neng Hwang, University of Washington',
+                'Caili Guo, Beijing Univeristy of Posts and Telecommunication'],
+      emails: ['hwang@uw.edu',
+               'guocaili@bupt.edu.cn']    
+    },
+    specsess_mec: {
+      members: ['Lifeng Sun, Tsinghua University',
+                'Jianwei Huang, Chinese University of Hong Kong'],
+      emails: ['sunlf@tsinghua.edu.cn',
+               'jwhuang@ie.cuhk.edu.hk']
+    },
+    specsess_haa: {
+      members: ['Jiaying Liu, Peking University',
+                'Xiaoyan Sun, Microsoft Research Asia'],
+      emails: ['liujiaying@pku.edu.cn',
+               'xysun@microsoft.com']
+    },
+    specsess_pcc: {
+      members: ['Zhu Li, Univ of Missouri, Kansas',
+                'Euee S. Jang, Hanyang University, Seoul, Korea',
+                'Rufael Mekuria, Unified Streaming, Netherland',
+                'Gary Li, Beijing University Shenzhen Grad School, China'],
+      emails: ['lizhu@ukmc.edu',
+               'esjang@hanyang.ac.kr',
+               'rufael@united-streaming.com',
+               'gli@pkusz.edu.cn']
+    }
     # industrial_advisory: {
     #   title: 'Industrial Advisory Board',
     #   members: ['Kevin Jou',
