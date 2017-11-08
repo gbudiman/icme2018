@@ -128,6 +128,7 @@ module ContactHelper
       photos: ['Sunil Kumar']
     },
     specsess_bda: {
+      not_oc: true,
       title: '',
       members: ['Jenq-Neng Hwang, University of Washington',
                 'Caili Guo, Beijing Univeristy of Posts and Telecommunication'],
@@ -135,18 +136,21 @@ module ContactHelper
                'guocaili@bupt.edu.cn']    
     },
     specsess_mec: {
+      not_oc: true,
       members: ['Lifeng Sun, Tsinghua University',
                 'Jianwei Huang, Chinese University of Hong Kong'],
       emails: ['sunlf@tsinghua.edu.cn',
                'jwhuang@ie.cuhk.edu.hk']
     },
     specsess_haa: {
+      not_oc: true,
       members: ['Jiaying Liu, Peking University',
                 'Xiaoyan Sun, Microsoft Research Asia'],
       emails: ['liujiaying@pku.edu.cn',
                'xysun@microsoft.com']
     },
     specsess_pcc: {
+      not_oc: true,
       members: ['Zhu Li, Univ of Missouri, Kansas',
                 'Euee S. Jang, Hanyang University, Seoul, Korea',
                 'Rufael Mekuria, Unified Streaming, Netherland',
@@ -157,6 +161,7 @@ module ContactHelper
                'gli@pkusz.edu.cn']
     },
     specsess_lbo: {
+      not_oc: true,
       members: ['Han Hu, Nanyang Technological University',
                 'Nikolaos Thomos, University of Essex, UK',
                 'Kenji Kanai, Waseda University, Japan'],
@@ -165,6 +170,7 @@ module ContactHelper
                'k.kanai@aoni.waseda.jp']
     },
     specsess_dml: {
+      not_oc: true,
       members: ['Jiwen Lu, Tsinghua University',
                 'Xiuzhuang Zhou, Beijing University of Posts and Telecommunication',
                 'Nikolaos Boulgouris, Brunel University, London'],
@@ -189,6 +195,6 @@ module ContactHelper
       return @contact[spec]
     end
 
-    return @contact
+    return @contact.select{ |k, v| v[:not_oc] == nil }
   end
 end
