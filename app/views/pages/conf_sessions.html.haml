@@ -32,6 +32,64 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-5'}
+					Learning-based Optimization for Multimedia Networking
+		%div{id: 'collapse-5', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Aims and Scope
+				%p Recent multimedia networking has been shaped and will continue to be guided by distinguishing characteristics of multimedia applications and underlying infrastructures. First, in addition to the traditional audio and video, multimedia applications have begun to fuse with other applications, and penetrate into our daily life. One example is the social networking enabled multimedia applications. Driven by the sensor-rich mobile devices, the success of social networks, such as Facebook, Twitter, and Instagram, boosts the proliferation of community-shared multimedia. Meanwhile, new forms of multimedia data, such as geo-tagged information, 3D video, and VR/AR, have emerged in many applications. Second, novel networking infrastructures bring unpredictability in both breadth and depth, as well as great opportunities. The wide adoption of virtualization and cloud computing delegates more intelligence to the end nodes. The networking management and control become flexible and stochastics. In parallel, the underlying networking enables a huge transformation by new architecture, including software-defined networking (SDN), network function virtualization (NFV), edge cloud and fog. This enhances network automation in agile infrastructures.
+
+				%p The existing research approaches are inadequate to support this accelerated and unpredictable growth in multimedia networking. Prevailing approaches typically assume some static or dynamics models for the system, and then develop algorithms and technologies via simulation platforms or small-scale systems. They cannot tackle the performance degradation caused by system unpredictability and model bias. Fortunately, the learning-based approach can endow multimedia systems some levels of self or reinforcement learning capabilities in response to fast-changing environments, and now is possible for researchers, owning to two technological trends. First, the emerging big data paradigm has rendered it easier for researchers to acquire, store, and analyze large datasets. For instance, Facebook and Twitter both release large-scale datasets and open APIs for researchers to crawl and analyze human behavior and information dissemination patterns. There are also some open-source projects and tools for big data analytics, such as Hadoop, Spark and GraphLab. Second, recent progresses on machine learning, especially deep learning and reinforcement learning, open an exciting new era of knowledge-based multimedia networking. For example, convolutional neural networks have demonstrated high capability in image recognition and language translation, deep reinforcement learning based robots outperform human beings in Go and e-sports.
+
+				%p In this special session, we aim to call for a coordinated effort to understand the scenarios and challenges emerging in learning based multimedia networking, showcase innovative methodologies and ideas, as well as introduce large scale real systems or applications.
+
+				%h4{class: 'specsess-heading'} Topics
+				%p 
+					In this special session, we are soliciting original contributions on all aspects of the social media and physical media integration techniques, including but not limited to: 
+					%ul
+						%li Learning based automated and closed-loop multimedia networking optimization
+						%li Self-Learning for adaptive multimedia networking protocols and algorithms
+						%li Resource allocation for multimedia applications using machine learning
+						%li Deep learning and reinforcement learning in multimedia networking control and management
+						%li Predictive-aware multimedia networking maintenance and optimization
+						%li Deep learning based multimedia distribution and transmission
+						%li Proactive multimedia network monitoring for security and diagnosis
+						%li User experience-driven virtual or augmented reality (VR/AR) applications
+						%li Real-time methods and applications for multimedia applications, such as cloud gaming and remote surgery
+
+				%h4{class: 'specsess-heading'} Special Session Chair
+				= render 'chairs', target: :specsess_lbo
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-6'}
+					Deep Metric Learning for Multimedia Computing
+		%div{id: 'collapse-6', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Aims and Scope
+				%p Similarity learning techniques have played a central role in multimedia computing, and a variety of distance metric learning methods have been developed for various multimedia applications over the past decade. Among these learning methods, deep metric learning approaches have achieved many state-of- the-art, which aims to learn an appropriate nonlinear distance functions given some constrains between samples. While these methods are helpful to learn the similarity of data such as images, videos, texts, radars, and voices, how to develop task-specific deep metric learning algorithms for different multimedia tasks still remains challenging, especially for big data which are captured in the wild. Moreover, how to develop transferable deep metric learning methods for large-scale multimedia systems still requires many efforts.
+
+				%p This special issue serves as a forum for researchers all over the world to discuss their works and recent advances in deep metric learning for multimedia computing. Both state-of- the-art works on theories and applications of deep metric learning are welcome for submission.
+
+				%h4{class: 'specsess-heading'} Topics
+				%p 
+					Topics of particular interest include, but are not limited to:
+					%ul
+						%li Semi-supervised deep metric learning for multimedia computing
+						%li Multi-view deep metric learning for multimedia computing
+						%li Structural deep metric learning for multimedia computing
+						%li Domain transfer deep metric learning for multimedia computing
+						%li Hashing-based deep metric learning for multimedia computing
+						%li Large-scale deep metric learning for pattern recognition
+						%li Comparative study of deep metric learning for multimedia computing
+
+				%h4{class: 'specsess-heading'} Special Session Chair
+				= render 'chairs', target: :specsess_dml
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
 				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-4'}
 					Point Cloud Compression
 		%div{id: 'collapse-4', class: 'panel-collapse collapse'}

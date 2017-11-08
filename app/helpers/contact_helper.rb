@@ -155,6 +155,22 @@ module ContactHelper
                'esjang@hanyang.ac.kr',
                'rufael@united-streaming.com',
                'gli@pkusz.edu.cn']
+    },
+    specsess_lbo: {
+      members: ['Han Hu, Nanyang Technological University',
+                'Nikolaos Thomos, University of Essex, UK',
+                'Kenji Kanai, Waseda University, Japan'],
+      emails: ['hhu@ntu.edu.sg',
+               'nthomos@essex.ac.uk',
+               'k.kanai@aoni.waseda.jp']
+    },
+    specsess_dml: {
+      members: ['Jiwen Lu, Tsinghua University',
+                'Xiuzhuang Zhou, Beijing University of Posts and Telecommunication',
+                'Nikolaos Boulgouris, Brunel University, London'],
+      emails: ['lujiwen@tsinghua.edu.cn',
+               'xiuzhuang.zhou@cnu.edu.cn',
+               'nikolaos.boulgouris@brunel.ac.uk']
     }
     # industrial_advisory: {
     #   title: 'Industrial Advisory Board',
