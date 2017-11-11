@@ -1,11 +1,19 @@
 - data = ContactHelper::get_contact spec: target
+- ch = ContactHelper::get_contact spec: target
 
 %h3 #{data[:title]}
-%ul
-  - data[:members].zip(data[:emails] || []).each do |m|
-    %li 
+- ch[:members].zip((ch[:photos] || []), (ch[:emails] || [])).each do |m|
+  %div{class: 'col-xs-6 col-sm-4 col-lg-3 oc-cell'}
+    %div{class: 'row'}
+      %img{class: 'oc-photo',
+           src: "#{asset_path('photos/' + (m[1] == nil ? 'user_placeholder' : m[1]) + '.jpg')}"}
+    %div{class: 'row oc-name'}
       = m[0]
-      - if m[1]
-        \(
-        %a{href: "mailto:#{m[1]}"}= m[1]
-        \)
+      %br
+      - if m[2]
+        %a{href: "mailto:#{m[2]}"}
+          %span{class: 'oc-email'}= m[2]
+
+%div{class: 'row'}
+
+

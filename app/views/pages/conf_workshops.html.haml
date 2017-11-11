@@ -1,4 +1,73 @@
 
 %h1 Workshops
 
-%p -- Under Construction --
+%div{class: 'panel-group', id: 'accordion'}
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-1'}
+					Hot Topics in 3D Multimedia
+		%div{id: 'collapse-1', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Workshop Chair
+				= render 'chairs', target: :workshop_htm
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-2'}
+					Multimedia Analytics for Societal Trends
+		%div{id: 'collapse-2', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Workshop Chair
+				= render 'chairs', target: :workshop_mast
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-3'}
+					Multimedia Services and Technologies for Smart-Health
+		%div{id: 'collapse-3', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Workshop Chair
+				= render 'chairs', target: :workshop_msts
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-4'}
+					Mobile Multimedia Computing
+		%div{id: 'collapse-4', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Workshop Chair
+				= render 'chairs', target: :workshop_mmc
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-5'}
+					Machine Learning and Artificial Intelligence for Multimedia Creation
+		%div{id: 'collapse-5', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Workshop Chair
+				= render 'chairs', target: :workshop_mlaim
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-6'}
+					Privacy Issues in Multimedia
+		%div{id: 'collapse-6', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Workshop Chair
+				= render 'chairs', target: :workshop_pim																	
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-7'}
+					Emerging Multimedia Systems and Applications
+		%div{id: 'collapse-7', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Workshop Chair
+				= render 'chairs', target: :workshop_emsa					

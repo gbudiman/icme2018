@@ -133,7 +133,8 @@ module ContactHelper
       members: ['Jenq-Neng Hwang, University of Washington',
                 'Caili Guo, Beijing Univeristy of Posts and Telecommunication'],
       emails: ['hwang@uw.edu',
-               'guocaili@bupt.edu.cn']    
+               'guocaili@bupt.edu.cn']    ,
+      photos: ['Jenq-Neng Hwang', 'Caili Guo']
     },
     specsess_mec: {
       not_oc: true,
@@ -147,7 +148,8 @@ module ContactHelper
       members: ['Jiaying Liu, Peking University',
                 'Xiaoyan Sun, Microsoft Research Asia'],
       emails: ['liujiaying@pku.edu.cn',
-               'xysun@microsoft.com']
+               'xysun@microsoft.com'],
+      photos: ['Jiaying Liu', 'Xiaoyan Sun']
     },
     specsess_pcc: {
       not_oc: true,
@@ -176,7 +178,37 @@ module ContactHelper
                 'Nikolaos Boulgouris, Brunel University, London'],
       emails: ['lujiwen@tsinghua.edu.cn',
                'xiuzhuang.zhou@cnu.edu.cn',
-               'nikolaos.boulgouris@brunel.ac.uk']
+               'nikolaos.boulgouris@brunel.ac.uk'],
+      photos: ['Jiwen Lu', 'Xiuzhuang Zhou', 'Nikolaos Boulgouris']
+    },
+    workshop_htm: {
+      not_oc: true,
+      members: ['Ioan Tabus',
+                'Touradj Ebrahimi']
+    },
+    workshop_mast: {
+      not_oc: true,
+      members: ['Naveen Kumar', 'Tanaya Guha', 'Krishna Somandepalli', 'Shree Narayanan']
+    },
+    workshop_msts: {
+      not_oc: true,
+      members: ['M. Shamim Hossain', 'Stefan Goebel', 'Majdi Rawasdeh']
+    },
+    workshop_mmc: {
+      not_oc: true,
+      members: ['Wen-Huang Cheng', 'Kai-Lung Hua', 'Klaus Schoeffmann', 'Tian Gan', 'Christian von der Weth']
+    },
+    workshop_mlaim: {
+      not_oc: true,
+      members: ['Yanjia Sun', 'Sijia Liu', 'Pin-Yu Chen']
+    },
+    workshop_pim: {
+      not_oc: true,
+      members: ['Pradeep Atrey', 'Sen-cheng \'Samson\' Cheung', 'Frederic Dufaux', 'Andrea Cavallaro']
+    },
+    workshop_emsa: {
+      not_oc: true,
+      members: ['Philip Chen', 'Zhenzhong Chen', 'Chenwei Deng']
     }
     # industrial_advisory: {
     #   title: 'Industrial Advisory Board',
