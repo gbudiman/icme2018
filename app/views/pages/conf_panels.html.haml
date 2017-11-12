@@ -1,4 +1,28 @@
 
 %h1 Panels
 
-%p -- Under Construction --
+%div{class: 'panel-group', id: 'accordion'}
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-1'}
+					Should Challenges on Public Datasets be the Primary Driver of Multimedia Research?
+		%div{id: 'collapse-1', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Moderator
+				= render 'chairs', target: :panel_a_moderator
+				%h4{class: 'specsess-heading'} Panelists (tentative)
+				= render 'chairs', target: :panel_a_panelists
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-2'}
+					Commercialization of Multimedia Technologies: Challenges and Opportunities
+		%div{id: 'collapse-2', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Moderator
+				= render 'chairs', target: :panel_b_moderator
+				%h4{class: 'specsess-heading'} Panelists (tentative)
+				= render 'chairs', target: :panel_b_panelists
+

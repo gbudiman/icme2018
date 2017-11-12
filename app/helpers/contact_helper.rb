@@ -209,6 +209,30 @@ module ContactHelper
     workshop_emsa: {
       not_oc: true,
       members: ['Philip Chen', 'Zhenzhong Chen', 'Chenwei Deng']
+    },
+    panel_a_moderator: {
+      not_oc: true,
+      members: ['Prof. Junsong Yuan, Nanyang Technological University']
+    },
+    panel_a_panelists: {
+      not_oc: true,
+      members: ['Mohan Kankanhalli, National University of Singapore',
+                'Nicu Sebe, University of Trento',
+                'Gang Wang, Research Director of Alibaba AI Lab',
+                'Yi Yang, University of Technology Sydney',
+                'Yuxin Peng, Peking University']
+    },
+    panel_b_moderator: {
+      not_oc: true,
+      members: ['Dr. Liang Lin, Sensetime']
+    },
+    panel_b_panelists: {
+      not_oc: true,
+      members: ['Shuicheng Yan, National University of Singapore & VP/Director of Research at Qihu 360',
+                'Changhu Wang, Research Director at Toutiao',
+                'Liangliang Cao, Founder of Hello Vera',
+                'Fatih Porikli, Chief Scientist at Huawei & Australia National University',
+                'Cees Snoek, Director of QUVA Lab (joint research lab of Qualcomm and University of Amsterdam']
     }
     # industrial_advisory: {
     #   title: 'Industrial Advisory Board',
