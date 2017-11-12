@@ -220,7 +220,9 @@ module ContactHelper
                 'Nicu Sebe, University of Trento',
                 'Gang Wang, Research Director of Alibaba AI Lab',
                 'Yi Yang, University of Technology Sydney',
-                'Yuxin Peng, Peking University']
+                'Yuxin Peng, Peking University',
+                'Jiashi Feng, National University of Singapore',
+                'Jiebo Luo, University of Rochester']
     },
     panel_b_moderator: {
       not_oc: true,
@@ -232,7 +234,9 @@ module ContactHelper
                 'Changhu Wang, Research Director at Toutiao',
                 'Liangliang Cao, Founder of Hello Vera',
                 'Fatih Porikli, Chief Scientist at Huawei & Australia National University',
-                'Cees Snoek, Director of QUVA Lab (joint research lab of Qualcomm and University of Amsterdam']
+                'Cees Snoek, Director of QUVA Lab (joint research lab of Qualcomm and University of Amsterdam',
+                'Xian-sheng Hua, Deputy Managing Director at iDST, Alibaba Group',
+                'Tao Mei, Lead Researcher, Microsoft Research Asia']
     }
     # industrial_advisory: {
     #   title: 'Industrial Advisory Board',
