@@ -161,7 +161,8 @@ module ContactHelper
       emails: ['lizhu@ukmc.edu',
                'esjang@hanyang.ac.kr',
                'rufael@united-streaming.com',
-               'gli@pkusz.edu.cn']
+               'gli@pkusz.edu.cn'],
+      photos: ['Zhu Li', 'Euee S Jang', 'Rufael Mekuria', 'Gary Li']
     },
     specsess_lbo: {
       not_oc: true,
