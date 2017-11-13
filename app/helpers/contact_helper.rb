@@ -141,7 +141,8 @@ module ContactHelper
       members: ['Lifeng Sun, Tsinghua University',
                 'Jianwei Huang, Chinese University of Hong Kong'],
       emails: ['sunlf@tsinghua.edu.cn',
-               'jwhuang@ie.cuhk.edu.hk']
+               'jwhuang@ie.cuhk.edu.hk'],
+      photos: ['Lifeng Sun', 'Jianwei Huang']
     },
     specsess_haa: {
       not_oc: true,
@@ -165,11 +166,12 @@ module ContactHelper
     specsess_lbo: {
       not_oc: true,
       members: ['Han Hu, Nanyang Technological University',
-                'Nikolaos Thomos, University of Essex, UK',
+                'Nikolaos Thomas, University of Essex, UK',
                 'Kenji Kanai, Waseda University, Japan'],
       emails: ['hhu@ntu.edu.sg',
                'nthomos@essex.ac.uk',
-               'k.kanai@aoni.waseda.jp']
+               'k.kanai@aoni.waseda.jp'],
+      photos: ['Han Hu', 'Nikolaos Thomas', 'Kenji Kanai']
     },
     specsess_dml: {
       not_oc: true,
