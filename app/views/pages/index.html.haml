@@ -7,6 +7,19 @@
         %div{class: 'h3'} July 23-27, 2018
         %div{class: 'h3'} San Diego, USA
 
+        %hr
+        %div{class: 'splash-bright'}
+          %div{class: 'h3'} 
+            Upcoming Deadlines
+            %a{href: '/important_dates', target: '_schedule'}
+              %span{class: 'glyphicon glyphicon-new-window'}
+          %table{class: 'table table-condensed'}
+            - DateHelper.get_upcoming_deadline.each do |d|
+              %tr
+                %td= d[:splash_title]
+                %td= d[:splash_date]
+          
+
     %div{class: 'col-xs-12 col-sm-6'}
       %div{id: 'landing-carousel', class: 'carousel slide', 'data-ride' => 'carousel'}
         %ol{class: 'carousel-indicators carousel-landing'}

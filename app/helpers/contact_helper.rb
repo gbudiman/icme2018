@@ -186,12 +186,15 @@ module ContactHelper
     },
     workshop_htm: {
       not_oc: true,
-      members: ['Ioan Tabus',
-                'Touradj Ebrahimi']
+      members: ['Ioan Tabus, Finland',
+                'Zahir Alpaslan, USA',
+                'Touradj Ebrahimi, Switzerland'],
+      photos: ['Ioan Tabus', 'Zahir Alpaslan', 'Touradj Ebrahimi']
     },
     workshop_mast: {
       not_oc: true,
-      members: ['Naveen Kumar', 'Tanaya Guha', 'Krishna Somandepalli', 'Shree Narayanan']
+      members: ['Naveen Kumar', 'Tanaya Guha', 'Krishna Somandepalli', 'Shri Narayanan'],
+      photos: ['Naveen Kumar', 'Tanaya Guha', 'Krishna Somandepalli', 'Shri Narayanan']
     },
     workshop_msts: {
       not_oc: true,
@@ -203,7 +206,11 @@ module ContactHelper
     },
     workshop_mlaim: {
       not_oc: true,
-      members: ['Yanjia Sun', 'Sijia Liu', 'Pin-Yu Chen']
+      members: ['Yanjia Sun, PhD, Principle Data Scientist, ADP, LLC', 
+                'Sijia Liu, Postdoctoral Research Fellow, Department of Electrical Engineering and Computer Science, University of Michigan, Ann Arbor, USA', 
+                'Pin-Yu Chen, PhD, Research Staff Member, AI Foundations Group, IBM T. J. Watson Research Center'],
+      emails: ['yanjia.sun@adp.com', 'lsjxjtu@umich.edu', 'pin-yu.chen@ibm.com'],
+      photos: ['Yanjia Sun', 'Sijia Liu', 'Pin-Yu Chen']
     },
     workshop_pim: {
       not_oc: true,

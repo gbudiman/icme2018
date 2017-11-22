@@ -108,4 +108,39 @@ module DateHelper
   def self.get_deadline spec: 
     return @date[spec][:proposal]
   end
-end
+
+  def self.get_upcoming_deadline
+    date_today = Time.now
+    upcoming = []
+    limit = 2
+
+    DateHelper.get_sorted.each do |s|
+      if s[:date] >= date_today
+        if upcoming.length < limit or upcoming[-1][:date] == s[:date]
+          upcoming.push s
+        end
+      end
+    end
+
+    if upcoming.length > 0
+      upcoming.each do |u|
+        u[:splash_title] = u[:title]
+        u[:splash_date] = Date.parse(u[:date].to_s).strftime('%B %d, %Y')
+
+        case u[:affix]
+        when :due
+          u[:splash_title] = u[:splash_title] + ' Submission Deadline'
+        when :notification
+          u[:splash_title] = u[:splash_title] + ' Notification'
+        end
+      end
+    else
+      upcoming.append({
+        splash_title: 'No upcoming deadline',
+        splash_date: ''
+      })
+    end
+
+    return upcoming
+  end
+end 
