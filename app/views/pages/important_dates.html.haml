@@ -23,5 +23,11 @@
 
             - if d[:notified]
               %span{class: 'date-notified'} &nbsp; *** NOTIFIED *** &nbsp;
+
+            - if d[:extended]
+              %span{class: 'date-extended'} 
+                &nbsp; (Extended
+                = d[:extended].strftime('%B %d, %Y')
+                )&nbsp;
               
                 

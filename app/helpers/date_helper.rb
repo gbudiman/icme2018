@@ -32,10 +32,18 @@ module DateHelper
                           type: :nopropose },
     regular_abstract:   { title: 'Regular Paper Abstract', 
                           proposal: 'November 24, 2017',
+                          type: :nopropose,
+                          extended: 'December 15, 2017'},
+    regular_abstract_ext: { title: 'Regular Paper Abstract (Extended)',
+                          proposal: 'December 15, 2017',
                           type: :nopropose},
     regular_paper:      { title: 'Regular Paper', 
                           proposal: 'December 1, 2017', 
                           notification: 'March 12, 2018',
+                          type: :nopropose,
+                          extended: 'December 15, 2017'},
+    regular_paper_ext:  { title: 'Regular Paper (Extended)',
+                          proposal: 'December 15, 2017',
                           type: :nopropose},
     workshop_paper:     { title: 'Workshop Paper', 
                           proposal: 'March 19, 2018', 
@@ -78,12 +86,14 @@ module DateHelper
           date: Date.parse(v[:proposal]),
           title: 'Today',
           affix: :highlight_today
+
         })
       elsif v[:proposal]
         s.push({
           date: Date.parse(v[:proposal]),
           title: v[:title] + ((v[:type] || :nil) == :nopropose ? '' : ' Proposal'),
-          affix: :due
+          affix: :due,
+          extended: v[:extended] ? Date.parse(v[:extended]) : nil
         })
       end
 
@@ -126,6 +136,11 @@ module DateHelper
       upcoming.each do |u|
         u[:splash_title] = u[:title]
         u[:splash_date] = Date.parse(u[:date].to_s).strftime('%B %d, %Y')
+
+        if u[:extended]
+          u[:splash_date] = u[:splash_date] + 
+                            " (Extended #{Date.parse(u[:extended].to_s).strftime('%B %d, %Y')})"
+        end
 
         case u[:affix]
         when :due
