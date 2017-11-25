@@ -34,17 +34,17 @@ module DateHelper
                           proposal: 'November 24, 2017',
                           type: :nopropose,
                           extended: 'December 15, 2017'},
-    regular_abstract_ext: { title: 'Regular Paper Abstract (Extended)',
-                          proposal: 'December 15, 2017',
-                          type: :nopropose},
+    # regular_abstract_ext: { title: 'Regular Paper Abstract (Extended)',
+    #                       proposal: 'December 15, 2017',
+    #                       type: :nopropose},
     regular_paper:      { title: 'Regular Paper', 
                           proposal: 'December 1, 2017', 
                           notification: 'March 12, 2018',
                           type: :nopropose,
                           extended: 'December 15, 2017'},
-    regular_paper_ext:  { title: 'Regular Paper (Extended)',
-                          proposal: 'December 15, 2017',
-                          type: :nopropose},
+    # regular_paper_ext:  { title: 'Regular Paper (Extended)',
+    #                       proposal: 'December 15, 2017',
+    #                       type: :nopropose},
     workshop_paper:     { title: 'Workshop Paper', 
                           proposal: 'March 19, 2018', 
                           notification: 'April 23, 2018',
@@ -125,7 +125,7 @@ module DateHelper
     limit = 2
 
     DateHelper.get_sorted.each do |s|
-      if s[:date] >= date_today
+      if s[:date] >= date_today and s[:extended] == nil
         if upcoming.length < limit or upcoming[-1][:date] == s[:date]
           upcoming.push s
         end
