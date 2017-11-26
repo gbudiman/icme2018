@@ -156,4 +156,45 @@
 				%h4{class: 'specsess-heading'} Workshop Chair
 				= render 'chairs', target: :workshop_emsa					
 
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-8'}
+					Faces in Multimedia
+		%div{id: 'collapse-8', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Overview
+				%p We have witnessed remarkable advances in facial recognition technologies over the past a few years due to the rapid development of deep learning and large-scale, labeled facial image collections. As progress continues to push renown facial recognition databases nearly to saturation. There is a need for evermore challenging image and video collections, to solve emerging problems in the fields of faces and multimedia.
+
+				%p In parallel to conventional face recognition, research is done to automatically understand social media content. To gain such an understand, the following capabilities must be satisfied: face tracking (e.g., facial expression analysis, face detection), face characterization (e.g., behavioral understanding, emotion recognition), facial characteristic analysis (e.g., gait, age, gender and ethnicity recognition), group understanding via social cues (e.g., kinship, non-blood relationships, personality), and visual sentiment analysis (e.g., temperament, arrangement). The ability to create effective models for visual certainty has significant value in both the scientific communities and the commercial market, with applications that span topics of human-computer interaction, social media analytics, video indexing, visual surveillance, and Internet vision.
+
+				%p This workshop serves a forum for researchers to review the recent progress of recognition, analysis and modeling of faces in multimedia. Special interests will be given to visual kin and non-kin social relations. The workshop will include up to two keynotes, along with peer-reviewed papers (oral and poster). Original high-quality contributions are solicited on the topics listed in the section below.
+
+				%h4 Topics
+				%ul
+					%li Soft biometrics and profiling of faces: age, gender, ethnicity, personality, kinship, occupation, and beauty ranking;
+					%li Deep learning practice for social face problems with ambiguity including kinship
+					verification, family recognition and retrieval;
+					%li Understanding of the familial features from vast amount of social media data;
+					%li Discovery of the social groups from faces and the context;
+					%li Mining social face relations through metadata as well as visual information;
+					%li Tracking and extraction and analysis of face models captured by mobile devices;
+					%li Face recognition in low-quality or low-resolution video or images;
+					%li Novel mathematical models and algorithms, sensors and modalities for face &amp;
+					body gesture and action representation;
+					%li Analysis and recognition for cross-domain social media;
+					%li Novel social applications involving detection, tracking &amp; recognition of faces;
+					%li Face analysis for sentiment analysis in social media;
+					%li Other applications involving face analysis in social media content.
+
+				%h4{class: 'specsess-heading'} Honorary General Chair
+				= render 'chairs', target: :workshop_fim_hgc
+
+				%h4{class: 'specsess-heading'} General Chair
+				= render 'chairs', target: :workshop_fim_gc
+
+				%h4{class: 'specsess-heading'} Program Chairs
+				= render 'chairs', target: :workshop_fim_pc
+
+
 = render 'deadline', target: [:workshop_paper, :camera_workshop]

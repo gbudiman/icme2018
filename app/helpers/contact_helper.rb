@@ -216,6 +216,25 @@ module ContactHelper
       not_oc: true,
       members: ['Pradeep Atrey', 'Sen-cheng \'Samson\' Cheung', 'Frederic Dufaux', 'Andrea Cavallaro']
     },
+    workshop_fim_hgc: {
+      not_oc: true,
+      members: ['Thomas S. Huang, University of Illinois at Urbana-Champaign, USA']
+    },
+    workshop_fim_gc: {
+      not_oc: true,
+      members: ['Y. Raymond Fu, Northeastern University, Boston, USA'],
+      photos: ['Raymond Fu']
+    },
+    workshop_fim_pc: {
+      not_oc: true,
+      members: ['Joseph P. Robinson, Northeastern University, Boston, USA',
+                'Ming Shao, University of Massachusetts Dartmouth, USA',
+                'Siyu Xia, Southeast University, China'],
+      emails: ['robinson.jo@husky.neu.edu',
+               'mshao@umassd.edu',
+               'xia081@gmail.com'],
+      photos: ['Joseph Robinson', 'Ming Shao', 'Siyu Xia']
+    },
     workshop_emsa: {
       not_oc: true,
       members: ['Philip Chen', 'Zhenzhong Chen', 'Chenwei Deng']
