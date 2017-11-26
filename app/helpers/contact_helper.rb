@@ -214,7 +214,11 @@ module ContactHelper
     },
     workshop_pim: {
       not_oc: true,
-      members: ['Pradeep Atrey', 'Sen-cheng \'Samson\' Cheung', 'Frederic Dufaux', 'Andrea Cavallaro']
+      members: ['Pradeep Atrey, State University of New York, Albany, USA', 
+                'Sen-cheng \'Samson\' Cheung, Univeristy of Kentucky, USA', 
+                'Frederic Dufaux, CNRS and Telecom ParisTech, France', 
+                'Andrea Cavallaro, Queen Mary University of London, UK'],
+      photos: ['Pradeep Atrey', 'Samson Cheung', 'Frederic Dufaux', 'Andrea Cavallaro']
     },
     workshop_fim_hgc: {
       not_oc: true,
