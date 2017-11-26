@@ -218,7 +218,8 @@ module ContactHelper
     },
     workshop_fim_hgc: {
       not_oc: true,
-      members: ['Thomas S. Huang, University of Illinois at Urbana-Champaign, USA']
+      members: ['Thomas S. Huang, University of Illinois at Urbana-Champaign, USA'],
+      photos: ['Thomas Huang']
     },
     workshop_fim_gc: {
       not_oc: true,
