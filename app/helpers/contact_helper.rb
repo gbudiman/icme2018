@@ -206,7 +206,7 @@ module ContactHelper
     },
     workshop_mlaim: {
       not_oc: true,
-      members: ['Yanjia Sun, PhD, Principle Data Scientist, ADP, LLC', 
+      members: ['Yanjia Sun, PhD, Principal Data Scientist, ADP, LLC', 
                 'Sijia Liu, Postdoctoral Research Fellow, Department of Electrical Engineering and Computer Science, University of Michigan, Ann Arbor, USA', 
                 'Pin-Yu Chen, PhD, Research Staff Member, AI Foundations Group, IBM T. J. Watson Research Center'],
       emails: ['yanjia.sun@adp.com', 'lsjxjtu@umich.edu', 'pin-yu.chen@ibm.com'],
