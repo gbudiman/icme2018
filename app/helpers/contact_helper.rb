@@ -207,7 +207,8 @@ module ContactHelper
                 'Klaus Schoeffmann, Klagenfurt University, Austria', 
                 'Tian Gan, Shandong University, China', 
                 'Christian von der Weth, National University of Singapore, Singapore',
-                'Marta Mrak, BBC R&D, UK']
+                'Marta Mrak, BBC R&D, UK'],
+      photos: ['Wen-Huang Cheng', 'Kai-Lung Hua', 'Klaus Schoeffmann', 'Tian Gan', 'Christian Weth', 'Marta Mrak']
     },
     workshop_mlaim: {
       not_oc: true,
@@ -248,6 +249,45 @@ module ContactHelper
     workshop_emsa: {
       not_oc: true,
       members: ['Philip Chen', 'Zhenzhong Chen', 'Chenwei Deng']
+    },
+    gc_pcc: {
+      not_oc: true,
+      members: ['Touradj Ebrahimi, EPFL',
+                'Antonio Pinheiro, Instituto de Telecomunicacoes and UBI',
+                'Anthony Vetro, Mistubishi Electric Research Labs'],
+      photos: ['Touradj Ebrahimi']
+    },
+    gc_hfr: {
+      not_oc: true,
+      members: ['Shuowen (Sean) Hu, US Army Research Laboratory',
+                'Nathan Short, Booz Allen Hamilton',
+                'Benjamin Riggan, US Army Research Laboratory',
+                'M. Saquib Sarfraz, Karlsruhe Institute of Technology']
+    },
+    gc_abr: {
+      not_oc: true,
+      members: ['Yueshi Shen, Twitch.tv',
+                'Yuechuan Li, Twitch.tv',
+                'Mark Kalman, Twitter Inc.',
+                'Sebastiaan Van Leuven, Twitter Inc.']
+    },
+    gc_dlfr: {
+      not_oc: true,
+      members: ['Suren Vagharshakyan, Tampere University of Technology, Tampere, Finland',
+                'Olli Suominen, Tampere University of Technology, Tampere, Finland',
+                'Robert Bregovic, Tampere University of Technology, Tampere, Finland',
+                'Atanas Gotchev, Tampere University of Technology, Tampere, Finland']
+    },
+    gc_dash: {
+      not_oc: true,
+      members: ['Ali C. Begen (on behalf of DASH-IF), Ozyegin University and Networked Media',
+                'Christian Timmerer (on behalf of DASH-IF), Alpen-Adria-Universität Klagenfurt and Bitmovin'],
+      photos: ['Ali Begen']
+    },
+    gc_salient: {
+      not_oc: true,
+      members: ['Jesus Gutierrez, University Of Nantes, Nantes, France',
+                'Patrick Le Callet, University Of Nantes, Nantes, France']
     },
     panel_a_moderator: {
       not_oc: true,
