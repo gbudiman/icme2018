@@ -191,11 +191,22 @@ img.carousel {
 }
 
 /* line 169, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.extended-date {
+  text-decoration: line-through;
+}
+
+/* line 173, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.extended-new-date {
+  font-weight: bold;
+  color: red;
+}
+
+/* line 178, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #jumbotron-title {
   text-align: center;
 }
 
-/* line 173, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 182, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #main-content {
   margin-top: 5em;
 }
