@@ -13,7 +13,15 @@
       = defined?(override) ? override[i] : data[:title] 
       - if data[:type] != :nopropose
         proposal 
-      submission deadline: #{data[:proposal]}
+      submission deadline: 
+      - if data[:extended]
+        %span{class: 'extended-date'}= data[:proposal]
+        %span{class: 'extended-new-date'}
+          (Extended
+          =data[:extended]
+          )
+      - else
+        #{data[:proposal]}
     - if data[:notification]
       %li 
         = data[:title]

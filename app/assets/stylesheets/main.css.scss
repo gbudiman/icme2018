@@ -166,6 +166,15 @@ img.carousel {
   cursor: pointer;
 }
 
+.extended-date {
+  text-decoration: line-through;
+}
+
+.extended-new-date {
+  font-weight: bold;
+  color: red
+}
+
 #jumbotron-title {
   text-align: center;
 }
