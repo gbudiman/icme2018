@@ -5,9 +5,10 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-1'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-hot3d'}
 					Hot Topics in 3D Multimedia
-		%div{id: 'collapse-1', class: 'panel-collapse collapse'}
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-hot3d'}
+		%div{id: 'workshop-hot3d', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Overview
 				%p The 3D community continues to innovate and evolve, with greater focus on enabling augmented reality and virtual reality (AR/VR/MR) experiences. There have been amazing breakthroughs on the capture and acquisition in recent years, with the introduction of microlens camera arrays and the growing momentum behind large-scale multi-camera arrays, as well as 360-degree video and depth sensing devices. Display technology continues to advance as the emergence of head-mounted displays gain in popularity. The widespread increase in computational power has allowed an ever-increasing realism in 3D scene generation. Additionally, 3D audio has the potential to add to the immersive experience through surround sound and realistic sound field rendering.
@@ -30,9 +31,10 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-2'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-mast'}
 					Multimedia Analytics for Societal Trends
-		%div{id: 'collapse-2', class: 'panel-collapse collapse'}
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-mast'}
+		%div{id: 'workshop-mast', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Overview
 				%p Automated analysis of multimedia content is indispensable for organizing, indexing and nav- igating through vast amount of data. Due to the proliferation of media sharing platforms and social networks, such as YouTube, Twitter and Facebook, the production and distribution of me dia content have gone through a paradigm shift. This has led to a rapid democratization of the field inviting content-makers from all spheres, and has also led to an unprecedented growth in consumption of multimedia content over both modern and traditional mediums. Along with the traditional multimedia areas such as indexing and summarization, the research in this area is now being driven by the need to improve and facilitate personal and social activities, insight generation, and interaction experience. Research effort has been directed towards developing computational tools and methodologies for systematic study of trends and biases in media, impact of media content in terms of commercial outcome and influence on users.
@@ -61,9 +63,10 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-3'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-msts'}
 					Multimedia Services and Technologies for Smart-Health
-		%div{id: 'collapse-3', class: 'panel-collapse collapse'}
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-msts'}
+		%div{id: 'workshop-msts', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Workshop Chair
 				= render 'chairs', target: :workshop_msts
@@ -71,19 +74,46 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-4'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-mmc'}
 					Mobile Multimedia Computing
-		%div{id: 'collapse-4', class: 'panel-collapse collapse'}
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-mmc'}
+		%div{id: 'workshop-mmc', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Overview
+				%p The intimate presence of mobile devices in our daily life, such as smartphones and various wearable gadgets like smart watches, has dramatically changed the way we connect with the world around us. Nowadays, in the era of the Internet‐of‐Things (IoT), these devices are further extended by smart sensors and actuators and amend multimedia devices with additional data and possibilities. With a growing number of powerful embedded mobile sensors like camera, microphone, GPS, gyroscope, accelerometer, digital compass, and proximity sensor, there is a variety of data available and hence enables new sensing applications across diverse research domains comprising mobile media analysis, mobile information retrieval, mobile computer vision, mobile social networks, mobile human‐computer interaction, mobile entertainment, mobile gaming, mobile healthcare, mobile learning, and mobile advertising. Therefore, the workshop on Mobile Multimedia Computing (MMC 2018) aims to bring together researchers and professionals from worldwide academia and industry for showcasing, discussing, and reviewing the whole spectrum of technological opportunities, challenges, solutions, and emerging applications in mobile multimedia.
+				
+
+				%h4{class: 'specsess-heading'} Topics
+				%p
+					%ul
+						%li Ubiquitous computing on mobile and wearable devices
+						%li Action/gesture/object/speech recognition with mobile sensor 
+						%li Computational photography on mobile devices 
+						%li Human computer interaction with mobile and wearable devices 
+						%li Mobile multimedia content adaptation and adaptive streaming 
+						%li Power saving issues of mobile multimedia computing 
+						%li Personalization, privacy and security in mobile multimedia 
+						%li User behavior analysis of mobile multimedia applications 
+						%li Other topics related to mobile multimedia computing
+						%li Mobile visual search
+						%li Multimedia data in the IoT
+						%li Mobile social signal processing
+						%li Mobile virtual and augmented reality
+						%li Mobile multimedia indexing and retrieval
+						%li Multi‐modal and multi‐user mobile sensing
+						%li 2D/3D computer vision on mobile devices
+						%li Multimedia Cloud Computing
+
 				%h4{class: 'specsess-heading'} Workshop Chair
 				= render 'chairs', target: :workshop_mmc
 
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-5'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-mlaim'}
 					Machine Learning and Artificial Intelligence for Multimedia Creation
-		%div{id: 'collapse-5', class: 'panel-collapse collapse'}
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-mlaim'}
+		%div{id: 'workshop-mlaim', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Overview
 				%p This workshop focuses on the emerging field of multimedia creation using machine learning (ML) and artificial intelligence (AI) approaches. It aims to bring together researchers from ML and AI and practitioners from multimedia industry to foster multimedia creation. Multimedia creation, including style transfer and image synthesis, have been a major focus of machine learning and AI societies, owing to the recent technological breakthroughs such as generative adversarial networks (GANs). This workshop seeks to reinforce the implications to multimedia creation. It publishes papers on all emerging areas of content understanding and multimedia creation, all traditional areas of computer vision and data mining, and selected areas of artificial intelligence, with a particular emphasis on machine learning for pattern recognition. The applied fields such as art content creation, medical image and signal analysis, massive video/image sequence analysis, facial emotion analysis, control system for automation, content-based retrieval of video and image, and object recognition are also covered. The workshop is expected to provide an interactive platform to researchers, scientists, professors, and students to exchange their innovative ideas and experiences in the areas of Multimedia, and to specialize in the field of multimedia from underlying cutting-edge technologies to applications.
@@ -139,9 +169,10 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-6'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-pim'}
 					Privacy Issues in Multimedia
-		%div{id: 'collapse-6', class: 'panel-collapse collapse'}
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-pim'}
+		%div{id: 'workshop-pim', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Overview
 				%p The past decade has seen a tremendous growth in multimedia systems and applications in various areas ranging from surveillance to social media. While these systems and applications have been instrumental in improving the way of life for the end users; in the process the people's privacy might be put at risk. In particular, in most social networking websites, users upload their information without any guarantees on privacy. Although there has been a significant progress in multimedia research, the issues related to privacy related to the use of multimedia systems and applications have only recently begun to attract the attention of researchers.
@@ -163,9 +194,10 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-7'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-emsa'}
 					Emerging Multimedia Systems and Applications
-		%div{id: 'collapse-7', class: 'panel-collapse collapse'}
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-emsa'}
+		%div{id: 'workshop-emsa', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Workshop Chair
 				= render 'chairs', target: :workshop_emsa					
@@ -173,9 +205,10 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-8'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-fim'}
 					Faces in Multimedia
-		%div{id: 'collapse-8', class: 'panel-collapse collapse'}
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-fim'}
+		%div{id: 'workshop-fim', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Overview
 				%p We have witnessed remarkable advances in facial recognition technologies over the past a few years due to the rapid development of deep learning and large-scale, labeled facial image collections. As progress continues to push renown facial recognition databases nearly to saturation. There is a need for evermore challenging image and video collections, to solve emerging problems in the fields of faces and multimedia.
@@ -212,3 +245,7 @@
 
 
 = render 'deadline', target: [:workshop_paper, :camera_workshop]
+
+/= javascript_include_tag 'layout_helper'
+:javascript
+	layout_helper.activate_hotlinked();

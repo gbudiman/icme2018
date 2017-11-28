@@ -202,7 +202,12 @@ module ContactHelper
     },
     workshop_mmc: {
       not_oc: true,
-      members: ['Wen-Huang Cheng', 'Kai-Lung Hua', 'Klaus Schoeffmann', 'Tian Gan', 'Christian von der Weth']
+      members: ['Wen-Huang Cheng, Academia Sinica, Taiwan', 
+                'Kai-Lung Hua, National Taiwan University of Science and Technology, Taiwan', 
+                'Klaus Schoeffmann, Klagenfurt University, Austria', 
+                'Tian Gan, Shandong University, China', 
+                'Christian von der Weth, National University of Singapore, Singapore',
+                'Marta Mrak, BBC R&D, UK']
     },
     workshop_mlaim: {
       not_oc: true,

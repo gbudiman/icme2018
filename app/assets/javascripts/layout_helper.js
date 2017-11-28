@@ -40,7 +40,39 @@ var layout_helper = (function() {
     $('#jumbotron-title').parent().css('min-height', width + 'px');
   }
 
+  var activate_workshop_link = function() {
+    $('.clickable-workshop-link').on('click', function() {
+      var that = $(this);
+
+      if (that.hasClass('expanded')) {
+        that.prev().remove();
+        that.removeClass('expanded');
+      } else {
+        var t = '<span class="pull-right">&nbsp;'
+              +   window.location.origin + window.location.pathname + '#' + $(this).attr('ldata')
+              + '</span>';
+        that.before(t);
+        that.addClass('expanded');
+      }
+    })
+  }
+
+  var activate_hotlinked = function() {
+    var hotlink = window.location.hash;
+
+    if ($(hotlink).length == 0) return;
+    
+    $(hotlink).addClass('in');
+    var ptop = $(hotlink).parent().offset().top;
+    setTimeout(function() {
+      $('html, body').scrollTop(ptop - 56);
+    }, 250);
+    
+  }
+
   return {
+    activate_hotlinked: activate_hotlinked,
+    activate_workshop_link: activate_workshop_link,
     adjust_background: adjust_background,
     adjust_carousels: adjust_carousels,
     adjust_map: adjust_map
@@ -50,6 +82,7 @@ var layout_helper = (function() {
 $(function() {
   layout_helper.adjust_background();
   layout_helper.adjust_carousels();
+  layout_helper.activate_workshop_link();
 
   $(window).resize(function() {
     layout_helper.adjust_background();
