@@ -186,11 +186,16 @@ img.carousel {
 }
 
 /* line 165, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.clickable-workshop-link {
+  cursor: pointer;
+}
+
+/* line 169, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #jumbotron-title {
   text-align: center;
 }
 
-/* line 169, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+/* line 173, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 #main-content {
   margin-top: 5em;
 }
