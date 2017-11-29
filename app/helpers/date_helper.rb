@@ -20,15 +20,16 @@ module DateHelper
                           notification: 'November 15, 2017' },
     grand_challenge_suggested_winner_paper: 
                         { title: 'Grand Challenge Winner Paper',
-                          proposal: 'March 1, 2018',
+                          proposal: 'March 19, 2018',
                           type: :nopropose },
     grand_challenge_suggested_acceptance: 
                         { title: 'Grand Challenge Acceptance',
-                          notification: 'March 31, 2018',
-                          type: :nopropose },
+                          notification: 'April 23, 2018',
+                          type: :nosubmission,
+                          defix: :noacceptance },
     grand_challenge_suggested_camera_ready_paper: 
                         { title: 'Grand Challenge Camera Ready Paper',
-                          proposal: 'April 13, 2018',
+                          proposal: 'May 11, 2018',
                           type: :nopropose },
     regular_abstract:   { title: 'Regular Paper Abstract', 
                           proposal: 'November 24, 2017',

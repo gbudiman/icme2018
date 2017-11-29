@@ -9,22 +9,27 @@
 %ul
   - target.each_with_index do |t, i|
     - data = DateHelper::get spec: t
-    %li 
-      = defined?(override) ? override[i] : data[:title] 
-      - if data[:type] != :nopropose
-        proposal 
-      submission deadline: 
-      - if data[:extended]
-        %span{class: 'extended-date'}= data[:proposal]
-        %span{class: 'extended-new-date'}
-          (Extended
-          =data[:extended]
-          )
-      - else
+
+    - if data[:type] != :nosubmission
+      %li 
+        = defined?(override) ? override[i] : data[:title] 
+        - if data[:type] != :nopropose
+          proposal
+        submission deadline: 
+        - if data[:extended]
+          %span{class: 'extended-date'}= data[:proposal]
+          %span{class: 'extended-new-date'}
+            (Extended
+            =data[:extended]
+            )
+        - else
         #{data[:proposal]}
+
     - if data[:notification]
       %li 
         = data[:title]
-        - if data[:type] != :nopropose
-          proposal 
-        acceptance notification: #{data[:notification]}
+        - if data[:type] != :nopropose and data[:type] != :nosubmission
+          proposal
+        - if data[:defix] != :noacceptance
+          acceptance 
+        notification: #{data[:notification]}
