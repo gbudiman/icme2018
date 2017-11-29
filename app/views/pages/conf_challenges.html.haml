@@ -44,7 +44,7 @@
 				/ 	%li March 31, 2018: Paper acceptance notification
 				/ 	%li April 13, 2018: Camera-ready paper submission
 				%h4{class: 'specsess-heading'} Website
-				TBA
+				%a{href: 'https://sites.google.com/view/hfr-challenge18/home'} https://sites.google.com/view/hfr-challenge18/home
 				%h4{class: 'specsess-heading'} Organizers
 				= render 'chairs', target: :gc_hfr
 
@@ -59,10 +59,13 @@
 				%h4{class: 'specsess-heading'} Description
 				%p 
 					One of the most successful efforts to reduce the latency of HTTP streaming is to utilize the HTTP chunked transfer coding, which enables a video segment to be generated and transmitted concurrently. For more technical details, please read Twitter’s recent technical blog 
-					%a{href: 'https://medium.com/@periscopecode/introducing-lhls-media-streaming- eb6212948bef'} Introducing LHLS Media Streaming
+					%a{href: 'https://medium.com/@periscopecode/introducing-lhls-media-streaming-eb6212948bef', target: '_medium'} 
+						Introducing LHLS Media Streaming
+						%span{class: 'glyphicon glyphicon-new-window'}
+
 
 				%p However, compared with segment-based HTTP download, chunked transfer coding makes the bandwidth estimation a lot harder for any ABR playback algorithm. This Grand Challenge is to call for signal-processing/machine-learning algorithms that can effectively estimate download bandwidth based on the noisy samples of chunked-based download throughput.
-				%h4{class: 'specsess-heading'} Important Dates
+				/%h4{class: 'specsess-heading'} Important Dates
 				/ %ul 
 				/ 	%li February 15, 2018: Results due
 				/ 	%li February 25, 2018: Winner selected
@@ -84,7 +87,7 @@
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Description
 				%p Densely-sampled light field (DSLF) is a discrete representation of the 4D approximation of the plenoptic function, where multi-perspective camera views are arranged in such a way that the disparities between adjacent views are less than one pixel. DSLF is an attractive representation of scene visual content, particularly for applications which require ray interpolation and view synthesis. However, direct DSLF capture of real-world scenes is not practical. In this Grand Challenge, proponents are invited to develop and implement algorithms for DSLF reconstruction from decimated-parallax imagery, i.e. from a given sparse set of camera images.
-				%h4{class: 'specsess-heading'} Important Dates
+				/%h4{class: 'specsess-heading'} Important Dates
 				/ %ul
 				/ 	%li December 15, 2017: Grand Challenge web site operational; release of Development Datasets and scripts for calculating the quality metric
 				/ 	%li March 16, 2018: Submission of binaries to organizers
@@ -126,12 +129,15 @@
 		%div{id: 'gc-salient', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
 				%h4{class: 'specsess-heading'} Description
-				%p Salient360! 2018 is the follow up of ICME 2017 Salient360! Grand challenge. With more than 30 submitted models, the first edition set the baseline for several types of visual attention models for 360 contents (saliency models, importance models, saccadic models) and ad hoc methodologies and ground- truth data to test each type of models.
+				%p Recent VR/AR applications still face important challenges. Particularly, understanding how users watch and explore 360° content and modelling visual attention is a key tech to develop appropriate rendering, coding and streaming techniques to create a good experience for consumers.
 
-				%p With this second edition, it is expected 1) to consolidate and improve the modeling of the first edition, 2) to extend the type of models (introducing head scan path model), and 3) to extend the type of input contents (introducing video).
-
-				%p 2018 edition will also consider video content: Proponent/participants may propose models for either images and/or video. LF reconstruction from decimated-parallax imagery, i.e. from a given sparse set of camera images.
-				%h4{class: 'specsess-heading'} Important Dates
+				%p 
+					Salient360! 2018 is the follow-up of ICME’17 Salient360! Grand challenge. The first edition set the baseline for several types of visual attention models for 360° images, and ad-hoc methodologies and ground-truth data to test each type of model. With this second edition, it is expected to:
+					%ol
+						%li consolidate and improve the existing modeling.
+						%li extend the type of models.
+						%li extend the type of input contents.
+				/%h4{class: 'specsess-heading'} Important Dates
 				/ %ul
 				/ 	%li March 1, 2018: Grand Challenge Winner Paper submission
 				/ 	%li March 31, 2018: Grand Challenge Acceptance notification
@@ -142,6 +148,8 @@
 				= render 'chairs', target: :gc_salient
 
 = render 'deadline', target: [:grand_challenge_suggested_winner_paper, :grand_challenge_suggested_acceptance, :grand_challenge_suggested_camera_ready_paper]
+= render 'chairs', target: :grand_challenge
+
 
 :javascript
 	layout_helper.activate_hotlinked();

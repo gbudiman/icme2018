@@ -255,21 +255,23 @@ module ContactHelper
       members: ['Touradj Ebrahimi, EPFL',
                 'Antonio Pinheiro, Instituto de Telecomunicacoes and UBI',
                 'Anthony Vetro, Mistubishi Electric Research Labs'],
-      photos: ['Touradj Ebrahimi']
+      photos: ['Touradj Ebrahimi', 'Antonio Pinheiro', 'Anthony Vetro']
     },
     gc_hfr: {
       not_oc: true,
       members: ['Shuowen (Sean) Hu, US Army Research Laboratory',
                 'Nathan Short, Booz Allen Hamilton',
                 'Benjamin Riggan, US Army Research Laboratory',
-                'M. Saquib Sarfraz, Karlsruhe Institute of Technology']
+                'M. Saquib Sarfraz, Karlsruhe Institute of Technology'],
+      photos: ['Shuowen Hu', 'Nathan Short', 'Ben Riggan', 'Saquib Sarfraz']
     },
     gc_abr: {
       not_oc: true,
       members: ['Yueshi Shen, Twitch.tv',
                 'Yuechuan Li, Twitch.tv',
                 'Mark Kalman, Twitter Inc.',
-                'Sebastiaan Van Leuven, Twitter Inc.']
+                'Sebastiaan Van Leuven, Twitter Inc.'],
+      photos: ['Yueshi Shen', 'Yuechuan Li', 'Mark Kalman', 'Sebastiaan Leuven']
     },
     gc_dlfr: {
       not_oc: true,
