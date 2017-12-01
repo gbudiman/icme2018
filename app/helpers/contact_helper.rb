@@ -278,7 +278,8 @@ module ContactHelper
       members: ['Suren Vagharshakyan, Tampere University of Technology, Tampere, Finland',
                 'Olli Suominen, Tampere University of Technology, Tampere, Finland',
                 'Robert Bregovic, Tampere University of Technology, Tampere, Finland',
-                'Atanas Gotchev, Tampere University of Technology, Tampere, Finland']
+                'Atanas Gotchev, Tampere University of Technology, Tampere, Finland'],
+      photos: ['Suren Vagharshakyan', 'Olli Suominen', 'Robert Bregovic', 'Atanas Gotchev']
     },
     gc_dash: {
       not_oc: true,
