@@ -285,12 +285,13 @@ module ContactHelper
       not_oc: true,
       members: ['Ali C. Begen (on behalf of DASH-IF), Ozyegin University and Networked Media',
                 'Christian Timmerer (on behalf of DASH-IF), Alpen-Adria-Universität Klagenfurt and Bitmovin'],
-      photos: ['Ali Begen']
+      photos: ['Ali Begen', 'Christian Timmerer']
     },
     gc_salient: {
       not_oc: true,
       members: ['Jesus Gutierrez, University Of Nantes, Nantes, France',
-                'Patrick Le Callet, University Of Nantes, Nantes, France']
+                'Patrick Le Callet, University Of Nantes, Nantes, France'],
+      photos: ['Jesus Gutierrez', 'Patrick Le Callet']
     },
     panel_a_moderator: {
       not_oc: true,
