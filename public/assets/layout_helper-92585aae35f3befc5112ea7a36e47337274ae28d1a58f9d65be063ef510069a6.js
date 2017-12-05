@@ -94,3 +94,4 @@ $(function() {
     layout_helper.adjust_carousels();
   })
 })
+;
