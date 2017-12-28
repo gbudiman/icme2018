@@ -198,7 +198,8 @@ module ContactHelper
     },
     workshop_msts: {
       not_oc: true,
-      members: ['M. Shamim Hossain', 'Stefan Goebel', 'Majdi Rawasdeh']
+      members: ['M. Shamim Hossain', 'Stefan Goebel', 'Abdur Rahman Goebel'],
+      photos: [nil, 'Stefan Gobel', 'Abdurrahman Gobel']
     },
     workshop_mmc: {
       not_oc: true,
