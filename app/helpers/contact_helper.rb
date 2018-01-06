@@ -251,6 +251,14 @@ module ContactHelper
       not_oc: true,
       members: ['Philip Chen', 'Zhenzhong Chen', 'Chenwei Deng']
     },
+    workshop_mbl: {
+      not_oc: true,
+      members: ['Wei-Shi Zheng, Sun Yat-sen University, China',
+                'Cairong Zhao, Tongji University, China',
+                'Zhihui Lai, Shen Zhen University, China',
+                'Yang Yang, UESTC, China',
+                'Zhihua Wei, Tongji University, China']
+    },
     gc_pcc: {
       not_oc: true,
       members: ['Touradj Ebrahimi, EPFL',

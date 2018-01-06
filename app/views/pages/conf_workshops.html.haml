@@ -57,6 +57,9 @@
 				%h4{class: 'specsess-heading'} Submission Instructions
 				%p Papers will be evaluated based on their novelty, presentation, contributions and relevance to the workshop topic. The papers must be written in English and describe original unpublished work. Extensions on previously published work must show significant additional work in order to be considered for publication. Reviewers will make an initial determination on the suitability and scope of all submissions.
 
+				%h4{class: 'specsess-heading'} Website
+				%a{href: 'http://sail.usc.edu/mica/mast.html'} http://sail.usc.edu/mica/mast.html
+
 				%h4{class: 'specsess-heading'} Workshop Chair
 				= render 'chairs', target: :workshop_mast
 
@@ -250,7 +253,7 @@
 
 				%p This workshop serves a forum for researchers to review the recent progress of recognition, analysis and modeling of faces in multimedia. Special interests will be given to visual kin and non-kin social relations. The workshop will include up to two keynotes, along with peer-reviewed papers (oral and poster). Original high-quality contributions are solicited on the topics listed in the section below.
 
-				%h4 Topics
+				%h4{class: 'specsess-heading'} Topics
 				%ul
 					%li Soft biometrics and profiling of faces: age, gender, ethnicity, personality, kinship, occupation, and beauty ranking;
 					%li Deep learning practice for social face problems with ambiguity including kinship
@@ -276,10 +279,50 @@
 				%h4{class: 'specsess-heading'} Program Chairs
 				= render 'chairs', target: :workshop_fim_pc
 
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#workshop-mbl'}
+					Multimodal Biometrics Learning
+				%span{class: 'glyphicon glyphicon-link pull-right clickable-workshop-link', ldata: 'workshop-mbl'}
+		%div{id: 'workshop-mbl', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Overview
+				%p Biometrics based recognition, identification and retrieval techniques become more and more important in our society. Great progress has been made in this area, focusing on heterogeneous cues (face, body (2D appearance and 3D volume), other unimodal biometrics such as finger and palm, gait, behavioral cues in general) which do not require user’s collaboration. However, this problem is far from being completely solved, particularly in real-world applications under uncontrolled environments, where a large number of factors hinder the identification/recognition/retrieval performance, including lighting variations, different types of occlusion, large pose evaluation and view change etc.
+
+				%p The mission of the workshop is to explore the cutting-edge research in non-collaborative (re)identification/recognition/retrieval, with a particular emphasis on the fusion of different modalities under cross-view setting. For example, the face recognition and the re-identification communities, even though they share many objectives, they rarely have interacted to hybridize novel recognition applications, where both the biometric patterns face and body can be jointly exploited. This holds true also for the communities of gait recognition and body re-identification, thermal body recognition, visual body recognition and other biometrics cues such as Iris Recognition at a distance. The workshop, in this sense, will be highly interdisciplinary, encouraging papers (even preliminary), where the modality fusion plays a primary role.
+
+				%p In addition, human-related identification/recognition/retrieval techniques greatly rely on the development of feature and similarity learning strategy. Therefore, this workshop also aims to explore recent progress in feature and similarity learning (distance metric learning) for biometric based identification/recognition/retrieval. It has been observed in recent years that the (re-)identification identification/recognition/retrieval performance can be largely improved when a robust feature representation or an appropriate distance/similarity function have been learned. In this aspect, this workshop will help the community to better understand the challenges and opportunities of feature and similarity learning techniques and their applications to (re-)identification for the next few years. In addition, with the great increasing number of data, the techniques addressing the large- scale biometrics are also extremely required.
+
+				%h4{class: 'specsess-heading'} Topics & Format
+				Topics of interest include, but are not limited to: 
+				%ul
+					%li Face, Finger, Iris, Palm Recognition.
+					%li Person Re-identification.
+					%li People Detection, Tracking, and Gait analysis. 
+					%li Novel biometrics sensing methods and Soft Biometrics. 
+					%li Feature Learning for Biometrics Recognition. 
+					%li Similarity Learning (Distance Metric Learning) for Biometrics Recognition. 
+					%li Human identification with multiple cues and multi-modality fusion. 
+					%li Large scale search and matching for identification. 
+					%li Transfer Learning for visual surveillance. 
+					%li Performance modeling, prediction and evaluation of identification/biometrics systems. 
+					%li Security improvement assessment for multi-identification/biometrics systems.
+					%li Large scale multi-biometrics feature learning for fast retrieval.
+					%li Hash learning for biometrics.
+
+				%p We propose to host a half day workshop consisting of oral presentations, an invited speech and a panel.
+
+				%h4{class: 'specsess-heading'} Workshop Chairs
+				= render 'chairs', target: :workshop_mbl
+
 
 = render 'deadline', target: [:workshop_paper, :camera_workshop]
 = render 'chairs', target: :workshop
 
 /= javascript_include_tag 'layout_helper'
 :javascript
-	layout_helper.activate_hotlinked();
+	$(document).ready(function() {
+		layout_helper.activate_hotlinked();
+	})
+	
