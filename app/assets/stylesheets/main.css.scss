@@ -119,7 +119,7 @@ body {
 }
 
 .jumbotron-wrapper {
-  display: flex;
+  //display: flex;
   align-items: center;
 }
 
@@ -153,6 +153,7 @@ img.carousel {
 
 .splash-bright {
   color: #f00;
+
 }
 
 .date-extended {
@@ -181,4 +182,13 @@ img.carousel {
 
 #main-content {
   margin-top: 5em;
+}
+
+.hilinks {
+  font-size: 150%;
+  margin-top: 16px
+}
+
+.hilinks.title {
+  text-align: center
 }

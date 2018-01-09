@@ -257,7 +257,8 @@ module ContactHelper
                 'Cairong Zhao, Tongji University, China',
                 'Zhihui Lai, Shen Zhen University, China',
                 'Yang Yang, UESTC, China',
-                'Zhihua Wei, Tongji University, China']
+                'Zhihua Wei, Tongji University, China'],
+      photos: ['Weishi Zheng', 'Cairong Zhao', 'Zhihui Lai', nil, 'Zhihua Wei']
     },
     gc_pcc: {
       not_oc: true,

@@ -1,55 +1,64 @@
 %div{class: 'parallax'}
 %div{class: 'col-xs-12'}
-  %div{class: 'row'}
-    %div{class: 'col-xs-12 col-sm-6 jumbotron-wrapper'}
-      %div{id: 'jumbotron-title'}
-        %div{class: 'h1'} IEEE International Conference on Multimedia and Expo (ICME) 2018
-        %div{class: 'h3'} July 23-27, 2018
-        %div{class: 'h3'} San Diego, USA
+  %div{class: 'col-xs-12 col-sm-6 jumbotron-wrapper'}
+    %div{id: 'jumbotron-title'}
+      %div{class: 'h1'} IEEE International Conference on Multimedia and Expo (ICME) 2018
+      %div{class: 'h3'} July 23-27, 2018
+      %div{class: 'h3'} San Diego, USA
 
-        %hr
-        %div{class: 'splash-bright'}
-          %div{class: 'h3'} 
-            Upcoming Deadlines
-            %a{href: '/important_dates', target: '_schedule'}
-              %span{class: 'glyphicon glyphicon-new-window'}
-          %table{class: 'table table-condensed'}
-            - DateHelper.get_upcoming_deadline.each do |d|
-              %tr
-                %td= d[:splash_title]
-                %td= d[:splash_date]
-          
+  %div{class: 'col-xs-12 col-sm-6'}
+    %div{class: 'list-group hilinks'}
+      %a{href: '#', class: 'list-group-item active hilinks title'} Highlights
+      %a{href: '/conf_challenges', class: 'list-group-item'} 
+        %span{class: 'glyphicon glyphicon-star'}
+        Grand Challenge
 
-    %div{class: 'col-xs-12 col-sm-6'}
-      %div{id: 'landing-carousel', class: 'carousel slide', 'data-ride' => 'carousel'}
-        %ol{class: 'carousel-indicators carousel-landing'}
-          %li{'data-target' => '#landing-carousel', 'data-slide-to' => 0, class: 'active'}
-          - (@carousels.count - 1).times do |i|
-            %li{'data-target' => '#landing-carousel', 'data-slide-to' => i + 1}
 
-        %div{class: 'carousel-inner'}
-          %div{class: 'item active'}
-            - filepath = "photos/#{@carousels.keys[0]}.jpg"
-            - relpath = asset_path(filepath)
-            %img{src: "#{relpath}", alt: "#{@carousels.keys[0]}", class: 'carousel' }
+  %div{class: 'col-xs-12'}
+
+  %div{class: 'col-xs-12 col-sm-6'}
+    %div{class: 'splash-bright'}
+      %div{class: 'h3 text-center'} 
+        Upcoming Deadlines
+        %a{href: '/important_dates', target: '_schedule'}
+          %span{class: 'glyphicon glyphicon-new-window'}
+      %table{class: 'table table-condensed'}
+        - DateHelper.get_upcoming_deadline.each do |d|
+          %tr
+            %td{class: 'col-xs-8'}= d[:splash_title]
+            %td{class: 'col-xs-4'}= d[:splash_date]
+
+  %div{class: 'col-xs-12 col-sm-6'}
+    %div{id: 'landing-carousel', class: 'carousel slide', 'data-ride' => 'carousel'}
+      %ol{class: 'carousel-indicators carousel-landing'}
+        %li{'data-target' => '#landing-carousel', 'data-slide-to' => 0, class: 'active'}
+        - (@carousels.count - 1).times do |i|
+          %li{'data-target' => '#landing-carousel', 'data-slide-to' => i + 1}
+
+      %div{class: 'carousel-inner'}
+        %div{class: 'item active'}
+          - filepath = "photos/#{@carousels.keys[0]}.jpg"
+          - relpath = asset_path(filepath)
+          %img{src: "#{relpath}", alt: "#{@carousels.keys[0]}", class: 'carousel' }
+          %div{class: 'carousel-landing-caption'}
+            %h3{class: 'carousel-name'}= @carousels.keys[0]
+            %p{class: 'carousel-entry'}= raw @carousels[@carousels.keys[0]].join('<br />')
+        - @carousels.keys[1..-1].each do |key|
+          - item = @carousels[key]
+          - filepath = "photos/#{key}.jpg"
+          - relpath = asset_path(filepath)
+          %div{class: 'item'}
+            %img{src: "#{relpath}", alt: key, class: 'carousel'}
             %div{class: 'carousel-landing-caption'}
-              %h3{class: 'carousel-name'}= @carousels.keys[0]
-              %p{class: 'carousel-entry'}= raw @carousels[@carousels.keys[0]].join('<br />')
-          - @carousels.keys[1..-1].each do |key|
-            - item = @carousels[key]
-            - filepath = "photos/#{key}.jpg"
-            - relpath = asset_path(filepath)
-            %div{class: 'item'}
-              %img{src: "#{relpath}", alt: key, class: 'carousel'}
-              %div{class: 'carousel-landing-caption'}
-                %h3{class: 'carousel-name'}= key
-                %p{class: 'carousel-entry'}= raw item.join('<br />')
+              %h3{class: 'carousel-name'}= key
+              %p{class: 'carousel-entry'}= raw item.join('<br />')
 
-        %a{class: 'left carousel-control carousel-landing', href: '#landing-carousel', 'data-slide' => 'prev'}
-          %span{class: 'glyphicon glyphicon-chevron-left'}
-        %a{class: 'right carousel-control carousel-landing', href: '#landing-carousel', 'data-slide' => 'next'}
-          %span{class: 'glyphicon glyphicon-chevron-right'}
+      %a{class: 'left carousel-control carousel-landing', href: '#landing-carousel', 'data-slide' => 'prev'}
+        %span{class: 'glyphicon glyphicon-chevron-left'}
+      %a{class: 'right carousel-control carousel-landing', href: '#landing-carousel', 'data-slide' => 'next'}
+        %span{class: 'glyphicon glyphicon-chevron-right'}
 
+%div{class: 'col-xs-12'}
   %hr 
   %p The IEEE International Conference on Multimedia & Expo (ICME) has been the multimedia conference sponsored by four IEEE societies since 2000. It serves as a forum to promote the exchange of the latest advances in multimedia technologies, systems, and applications from both the research and development perspectives of the circuits and systems, communications, computer, and signal processing communities. An exposition of multimedia products, animations and industries will be held in conjunction with the conference. The theme of the 2018 conference will be “Data-driven Media Computing”, which plays a key role in modern multimedia technologies.
 
