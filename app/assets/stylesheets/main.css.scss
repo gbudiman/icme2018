@@ -190,5 +190,12 @@ img.carousel {
 }
 
 .hilinks.title {
-  text-align: center
+  text-align: center;
+  background-color: #FD8000;
+  border-color: #FD8000
+}
+
+.hilinks.title:hover, .hlinks.title:focus {
+  background-color: #FD8000;
+  border-color: #FD8000
 }

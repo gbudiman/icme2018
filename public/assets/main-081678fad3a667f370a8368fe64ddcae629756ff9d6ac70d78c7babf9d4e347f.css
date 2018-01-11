@@ -219,4 +219,12 @@ img.carousel {
 /* line 192, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
 .hilinks.title {
   text-align: center;
+  background-color: #FD8000;
+  border-color: #FD8000;
+}
+
+/* line 198, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.hilinks.title:hover, .hlinks.title:focus {
+  background-color: #FD8000;
+  border-color: #FD8000;
 }
