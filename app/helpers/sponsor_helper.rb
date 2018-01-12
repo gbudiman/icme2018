@@ -10,7 +10,7 @@ module SponsorHelper
     },
     silver: {
       title: 'Silver Sponsors',
-      logos: ['logos/mediatek', 'logos/mitsubishi'],
+      logos: ['logos/mediatek','logos/microsoft', 'logos/mitsubishi'],
     },
     bronze: {
       title: 'Bronze Sponsors',
@@ -20,10 +20,10 @@ module SponsorHelper
       title: 'Organizational Sponsors',
       logos: ['IEEE', 'IEEE_CS', 'CAS', 'ComSoc', 'IEEE_SPS', 'logos/apsipa']
     },
-    pot: {
-      title: 'Other Potential Sponsors',
-      logos: ['logos/microsoft']
-    }
+    # pot: {
+    #   title: 'Other Potential Sponsors',
+    #   logos: []
+    # }
   }
 
   def self.get_sponsors
