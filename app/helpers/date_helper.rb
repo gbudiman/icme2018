@@ -70,7 +70,15 @@ module DateHelper
                           type: :nopropose},
     industry_track_cr:  { title: 'Camera-Ready Industry Track Paper',
                           proposal: 'May 11, 2018',
-                          type: :nopropose}
+                          type: :nopropose},
+    author_rebuttal_start:{ title: 'Author Rebuttal Begins',
+                          proposal: 'Feb 12, 2018',
+                          type: :nopropose,
+                          is_rebuttal: true},
+    author_rebuttal_end: {title: 'Author Rebuttal Ends',
+                          proposal: 'Feb 19, 2018',
+                          type: :nopropose,
+                          is_rebuttal: true}
   }
 
   def self.get_sorted()
@@ -93,7 +101,7 @@ module DateHelper
         s.push({
           date: Date.parse(v[:proposal]),
           title: v[:title] + ((v[:type] || :nil) == :nopropose ? '' : ' Proposal'),
-          affix: :due,
+          affix: v[:is_rebuttal] ? nil : :due,
           extended: v[:extended] ? Date.parse(v[:extended]) : nil
         })
       end
