@@ -174,22 +174,6 @@
 						%li Signal processing including audio, video, image processing, and coding
 						%li Smart multimedia surveillance
 
-				%h4{class: 'specsess-heading'} Paper Submission Instructions
-				%p 
-					Please submit a full-length paper (up to 6 pages IEEE 2-column format) through the online submission system 
-					%a{href: 'https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICME2018'} here
-
-				%p
-					The templates for Microsoft Word and LaTeX submissions are available as below.
-					%ul
-						%li 
-							8.5" x 11" Word template downloadable from 
-							%a{href: "#{asset_path('icme2018template.docx')}"} here
-						%li 
-							LaTeX formatting macros downloadable from 
-							%a{href: "#{asset_path('icme2018template.zip')}"} here
-
-
 				%p 
 					For more details, please refer to the submission instruction of ICME 2018 
 					%a{href: "/author_info"} here.
@@ -317,6 +301,20 @@
 				= render 'chairs', target: :workshop_mbl
 
 
+%h4{class: 'specsess-heading'} Paper Submission Instructions
+%p 
+	Please submit a full-length paper (up to 6 pages IEEE 2-column format) through the online submission system 
+	%a{href: 'https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICME2018W'} here
+
+%p
+	The templates for Microsoft Word and LaTeX submissions are available as below.
+	%ul
+		%li 
+			8.5" x 11" Word template downloadable from 
+			%a{href: "#{asset_path('icme2018template.docx')}"} here
+		%li 
+			LaTeX formatting macros downloadable from 
+			%a{href: "#{asset_path('icme2018template.zip')}"} here
 = render 'deadline', target: [:workshop_paper, :camera_workshop]
 = render 'chairs', target: :workshop
 

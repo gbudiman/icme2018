@@ -143,9 +143,14 @@
 				/ 	%li March 31, 2018: Grand Challenge Acceptance notification
 				/ 	%li April 13, 2018: Grand Challenge Camera Ready Paper submission
 				%h4{class: 'specsess-heading'} Website
-				TBA
+				%a{href: 'https://salient360.ls2n.fr'} https://salient360.ls2n.fr
 				%h4{class: 'specsess-heading'} Organizers
 				= render 'chairs', target: :gc_salient
+
+%h4{class: 'specsess-heading'} Submission Instructions
+%p 
+	Please use the online submission system 
+	%a{href: 'https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICME2018W'} here				
 
 = render 'deadline', target: [:grand_challenge_suggested_winner_paper, :grand_challenge_suggested_acceptance, :grand_challenge_suggested_camera_ready_paper]
 = render 'chairs', target: :grand_challenge
