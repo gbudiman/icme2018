@@ -249,7 +249,10 @@ module ContactHelper
     },
     workshop_emsa: {
       not_oc: true,
-      members: ['Philip Chen', 'Zhenzhong Chen', 'Chenwei Deng']
+      members: ['Philip Chen, University of Macau, Macau', 
+                'Zhenzhong Chen, Wuhan University, China', 
+                'Chenwei Deng, Beijing Institute of Technology, China'],
+      photos: ['Philip Chen', 'Zhenzhong Chen', 'Chenwei Deng']
     },
     workshop_mbl: {
       not_oc: true,
