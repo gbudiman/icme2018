@@ -71,9 +71,9 @@ module ContactHelper
       photos: ['Liangping Ma',
                'Michel Sarkis',
                'Heather Yu'],
-      emails: [nil,
+      emails: ['liangping.ma@interdigital.com',
                'msarkis@qti.qualcomm.com',
-               nil]
+               'heatheryu@huawei.com']
     },
     grand_challenge: {
       title: 'Grand Challenges Chair',
