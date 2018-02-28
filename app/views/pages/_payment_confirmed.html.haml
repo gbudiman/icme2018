@@ -1,0 +1,34 @@
+= stylesheet_link_tag    'main', media: 'all', 'data-turbolinks-track': 'reload'
+= stylesheet_link_tag    "https://fonts.googleapis.com/css?family=Lato"
+%div{class: 'invitation-header'}
+	=image_tag 'visa_template_header.png'
+	International Conference on Multimedia and Expo (ICME2018)
+
+%div{class: 'invitation-content'}
+	%p Re: Confirmation of payment and invitation to attend and present ICME 2018
+
+	%p Dear #{@first_name},
+
+	%p 
+		According to our records you have registered with full payment, ("Registration Confirmation #
+		%span{class: 'confirmation-number'}= @confirmation_number
+		\"), for the IEEE ICME 2018 conference. The conference will be held July 23-27 at the July 23-27, 2018 at the Hyatt Regency La Jolla, 3777 La Jolla Village Drive , San Diego, California, USA, 92122. The IEEE International Conference on Multimedia and Expo (ICME) has been the flagship multimedia conference sponsored by four IEEE societies since 2000. It serves as a forum to promote the exchange of the latest advances in multimedia technologies, systems, and applications from both the research and development perspectives of the circuits and systems, communications, computer, and signal processing communities. ICME also features an Exposition of multimedia products and prototypes.
+
+	%p 
+		You may obtain more information about the conference at: 
+		%a{href: 'http://icme2018.org'} http://icme2018.org
+
+	%p To further assist you in obtaining a visa, below is a description of the IEEE. The IEEE is the world's largest technical professional society association dedicated to advancing technological innovation and excellence for the benefit of humanity. Founded in 1884 by a handful of practitioners of the new electrical engineering discipline, today&#39;s Institute is comprised of more than 400,000 members who conduct and participate in its activities in 160 countries. The men and women of the IEEE are the technical and scientific professionals making the revolutionary engineering advances, which are reshaping our world today.
+
+	%p Best Regards,
+
+	%p 
+		Dr. C.-C. Jay Kuo,
+		%br
+		General Chair, ICME 2018
+		%br
+		University of Southern California
+		%br
+		Media Communications Lab.
+%div{class: 'invitation-footer'}
+	=image_tag 'visa_template_footer.png'

@@ -6,6 +6,41 @@
 %p To apply for a visa to participate ICME 2018, the information listed in the following file is required for us to send you an invitation letter. Once we get the following requested information, the application will be processed as soon as possible. You are suggested to start your visa application as early as possible to avoid unexpected delays. 
 
 %p
-  %a{href: '/visa2018.doc'} Visa Application Information Form
+	%a{href: '/visa2018.doc'} Visa Application Information Form
 
 %p Please send the completed form to [ADDRESS TBD] together with a scanned copy of your passport (and the scanned copy of the accompanying person, if any) as early as possible to avoid unexpected delays.
+
+%h3 Visa Invitation Letters
+%p To obtain your Visa Invitation Letters, please fill your name below:
+
+%input{type: 'text', class: 'form-control', placeholder: 'FirstName LastName', style: 'width: 300px; margin-bottom: 1em', id: 'visa-name' }
+
+%button{class: 'btn btn-primary', type: 'button', style: 'margin-bottom: .5em', id: 'btn-invitation-letter', disabled: true} Get Invitation Letter
+%br
+%button{class: 'btn btn-primary', type: 'button', id: 'btn-confirmation-letter', disabled: true} Get Payment Confirmation Letter
+
+:javascript
+	var get_name = function() {
+		return $('#visa-name').val().trim()
+	}
+
+	$('#visa-name').on('keyup', function() {
+		evaluate_form($(this))
+	})
+
+	var evaluate_form = function($this) {
+		$('#btn-invitation-letter').prop('disabled', $this.val().trim().length == 0)
+		$('#btn-confirmation-letter').prop('disabled', $this.val().trim().length == 0)
+	}
+
+	$('#btn-invitation-letter').on('click', function() {
+		window.open('/visa_invitation?q=' + get_name())
+	})
+
+	$('#btn-confirmation-letter').on('click', function() {
+		window.open('/visa_payment?q=' + get_name())
+	})
+
+	$(document).ready(function() {
+		evaluate_form($('#visa-name'))
+	})

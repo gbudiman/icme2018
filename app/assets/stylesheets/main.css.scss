@@ -199,3 +199,29 @@ img.carousel {
   background-color: #FD8000;
   border-color: #FD8000
 }
+
+.invitation-header {
+  font-size: 115%;
+}
+
+.invitation-content {
+  margin-top: 4em;
+  width: 42em;
+}
+
+@media print {
+  .invitation-header {
+    position: fixed;
+    top: 0;
+  }
+
+  .invitation-footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .invitation-content {
+    margin-top: 10em;
+  }
+}
+

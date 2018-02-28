@@ -1,0 +1,48 @@
+= stylesheet_link_tag    'main', media: 'all', 'data-turbolinks-track': 'reload'
+= stylesheet_link_tag    "https://fonts.googleapis.com/css?family=Lato"
+%div{class: 'invitation-header'}
+	=image_tag 'visa_template_header.png'
+	International Conference on Multimedia and Expo (ICME2018)
+
+%div{class: 'invitation-content'}
+	%p Re: Confirmation of payment and invitation to attend and present ICME 2018
+
+	%p Dear #{@first_name},
+
+	%p 
+		On behalf of the International Conference on Multimedia and Expo (ICME) 2018, I am pleased to inform you that the technical paper titled 
+		%span{class: 'paper-title'}= @paper_title 
+		authored by 
+		%span{class: 'paper-authors'}= @authors.join(', ') 
+		has been accepted by the ICME 2018 Technical Committee after review for technical merits. As part of the publication requirements, it is a 
+		%strong
+			%u
+				mandatory requirement 
+		that you attend the Conference to present the paper and discuss your work. Please make the necessary travel arrangements and visa applications as early as possible to be able to present your paper and lead the subsequent technical discussions.
+
+	%p 
+		The Conference will be held July 23-27, 2018 at the Hyatt Regency La Jolla, 3777 La Jolla Village Drive , San Diego, California, USA, 92122. Your presentation is now scheduled for 
+		%span{class: 'paper-date'}= @paper_date 
+		at 
+		%span{class: 'paper-time'}= @paper_time
+		\. 
+		Thank you for submitting a high-quality paper to this prestigious conference, and we look forward to hearing your presentation.
+
+	%p 
+		The goal of the ICME 2018 is to have good technical work written and presented for discussion. Scientists attend the Conference and purchase the Conference proceedings to learn about recent advances in Multimedia Technologies.
+
+	%p 
+		The IEEE is the world's largest technical professional society association dedicated to advancing technological innovation and excellence for the benefit of humanity. Founded in 1884 by a handful of practitioners of the new electrical engineering discipline, today&#39;s Institute is comprised of more than 400,000 members who conduct and participate in its activities in 160 countries. The men and women of the IEEE are the technical and scientific professionals making the revolutionary engineering advances, which are reshaping our world today.
+
+	%p Best Regards,
+
+	%p 
+		Dr. C.-C. Jay Kuo,
+		%br
+		General Chair, ICME 2018
+		%br
+		University of Southern California
+		%br
+		Media Communications Lab.
+%div{class: 'invitation-footer'}
+	=image_tag 'visa_template_footer.png'

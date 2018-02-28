@@ -43,6 +43,8 @@ Rails.application.routes.draw do
   get      '/accommodations', to: 'pages#accommodations'
   get      '/attractions', to: 'pages#attractions'
   get      '/social', to: 'pages#social'
+  get      '/visa_invitation', to: 'pages#visa_invitation'
+  get      '/visa_payment', to: 'pages#visa_payment'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

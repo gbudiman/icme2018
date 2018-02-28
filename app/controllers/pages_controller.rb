@@ -17,4 +17,31 @@ class PagesController < ApplicationController
   	}
     render 'index'
   end
+
+  def visa_invitation
+    key = request['q']
+    val = Visa.get(key)
+    if val
+      @first_name = val[:name]
+      @paper_title = val[:paper_title]
+      @paper_date = val[:paper_date]
+      @paper_time = val[:paper_time]
+      @authors = val[:authors]
+      render partial: 'invitation'
+    else
+      render partial: 'invitation_not'
+    end
+  end
+
+  def visa_payment
+    key = request['q']
+    val = Visa.get(key)
+    if val and val[:confirmation]
+      @first_name = val[:name]
+      @confirmation_number = val[:confirmation]
+      render partial: 'payment_confirmed'
+    else
+      render partial: 'payment_not'
+    end
+  end
 end
