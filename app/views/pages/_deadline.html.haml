@@ -4,7 +4,10 @@
   end
 
 - if not defined?(override)
-  %h3= "#{alt_title || 'Important Dates'}"
+  - if defined?(alt_title)
+    %h3= alt_title
+  - else
+    %h3 Important Dates
 
   
 %ul
