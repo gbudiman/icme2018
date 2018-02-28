@@ -4,7 +4,8 @@
   end
 
 - if not defined?(override)
-  %h3 Important Dates
+  %h3= "#{alt_title || 'Important Dates'}"
+
   
 %ul
   - target.each_with_index do |t, i|

@@ -333,6 +333,12 @@ module ContactHelper
                 'Cees Snoek, Director of QUVA Lab (joint research lab of Qualcomm and University of Amsterdam',
                 'Xian-sheng Hua, Deputy Managing Director at iDST, Alibaba Group',
                 'Tao Mei, Lead Researcher, Microsoft Research Asia']
+    },
+    student_career_dinner: {
+      not_oc: true,
+      members: ['Heather Yu', 'Michel Sarkis', 'Liangping Ma'],
+      email: ['heatheryu@huawei.com', 'msarkis@qti.qualcomm.com', 'liangping.ma@interdigital.com'],
+      photos: ['Heather Yu', 'Michel Sarkis', 'Liangping Ma']
     }
     # industrial_advisory: {
     #   title: 'Industrial Advisory Board',

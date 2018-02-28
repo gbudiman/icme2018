@@ -85,7 +85,10 @@ module DateHelper
     author_rebuttal_end: {title: 'Author Rebuttal Ends',
                           proposal: 'Feb 19, 2018',
                           type: :nopropose,
-                          is_rebuttal: true}
+                          is_rebuttal: true},
+    student_career_dinner: {title: 'Student Career Dinner Registration',
+                            proposal: 'July 20, 2018',
+                            type: :nopropose}
   }
 
   def self.get_sorted()

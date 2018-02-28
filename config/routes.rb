@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   get      '/conf_industry', to: 'pages#conf_industry'
   get      '/conf_expo', to: 'pages#conf_expo'
   get      '/conf_awards', to: 'pages#conf_awards'
+  get      '/student_career_dinner', to: 'pages#student_career_dinner'
   get      '/sponsors', to: 'pages#sponsors'
   get      '/author_info', to: 'pages#author_info'
   get      '/author_camera_ready', to: 'pages#author_camera_ready'
