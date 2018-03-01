@@ -4,14 +4,7 @@ class Visa < ApplicationRecord
 			               paper_title: 'Test Paper 2018', 
 			               paper_date: 'Jun 1, 2018', 
 			               paper_time: '1:30PM', 
-			               authors: ['Friend 1', 'Friend 2'],
-			               confirmation: nil },
-		'test paid' => { name: 'Test Test', 
-			               paper_title: 'Test Paper 2018', 
-			               paper_date: 'Jun 1, 2018', 
-			               paper_time: '1:30PM', 
-			               authors: ['Friend 1', 'Friend 2'],
-			               confirmation: 3510 }
+			               authors: ['Friend 1', 'Friend 2']},
 	}
 
 	def self.get key

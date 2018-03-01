@@ -33,15 +33,15 @@ class PagesController < ApplicationController
     end
   end
 
-  def visa_payment
-    key = request['q']
-    val = Visa.get(key)
-    if val and val[:confirmation]
-      @first_name = val[:name]
-      @confirmation_number = val[:confirmation]
-      render partial: 'payment_confirmed'
-    else
-      render partial: 'payment_not'
-    end
-  end
+  # def visa_payment
+  #   key = request['q']
+  #   val = Visa.get(key)
+  #   if val and val[:confirmation]
+  #     @first_name = val[:name]
+  #     @confirmation_number = val[:confirmation]
+  #     render partial: 'payment_confirmed'
+  #   else
+  #     render partial: 'payment_not'
+  #   end
+  # end
 end
