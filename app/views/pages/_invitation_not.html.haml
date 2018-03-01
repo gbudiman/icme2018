@@ -1,11 +1,12 @@
 = stylesheet_link_tag    'main', media: 'all', 'data-turbolinks-track': 'reload'
 = stylesheet_link_tag    "https://fonts.googleapis.com/css?family=Lato"
-%div{class: 'invitation-header'}
-	=image_tag 'visa_template_header.png'
-	International Conference on Multimedia and Expo (ICME2018)
+%div{class: 'container container-fluid invitation-container'}
+  %div{class: 'invitation-header'}
+    =image_tag 'visa_template_header.png'
+    International Conference on Multimedia and Expo (ICME2018)
 
-%div{class: 'invitation-content'}
-	%p We could not find your name in our registered attendees
+  %div{class: 'invitation-content'}
+    %p We could not find your name in our registered attendees
 
-%div{class: 'invitation-footer'}
-	=image_tag 'visa_template_footer.png'
+  %div{class: 'invitation-footer'}
+    =image_tag 'visa_template_footer.png'
