@@ -1,0 +1,260 @@
+/* line 1, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+/* line 6, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.anchor-nolink {
+  pointer-events: none;
+}
+
+/* line 9, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px;
+}
+
+/* line 15, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.footer {
+  border-top: 1px solid #888;
+  color: #888;
+  text-align: center;
+  font-style: italic;
+  margin-top: 2.5em;
+}
+
+/* line 23, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.navbar {
+  border-radius: 0px;
+}
+
+/* line 27, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.parallax {
+  background-image: url(/assets/san_diego-be4960c90534e170ba440a41aa33f7723bef6b9a18582339b802efe2bafc42b0.jpg);
+  min-height: 288px;
+  background-repeat: no-repeat;
+  margin-left: -500px;
+  margin-right: -500px;
+  margin-top: -24px;
+}
+
+/* line 37, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.sponsor-container {
+  height: 80px;
+}
+
+/* line 41, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.sponsor-logo {
+  max-height: 64px;
+  max-width: 150px;
+  margin: 8px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 50, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.sponsor-level {
+  font-style: normal;
+  font-size: 150%;
+  color: #333;
+  border-bottom: 1px solid #888;
+}
+
+/* line 57, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+/* line 61, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-photo {
+  height: 140px;
+  width: 140px;
+  border: 1px solid #aaa;
+}
+
+/* line 67, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-name {
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: 4px;
+  width: 140px;
+}
+
+/* line 78, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-email {
+  word-break: break-all;
+}
+
+/* line 82, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-cell {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+/* line 87, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.oc-container {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+/* line 92, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.date-due {
+  color: red;
+  font-weight: bold;
+}
+
+/* line 97, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.date-today-highlight {
+  background-color: #d9534f;
+  color: white;
+  font-style: italic;
+}
+
+/* line 103, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.date-notified {
+  color: white;
+  font-weight: bold;
+  background-color: green;
+}
+
+/* line 109, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.keynote-bio {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  float: left;
+  width: 192px;
+}
+
+/* line 116, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.tutorial-heading, .specsess-heading {
+  border-bottom: 1px solid #888;
+}
+
+/* line 121, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.jumbotron-wrapper {
+  align-items: center;
+}
+
+/* line 126, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-indicators.carousel-landing {
+  color: black;
+}
+
+/* line 131, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-landing-caption {
+  text-align: center;
+}
+
+/* line 135, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-name {
+  font-style: italic;
+}
+
+/* line 139, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+img.carousel {
+  width: 160px;
+}
+
+/* line 143, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-indicators.carousel-landing > li {
+  background: white;
+  color: black;
+  border: 1px solid #333;
+}
+
+/* line 149, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.carousel-control.carousel-landing {
+  background: white;
+  color: #fff;
+}
+
+/* line 154, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.splash-bright {
+  color: #f00;
+}
+
+/* line 159, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.date-extended {
+  font-weight: bold;
+  background: red;
+  color: white;
+}
+
+/* line 166, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.clickable-workshop-link {
+  cursor: pointer;
+}
+
+/* line 170, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.extended-date {
+  text-decoration: line-through;
+}
+
+/* line 174, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.extended-new-date {
+  font-weight: bold;
+  color: red;
+}
+
+/* line 179, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+#jumbotron-title {
+  text-align: center;
+}
+
+/* line 183, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+#main-content {
+  margin-top: 5em;
+}
+
+/* line 187, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.hilinks {
+  font-size: 150%;
+  margin-top: 16px;
+}
+
+/* line 192, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.hilinks.title {
+  text-align: center;
+  background-color: #FD8000;
+  border-color: #FD8000;
+}
+
+/* line 198, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.hilinks.title:hover, .hlinks.title:focus {
+  background-color: #FD8000;
+  border-color: #FD8000;
+}
+
+/* line 203, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.invitation-header {
+  font-size: 115%;
+}
+
+/* line 207, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.invitation-content {
+  margin-top: 4em;
+  width: 42em;
+}
+
+@media print {
+  /* line 213, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+  .invitation-header {
+    position: fixed;
+    top: 0;
+  }
+
+  /* line 218, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+  .invitation-footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* line 223, /Users/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+  .invitation-content {
+    margin-top: 10em;
+  }
+}
