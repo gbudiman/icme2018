@@ -51,7 +51,7 @@ module DateHelper
                           notification: 'April 23, 2018',
                           type: :nopropose},
     expo_demo_reg:      { title: 'Expo/Demo Registration', 
-                          proposal: 'May 31, 2018',
+                          proposal: 'May 15, 2018',
                           type: :nopropose},
     demo_paper:         { title: 'Demo Paper',
                           proposal: 'March 19, 2018',
