@@ -42,6 +42,7 @@ module DateHelper
                           proposal: 'December 1, 2017', 
                           notification: 'March 12, 2018',
                           type: :nopropose,
+                          notified: true,
                           extended: 'December 15, 2017'},
     regular_paper_ext:  { title: 'Regular Paper (Extended)',
                           proposal: 'December 15, 2017',
