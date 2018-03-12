@@ -53,7 +53,7 @@ module DateHelper
     author_reg:         { title: 'Author Registration',
                           proposal: 'May 15, 2018',
                           type: :nopropose},
-    expo_demo_reg:      { title: 'Expo/Demo Registration', 
+    expo_demo_reg:      { title: 'Expo Registration', 
                           proposal: 'May 31, 2018',
                           type: :nopropose},
     demo_paper:         { title: 'Demo Paper',
