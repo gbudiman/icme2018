@@ -20,7 +20,7 @@ module DateHelper
                           notification: 'November 15, 2017' },
     grand_challenge_suggested_winner_paper: 
                         { title: 'Grand Challenge Winner Paper',
-                          proposal: 'March 19, 2018',
+                          proposal: 'March 26, 2018',
                           type: :nopropose },
     grand_challenge_suggested_acceptance: 
                         { title: 'Grand Challenge Acceptance',
