@@ -45,6 +45,8 @@ Rails.application.routes.draw do
   get      '/social', to: 'pages#social'
   get      '/visa_invitation', to: 'pages#visa_invitation'
   #get      '/visa_payment', to: 'pages#visa_payment'
+  get      '/copyright', to: 'pages#copyright'
+  get      '/copyright_completed', to: 'pages#copyright_completed'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

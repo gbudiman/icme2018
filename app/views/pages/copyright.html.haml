@@ -1,0 +1,40 @@
+%h1 IEEE Copyright Submission
+
+- class_left = 'col-xs-12 col-sm-4'
+- class_right = 'col-xs-12 col-sm-8'
+
+%form{action: 'https://ecopyrightqa-beta.ieee.org/ECTT/IntroPage.jsp'}
+	%input{type: 'hidden', name: 'PubTitle', value: '2018 IEEE International Conference on Multimedia & Expo Workshops (ICMEW)'}
+	%input{type: 'hidden', name: 'ArtSource', value: '43155'}
+	%input{type: 'hidden', name: 'rtrnurl', value: 'http://icme2018.herokuapp.com/copyright_completed'}
+	%div{class: "#{class_left}"} Publication Group
+	%div{class: "#{class_right}"}
+		%div{class: 'col-xs-6'}
+			%input{type: 'radio', name: 'pubgroup', id: 'icme2018reg'} 
+			%label{for: 'icme2018reg'} ICME2018
+		%div{class: 'col-xs-6'}
+			%input{type: 'radio', name: 'pubgroup', id: 'icme2018w'} 
+			%label{for: 'icme2018w'} ICME2018 Workshop
+
+	%div{class: "#{class_left}"} Article Title
+	%div{class: "#{class_right}"}
+		%input{type: 'text', name: 'ArtTitle', class: 'form-control'}
+	%div{class: "#{class_left}"} Authors
+	%div{class: "#{class_right}"}
+		%input{type: 'text', name: 'AuthName', class: 'form-control'}
+	%div{class: "#{class_left}"} Article ID
+	%div{class: "#{class_right}"}
+		%input{type: 'text', name: 'ArtId', class: 'form-control'}
+	%div{class: "#{class_left}"} Author's Email, comma-separated
+	%div{class: "#{class_right}"}
+		%input{type: 'text', name: 'AuthEmail', class: 'form-control'}
+	%input{type: 'submit', class: 'btn btn-primary', value: 'Submit Copyright', id: 'submit-button', disabled: true}
+
+= javascript_include_tag 'ecf'
+:css
+	input {
+		margin-bottom: 4px;
+	}
+
+:javascript
+	ecf.init()

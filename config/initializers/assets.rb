@@ -9,4 +9,4 @@ Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'photo
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-Rails.application.config.assets.precompile += %w( main.css layout_helper.js )
+Rails.application.config.assets.precompile += %w( main.css layout_helper.js ecf.js )
