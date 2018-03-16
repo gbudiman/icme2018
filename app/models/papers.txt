@@ -1,0 +1,175 @@
+LATE FUSION OF COMPACT LOCAL INDEXING AND DEEP FEATURE AGGREGATION SCORES FOR FAST IMAGE-TO-VIDEO SEARCH ON LARGE-SCALE DATABASES
+Image deblur for 3D Sensing Mobile Devices
+Robust Object Tracking via Part-Based Correlation Particle Filter
+Robust Tensor Principal Component Analysis in All Modes
+SyncGAN: Synchronize the Latent Space of Cross-modal Generative Networks
+Essay-Anchor Attentive Multi-Modal Bilinear Pooling for Textbook Question Answering
+A unified CNN-RNN approach for in-air handwritten  English word recognition
+Hierarchical Dropped Convolutional Neural Network for Speed Insensitive Human Action Recognition
+SKELETON-BASED HUMAN ACTION RECOGNITION USING SPATIAL TEMPORAL 3D CONVOLUTIONAL NEURAL NETWORKS
+image ordinal classification and understanding: grid dropout with masking label
+TransIm: Transfer Image Local Statistics Across EOTFs for HDR Image Applications
+Support Vector Metric Learning on Symmetric Positive Definite Manifold
+DISCRETE GRAPH HASHING VIA AFFINE TRANSFORMATION
+Pose Guided Deep Model for Pedestrian Attribute Recognition in Surveillance Scenarios
+Portable Lumipen: Dynamic SAR in Your Hand
+ADD: Actionness-Pooled Deep-Convolutional Descriptor
+CUB360: EXPLOITING CROSS-USERS BEHAVIORS FOR VIEWPORT PREDICTION IN 360 VIDEO ADAPTIVE STREAMING
+Trajectory Factory: Tracklet Cleaving and Re-connection by Deep Siamese Bi-GRU for Multiple Object Tracking
+Feature Aware 3D Mesh Compression using Robust Principal Component Analysis
+DeepRN: A Content Preserving Deep Architecture for Blind Image Quality Assessment
+Dynamic Adaptation of Multimedia Presentations for Videoconferencing in Application Mobility
+MSGC: A NEW MODEL FOR SALIENT OBJECT DETECTION
+Scene-aware soccer video QoE assessment - a compressed-domain approach
+Adaptive Co-weighting Deep Convolutional Features for Object Retrieval
+Enhanced Image Decoding Via Edge-preserving Generative Adversarial Network
+Finer-Net: Cascaded Human Parsing with Hierarchical Granularity
+TWO PASS RATE CONTROL FOR CONSISTENT QUALITY BASED ON DOWN-SAMPLING VIDEO IN HEVC
+SFCM: Learn a Pooling Kernel for Weakly Supervised Object Localization
+Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-Identification
+Temporal Attentive Network for Action Recognition
+Skeleton-Indexed Deep Multi-Modal Feature Learning for High Performance Human  Action Recognition
+MURAL2SKETCH: A COMBINED LINE DRAWING GENERATION METHOD FOR ANCIENT MURAL PAINTING
+Deep Point Convolutional Approach for 3D Model Retrieval
+Refining Attention: a Sequential Attention Model for Image Captioning
+ODN: Opening the Deep Network for Open-set Action Recognition
+Image Exposure Assessment: A Benchmark and A Deep Convolutional Neural Networks Based Model
+Rank-Consistency Multi-Label Deep Hashing
+ADAPTIVE LAYERWISE QUANTIZATION FOR DEEP NEURAL NETWORK COMPRESSION
+FEATURE REINFORCEMENT NETWORK FOR IMAGE CLASSIFICATION
+Multi-Grained Deep Feature Learning for Pedestrian Detection
+EDGE GUIDED GENERATION NETWORK FOR VIDEO PREDICTION
+Local Binary Pattern with Random Forest for Acoustic Scene Classification
+Improving Tiny Vehicle Detection In Complex Scenes
+DENSE RECONSTRUCTION FROM MONOCULAR SLAM WITH FUSION OF SPARSE MAP-POINTS AND CNN-INFERRED DEPTH
+HIGH QUALITY DEPTH ESTIMATION FROM MONOCULAR IMAGES BASED ON DEPTH PREDICTION AND ENHANCEMENT SUB-NETWORKS
+Adaptive Weighted Sparse Principal Component Analysis
+AGGREGATED DILATED CONVOLUTIONS FOR EFFICIENT MOTION DEBLURRING
+ABANDONED OBJECT DETECTION USING PIXEL-BASED FINITE STATE MACHINE AND SINGLE SHOT MULTIBOX DETECTOR
+Multi-label Dilated Recurrent Network for Sequential Face Alignment
+LEARNING ADAPTIVE SELECTION NETWORK FOR REAL-TIME VISUAL TRACKING
+Grayscale-based Block Scrambling Image Encryption for Social Networking Services
+Deep Index-Compatible Hashing for Fast Image Retrieval
+Noise-aware Contrast Enhancement via Cartoon-Texture Decomposition
+Radical analysis network for zero-shot learning in printed Chinese character recognition
+Single Image Layer Separation via Deep ADMM Unrolling
+Panoramic Light Field Video Acquisition
+Transformation on Computer-Generated Facial Image to Avoid Detection by Spoofing Detector
+INTEREST LEVEL ESTIMATION OF ITEMS VIA MATRIX COMPLETION BASED ON ADAPTIVE USER MATRIX CONSTRUCTION
+Background Subtraction based on Deep Pixel Distribution Learning
+Spatio-Temporal Large Margin Nearest Neighbor (ST-LMNN) based on Riemannian Features for Individual Identification
+TLR: TRANSFER LATENT REPRESENTATION FOR UNSUPERVISED DOMAIN ADAPTATION
+Soft clustering guided image smoothing
+Ensemble learning based on Convolutional Kernel Networks Features for Kinship Verification
+Hybrid Noise for LIC-based Pencil Hatching Simulation
+Deep multi-metric learning for person re-identification
+Inferring Emotions from Image Social Networks using Group-Based Factor Graph Model
+KEY-INVARIANT CONVOLUTIONAL NEURAL NETWORK TOWARD EFFICIENT COVER SONG IDENTIFICATION
+Accurate Image Super-Resolution Using Cascaded Multi-Column Convolutional Neural Networks
+Unsupervised Local Facial Attributes transfer Using Dual Discriminative Adversarial Networks
+Spherical Structural Similarity Index for Objective Omnidirectional Video Quality Assessment
+STACKELBERG GAME BASED RATE ALLOCATION FOR HEVC REGION OF INTEREST CODING
+Depth Images Could Tell Us More: Enhancing Depth Discriminability for RGB-D Scene Recognition
+Consistency-Exclusivity Regularized Deep Metric Learning for General Kinship Verification
+Background-Suppressed Correlation Filters for Visual Tracking
+Hierarchical Temporal Memory Enhanced One-shot Distance Learning for Action Recognition
+Magnify-Net for Multi-Person 2D Pose Estimation
+Content-Related Spatial Regularization for Visual Object Tracking
+Entity Competition Network for Video Classification
+VCF: VELOCITY CORRELATION FILTER, TOWARDS SPACE-BORNE SATELLITE VIDEO TRACKING
+Multi-path Feature Fusion Network for Saliency Detection
+Saliency Detection by Deep Network with Boundary Refinement and Global Context
+Super-Resolution Quality Assessment:  Subjective Evaluation Database and Quality Index Based on Perceptual Structure Measurement
+Multi-party WebRTC Videoconferencing using Scalable VP9 Video:  From Best-Effort Over-the-top to Managed Value-Added Services
+A DUAL PREDICTION NETWORK FOR IMAGE CAPTIONING
+CCT: A Cross-Concat and Temporal Neural Network for Multi-label Action Unit Detection
+ENSEMBLE OF LABEL SPECIFIC FEATURES FOR MULTI-LABEL CLASSIFICATION
+Densely Stacked Generative Adversarial Networks
+Visual Relationship Detection based on Guided Proposals and Semantic Knowledge Distillation
+Fi-Cap: Robust framework to Benchmark Head Pose Estimation in challenging environments
+Accurate and efficient video de-fencing using convolutional neural networks and temporal information
+Individualization of Head Related Transfer Functions Based on Radial Basis Function Neural Network
+Occluded Person Re-identification
+Beyond View Transformation: Cycle-Consistent Global and Partial Perception GAN for View-Invariant Gait Recognition
+Fast HEVC to SCC Transcoding based on Decision Trees
+CO-SALIENCY DETECTION VIA HIERARCHICAL CONSISTENCY MEASURE
+DEPTH RESTORATION WITH NORMAL-GUIDED MULTIRESOLUTION SUPERPIXEL
+Color Image Noise Covariance Estimation with Cross-Channel Image Noise Modeling
+View Synthesis for Light Field Coding using Depth Estimation
+Schmidt: Image Augmentation for Black-Box Adversarial Attack
+A Statistics-based Approach for Single Image Dehazing
+Robust Structured Multi-task Multi-view Sparse Tracking
+DEEP IMAGE RETRIEVAL: INDICATOR AND GRAM MATRIX WEIGHTING FOR AGGREGATED CONVOLUTIONAL FEATURES
+Cascade Mask Generation Framework for Fast Small Object Detection
+Quaternion Sparse Discriminant Analysis for Color Face Recognition
+Saliency deep embedding for aurora image search
+Progressive refinement: a method of coarse-to-fine image parsing using stacked network
+SEMANTIC MANIFOLD ALIGNMENT IN VISUAL FEATURE SPACE FOR ZERO-SHOT LEARNING
+Optimized Feature-Based Image Registration for RGB and NIR pairs
+A Genre-Affect Relationship Network with Task-Specific Uncertainty Weighting for Recognizing Induced Emotion in Music
+USER PORTRAIT MODELING THROUGH SOCIAL MEDIA
+Region based user-generated human body scan registration
+A METHOD TO GENERATE GHOST-FREE HDR IMAGES IN 360-CAMERAS WITH DUAL FISH-EYE LENS 
+Machine Learning Based Transportation Modes Recognition Using Mobile Communication Quality
+Visual Confusion Label Tree for Image Classification
+MODELING CONTINUOUS VIDEO QoE EVOLUTION: A STATE SPACE APPROACH
+Unsupervised Multiple-Instance Learning for Instance Search
+POINT CLOUD QUALITY ASSESSMENT METRIC BASED ON ANGULAR DISTANCE
+MULTI-TASK SELF-SUPERVISED VISUAL REPRESENTATION LEARNING FOR MONOCULAR ROAD SEGMENTATION
+Social-guided representation learning for images via deep heterogeneous hypergraph embedding
+Deep Background Subtraction with Guided Learning
+SIMULTANEOUS REALIZATION OF MULTIPLE MUSIC VIDEO APPLICATIONS BASED ON HETEROGENEOUS NETWORK ANALYSIS VIA LATENT LINK ESTIMATION
+Light Field Image Compression Based on Deep Learning
+Major-Subordinate-Task Learning for Image Orientation Estimation
+Challenges in Autonomous UAV Cinematography: An Overview
+Pixel Meets Region: A Pratical Framework for Salient Object Detection
+AUDITORY-INSPIRED END-TO-END SPEECH EMOTION RECOGNITION USING 3D CONVOLUTIONAL RECURRENT NEURAL NETWORKS BASED ON SPECTRAL-TEMPORAL MODULATION
+FEED-NET: FULLY END-TO-END DEHAZING
+NEURAL NETWORK BASED INTER PREDICTION FOR HEVC
+Face Morphing Detection Using Fourier Spectrum of Sensor Pattern Noise
+Full Image Recover for Block-Based Compressive Sensing
+An Improved Guided Filtering Algorithm for Image Enhancement
+Video Stereo Matching with Temporally Consistent Belief Propagation
+Aligning Audiovisual Features for Audiovisual Speech Recognition
+PLAYING TECHNIQUE CLASSIFICATION BASED ON DEEP COLLABORATIVE LEARNING OF VARIATIONAL AUTO-ENCODER AND GAUSSIAN PROCESS
+Improving CNN-based Viseme Recognition Using Synthetic Data
+DeepQoE: A Unified Framework for Learning to Predict Video QoE
+Enhancing CNN Incremental Learning Capability with An Expanded Network
+Scalable Point Cloud Geometry Coding with Binary Tree Embedded Quadtree
+From Thumbnails to Summaries - A single Deep Neural Network to Rule Them All
+Fast and Reliable Computational Rephotography on Mobile Device
+Text-Independent Speaker Verification Using 3D Convolutional Neural Networks
+Deep Learning Based Identity verification in Renaissance Portraits.
+Joint Multi-View People Tracking and Pose Estimation for 3D Scene Reconstruction
+Learning Discriminative Geodesic Flow Kernel For Unsupervised Domain Adaptation
+No-reference Image Sharpness Assessment using Scale and Directional Models
+Structure-Texture Decomposition Via Joint Structure Discovery and Texture Smoothing
+Co-Referenced Subspace Clustering
+RAM: A REGION-AWARE DEEP MODEL FOR VEHICLE RE-IDENTIFICATION
+Tensor Sensing for RF Tomographic Imaging
+SEETHEVOICE: LEARNING FROM MUSIC TO VISUAL STORYTELLING OF SHOTS
+MULTI-VIEW DEEP METRIC LEARNING FOR VOLUMETRIC IMAGE RECOGNITION
+Convex Constrained  Clustering  With  Graph-Laplacian  PCA
+Hardware Synchronization of Multiple Kinects and Microphone for 3D Audiovisual Spatiotemporal Data Capture
+Dual Learning for Visual Question Generation
+SPARSE REPRESENTATION FOR COLOR IMAGE BASED ON GEOMETRIC ALGEBRA
+FF-CMNET: A CNN-BASED MODEL FOR FINE-GRAINED CLASSIFICATION OF CAR MODELS BASED ON FEATURE FUSION
+Continuity-Discrimination Convolutional Neural Network for Visual Object Tracking
+Fast Block Structure Determination in AV1-based Multiple Resolutions Video Encoding
+Asymmetric block based compressive sensing for image signals
+INTEGRATING ARTICULATORY FEATURES INTO ACOUSTIC-PHONEMIC MODEL FOR MISPRONUNCIATION DETECTION AND DIAGNOSIS IN L2 ENGLISH SPEECH
+POINTWISE SHAPE-ADAPTIVE TEXTURE FILTERING
+ONLINE FILTER WEAKENING AND PRUNING FOR EFFICIENT CONVNETS
+DEPTH AWARE PORTRAIT SEGMENTATION USING DUAL FOCUS IMAGES
+TOWARDS COMPACT VISUAL DESCRIPTOR VIA DEEP FISHER NETWORK WITH BINARY EMBEDDING
+PDNet: Prior-Model Guided Depth-enhanced Network for Salient Object Detection
+No Reference Quality Assessment for Stitched Panoramic Images Using Convolutional Sparse Coding and Compound Feature Selection
+A NOISE ROBUST FACE HALLUCINATION FRAMEWORK VIA CASCADED MODEL OF DEEP CONVOLUTIONAL NETWORKS AND MANIFOLD LEARNING
+Balance the loss: improving deep hash via loss weighting and semantic preserving
+Unsupervised  Representation Learning with Prior-Free and Adversarial Mechanism Embedded Autoencoders
+Edge Detection and Image Segmentation on Encrypted Image with Homomorphic Encryption and Garbled Circuit
+A study on multimodal video hyperlinking with visual aggregation
+A Subjective Study of Viewer Navigation Behaviors When Watching 360-Degree Videos on Computers
+INTEGRATING ENTROPY SKELETON MOTION MAPS AND CONVOLUTIONAL NEURAL NETWORKS FOR HUMAN ACTION RECOGNITION
+FRAME-SUBSAMPLED, DRIFT-RESILIENT LONG-TERM VIDEO OBJECT TRACKING
+Personalized Sequential Check-in Prediction: Beyond Geographical and Temporal Contexts

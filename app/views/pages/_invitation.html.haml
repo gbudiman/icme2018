@@ -6,7 +6,7 @@
 		International Conference on Multimedia and Expo (ICME2018)
 
 	%div{class: 'invitation-content'}
-		%p Re: Confirmation of payment and invitation to attend and present ICME 2018
+		%p Re: Confirmation of payment and invitation to attend and present at ICME 2018
 
 		%p Dear #{@first_name},
 
@@ -14,7 +14,7 @@
 			On behalf of the International Conference on Multimedia and Expo (ICME) 2018, I am pleased to inform you that the technical paper titled 
 			%span{class: 'paper-title'}= @paper_title 
 			authored by 
-			%span{class: 'paper-authors'}= @authors.join(', ') 
+			%span{class: 'paper-authors'}= @authors
 			has been accepted by the ICME 2018 Technical Committee after review for technical merits. As part of the publication requirements, it is a 
 			%strong
 				%u
@@ -22,11 +22,12 @@
 			that you attend the Conference to present the paper and discuss your work. Please make the necessary travel arrangements and visa applications as early as possible to be able to present your paper and lead the subsequent technical discussions.
 
 		%p 
-			The Conference will be held July 23-27, 2018 at the Hyatt Regency La Jolla, 3777 La Jolla Village Drive , San Diego, California, USA, 92122. Your presentation is now scheduled for 
-			%span{class: 'paper-date'}= @paper_date 
-			at 
-			%span{class: 'paper-time'}= @paper_time
-			\. 
+			The Conference will be held July 23-27, 2018 at the Hyatt Regency La Jolla, 3777 La Jolla Village Drive , San Diego, California, USA, 92122. 
+			/ Your presentation is now scheduled for 
+			/ %span{class: 'paper-date'}= @paper_date 
+			/ at 
+			/ %span{class: 'paper-time'}= @paper_time
+			/ \. 
 			Thank you for submitting a high-quality paper to this prestigious conference, and we look forward to hearing your presentation.
 
 		%p 
