@@ -4,9 +4,16 @@
     %span{class: 'caret'}
   %ul{class: 'dropdown-menu dropdown-menu-right'}
     - items.each do |link, item|
-      - if params[:action] == link.to_s
-        %li{class: 'active'}
-          %a{href: '#', class: 'anchor-nolink'} #{item}
+      - if item.is_a?(Hash)
+        - if item[:link]
+          %li
+            %a{href: "#{item[:link]}", target: "#{item[:target] || '_blank'}"}
+              = item[:name]
+              %span{class: 'glyphicon glyphicon-new-window'}
       - else
-        %li
-          %a{href: "/#{link}"} #{item}
+        - if params[:action] == link.to_s
+          %li{class: 'active'}
+            %a{href: '#', class: 'anchor-nolink'} #{item}
+        - else
+          %li
+            %a{href: "/#{link}"} #{item}
