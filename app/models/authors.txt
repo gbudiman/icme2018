@@ -1,6 +1,6 @@
 Savas Ozkan*, METU; Gozde Akar, METU
 chung-hua chu*, National Taichung University Of Science And Technology
-Ning Wang*, USTC; Wengang  Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
+Ning Wang*, USTC; Wengang Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
 Longxi Chen, University of Electronic Science and Technology of China; Yipeng Liu*, University of Electronic Science and Technology of China; Ce Zhu, University of Electronic Science & Technology of China
 Wen-Cheng Chen*, National Cheng Kung University; Chien-Wen Chen, National Cheng Kung University; Min-Chun Hu, National Cheng Kung University
 Juzheng Li*, Tsinghua University; Hang Su, Tsinghua Univiersity; Jun Zhu, Tsinghua University; Bo Zhang, Tsinghua University
@@ -8,9 +8,9 @@ Ji Gan*, University of Chinese Academy of Sciences; Weiqiang Wang, University of
 Fanyang Meng, key Laboratory of Machine Perception, Peking University, Shenzhen Graduate School; Hong Liu, Peking University Shenzhen Graduate School; Yongsheng Liang, liangys@sziit.edu.cn; Mengyuan Liu*, Nanyang Technological University; Wei Liu, liuwei@sziit.edu.cn
 Hong Liu, Peking University Shenzhen Graduate School; Juanhui Tu, Key Laboratory of Machine Perception(Ministry of Education), Shenzhen Graduate School, Peking University; Mengyuan Liu*, Nanyang Technological University; Runwei Ding, Key Laboratory of Machine Perception(Ministry of Education), Shenzhen Graduate School, Peking University
 Chao Zhang*, uestc; Ce Zhu, University of Electronic Science & Technology of China; Jimin Xiao, Xi'an Jiaotong-Liverpool University; Xun Xu, NUS; Yipeng Liu, University of Electronic Science and Technology of China
-Bihan Wen*, University of Illinois at Urbana-Champaign; Guan-Ming  Su, Dolby Labs 
+Bihan Wen*, University of Illinois at Urbana-Champaign; Guan-Ming Su, Dolby Labs 
 Pengfei Zhu*, tianjin university; Hao Cheng, Tianjin University; Qilong Wang, Dalian University of Technology; Changqing Zhang, Tianjin university; Qinghua Hu, Tianjin University
-Guohua Dong, National University of Defense Technology; Xiang Zhang*, National University  of Defense Technology; long lan, NUDT; Xuhui Huang, NUDT; Zhigang Luo, National University of Defense Technology
+Guohua Dong, National University of Defense Technology; Xiang Zhang*, National University of Defense Technology; long lan, NUDT; Xuhui Huang, NUDT; Zhigang Luo, National University of Defense Technology
 Dangwei Li*, Institute of Automation, Chinese Academy of Sciences; Xiaotang Chen, Institute of Automation, Chinese Academy of Sciences; Zhang Zhang, Institute of Automation, Chinese Academy of Sciences; Kaiqi Huang, Institute of Automation, Chinese Academy of Sciences
 Leo Miyashita*, The University of Tokyo; Tomohiro Yamazaki, Sony Semiconductor Solutions; Kenji Uehara, Sony Semiconductor Solutions; Yoshihiro Watanabe, The University of Tokyo; Masatoshi Ishikawa, University of Tokyo
 Tingting Han*, Harbin Institute of Technology; Hongxun Yao, Harbin Institute of Technology; Xiaoshuai Sun, Harbin Institute of Technology; Wenlong Xie, Harbin Institute of Technology; Yanhao Zhang, Harbin Institute of Technology
@@ -21,8 +21,8 @@ Domonkos Varga*, Budapest University of Technology and Economics; Dietmar Saupe,
 Francisco Javier Velazquez-Garcia*, University of Oslo; Frank Eliassen, University of Oslo; Pål Halvorsen, University of Oslo; Haakon Stensland, Simula Research Laboratory & University of Oslo
 Zhi-Jie Wang*, Sun Yat-Sen University; Lizhuang Ma, Shanghai Jiao Tong University; Xiao Lin, Shanghai Normal University; Xiabao Wu, Shanghai Zhihuan Software Technology Co., Ltd.
 Fan Li*, Xi'an Jiaotong University; Yixin Mei, Xi'an Jiaotong University; Ziyi Liu, Xi'an Jiaotong University; Pamela Cosman , University of California, San Diego
-Jiaxing Wang, School of Software Engineering, Xi'an Jiaotong University; Jihua Zhu, Xi'an Jiaotong  University; Shanmin Pang*, Xi'an Jiaotong University; Zhongyu Li,  University of North Carolina at Charlotte; Yaochen Li, Xi'an Jiaotong University; Xueming Qian, Xi'an Jiaotong Universtiy
-Qi Mao*, Peking University; Shiqi  Wang, CityU; Shanshe Wang, Peking University; Xinfeng Zhang, USC; Siwei Ma, Peking University, China
+Jiaxing Wang, School of Software Engineering, Xi'an Jiaotong University; Jihua Zhu, Xi'an Jiaotong University; Shanmin Pang*, Xi'an Jiaotong University; Zhongyu Li,  University of North Carolina at Charlotte; Yaochen Li, Xi'an Jiaotong University; Xueming Qian, Xi'an Jiaotong Universtiy
+Qi Mao*, Peking University; Shiqi Wang, CityU; Shanshe Wang, Peking University; Xinfeng Zhang, USC; Siwei Ma, Peking University, China
 Jingwen Ye*, Zhejiang University; Zunlei Feng, Zhejiang University; Yongcheng Jing, Zhejiang University; Mingli Song, Zhejiang University
 Yu Yao Shen*, National Cheng Kung University; Chih Hung Kuo, National Cheng Kung University
 Zongxian Li*, Peking University; Yemin Shi, Peking University; Yonghong Tian, PKU; Yaowei Wang, Beijing Institute of Technology; Wei Zeng, Peking University, China
@@ -35,29 +35,29 @@ Fang Fang, Tongji University; Qinyu Li, Lanzhou City University; Hanli Wang*, To
 Yu Shu*, Peking University; Yemin Shi, Peking University; Yaowei Wang, Beijing Institute of Technology; Yixiong Zou, Peking University; Qingsheng Yuan, University of Chinese Academy of Sciences; Yonghong Tian, PKU
 Lijun Zhang, Tongji University; Lin Zhang*, Tongji University, China; Xiao Liu, Tongji University; Ying Shen, Tongji University; Dongqing Wang, Tongji University
 Cheng Ma, Tsinghua University; Zhixiang Chen, Tsinghua University; Jiwen Lu*, Tsinghua University; Jie Zhou, """Tsinghua University, China"""
-Xiaotian Zhu*, University of Science and Technology of China; Wengang  Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
+Xiaotian Zhu*, University of Science and Technology of China; Wengang Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
 Bingxu Lu*, Tianjin University; Qinghua Hu, Tianjin University; Yijing Hui, China Automotive Technology & Research Center; Quan Wen, China Automotive Technology & Research Center; Min Li, China Automotive Technology & Research Center
 Chunze Lin, Tsinghua University; Jiwen Lu*, Tsinghua University; Jie Zhou, """Tsinghua University, China"""
 Kai Xu, University of Chinese Academy of Sciences; guorong Li*, CAS; Huijuan Xu, Boston University; Weigang Zhang, Harbin Institute of Technology, Weihai; Qingming Huang, University of Chinese Academy of Sciences
 Shamsiah Abidin*, The University of Western Australia; Xianjun Xia, The University of Western Australia; Roberto Togneri, The University of Western Australian; Ferdous Sohel, Murdoch University
 Wei Liu*, National University of Defense Technology; Shengcai Liao, " NLPR, Chinese Academy of Sciences, China"; Weidong Hu, National University of Defence Technology; Xuezhi Liang, Center for Biometrics and Security Research & National Laboratory of Pattern Recognition Institute of Automation, Chinese Academy of Sciences; Yan Zhang, National University of Defense Technology
-Xiang Ji, Dalian University of Technology; Xinchen Ye*, Dalian University of Technology; Hongcan Xu, Dalian University of Technology; Haojie  Li, Dalian University of Technology
-Xiangyue Duan, School of Software Technology. Dalian University of Technology; Xinchen Ye*, Dalian University of Technology; Yang Li, Dalian University of Technology; Haojie  Li, Dalian University of Technology
-Shuangyan  Yi, Streaming Lab, Shen Zhen Instituted of Information Technology; Yongsheng Liang*, liangys@sziit.edu.cn; Wei Liu, liuwei@sziit.edu.cn; Zhenyu He, Harbin Institute of Technology Shenzhen; Fanyang Meng, key Laboratory of Machine Perception, Peking University, Shenzhen Graduate School
+Xiang Ji, Dalian University of Technology; Xinchen Ye*, Dalian University of Technology; Hongcan Xu, Dalian University of Technology; Haojie Li, Dalian University of Technology
+Xiangyue Duan, School of Software Technology. Dalian University of Technology; Xinchen Ye*, Dalian University of Technology; Yang Li, Dalian University of Technology; Haojie Li, Dalian University of Technology
+Shuangyan Yi, Streaming Lab, Shen Zhen Instituted of Information Technology; Yongsheng Liang*, liangys@sziit.edu.cn; Wei Liu, liuwei@sziit.edu.cn; Zhenyu He, Harbin Institute of Technology Shenzhen; Fanyang Meng, key Laboratory of Machine Perception, Peking University, Shenzhen Graduate School
 Hong Miao*, Fudan University; Wenqiang Zhang, Fudan University
 Devadeep Shyam*, Nanyang Technological University; Chinmayee Athalye,  College of Engineering Pune ; Alex Kot, Nanyang Technological University
 Tong Yang*, Fudan University; Shizheng Qin, Fudan University; Junchi Yan, Shanghai Jiao Tong University; Wenqiang Zhang, Fudan University
 Jiangfeng Xiong*, South China University of Technology; Xiangmin Xu, South China University of Technology; Bolun Cai, South China University of Technology ; Xiaofen Xing,  South China University of Technology; Kailing Guo, South China University of Technology
-Warit Sirichotedumrong, Tokyo Metropolitan University; Tatsuya Chuman, Tokyo Metropolitan University; Shoko  Imaizumi, Chiba University; Hitoshi Kiya*, Tokyo Metropolitan University
+Warit Sirichotedumrong, Tokyo Metropolitan University; Tatsuya Chuman, Tokyo Metropolitan University; Shoko Imaizumi, Chiba University; Hitoshi Kiya*, Tokyo Metropolitan University
 Dayan Wu*, Institute of Information Engineering, Chinese Academy of Sciences; Jing Liu,  Institute of Information Engineering, Chinese Academy of Sciences; Bo Li,  Institute of Information Engineering, Chinese Academy of Sciences; Weiping Wang, Institute of Information Engineering, CAS, China
 Deming Zhai, Harbin Institute of Technology; Xianming Liu*, Harbin Institute of Technology; Yuanchao Bai, Peking University; Debin Zhao, Harbin Institute of Technology; Wen Gao, PKU
 Jianshu Zhang*, University of Science and Technology of China; Yixing Zhu, University of Science and Technology of China; Jun Du, University of Science and Technologoy of China; Lirong Dai, N/A
-Risheng Liu*, Dalian University of Technology; Zhiying Jiang, Dalian University of Technology; Xin Fan, Dalian University of Technology; Haojie  Li, Dalian University of Technology; Zhongxuan Luo, DALIAN UNIVERSITY OF TECHNOLOGY
+Risheng Liu*, Dalian University of Technology; Zhiying Jiang, Dalian University of Technology; Xin Fan, Dalian University of Technology; Haojie Li, Dalian University of Technology; Zhongxuan Luo, DALIAN UNIVERSITY OF TECHNOLOGY
 Jing Lv, Institute of Computing Technology, Chinese Academy of Sciences; feng dai*, ICT; Qiang Zhao, The Institute of Computing Technology of the Chinese Academy of Sciences; Hongliang Li, Institute of Computing Technology, Chinese Academy of Sciences; Yike Ma, ICT; Yongdong Zhang, Chinese Academy of Sciences
 Huy Nguyen*, SOKENDAI; Hoang-Quoc Nguyen-Son, National Institute of Informatics; Ngoc-Dung T. Tieu, The Graduate University for Advanced Studies; Junichi Yamagishi, National Institute of Informatics; Isao Echizen, National Institute of Informatics
 Tetsuya Kushima*, Hokkaido University; Sho Takahashi, Hokkaido University; Takahiro Ogawa, Hokkaido University; Miki Haseyama, Hokkaido University
 chenqiu zhao*, Institute for Media Innovation, Nanyang Technological University; Tat-Jen Cham, Nanyang Technological University; xinyu ren, School of Software Engineering, Chongqiing University; Jianfei Cai, Nanyang Technological University
-Yong Su*, Tianjin university; Zhiyong  Feng, Tianjin University; Meng Xing,   Tianjin university
+Yong Su*, Tianjin university; Zhiyong Feng, Tianjin University; Meng Xing,   Tianjin university
 Pan Xiao, Computer School, Wuhan University ; Bo Du*, Compuer School, Wuhan University; Jia Wu, Macquarie University; Lefei Zhang, Computer School, Wuhan University; Ruimin Hu, Wuhan University; Xuelong Li, Center for OPTIMAL, State Key Laboratory of Transient Optics and Photonics, Xi’an Institute of Optics and Precision Mechanics, Chinese Academy of Sciences
 Liang Li*, Tianjin University; Xiaojie Guo, Tianjin University; Wei Feng, School of Computer Science and Technology, Tianjin University; Jiawan Zhang, Tianjin University
 Qiang Guo, Beijing Institute of Technology; ma bo*, Beijing institute of technology; Tianming Lan,  Beijing institute of technology
@@ -81,7 +81,7 @@ hengliang zhu*, Shanghai jiao tong university; Xin Tan, Shanghai Jiao Tong Unive
 Xin Tan*, Shanghai Jiao Tong University; hengliang zhu, Shanghai jiao tong university; Zhiwen Shao, Shanghai Jiao Tong University; Xiaonan Hou, Shanghai Jiao Tong University; yangyang hao, Shanghai jiao tong university; lizhuang ma, Shanghai jiao tong university
 Wenfei Wan, Xidian University; Jinjian Wu*, Xidian University; Guangming Shi, Xidian University; Yongbo Li, Xidian University; Weisheng Dong, Xidian University
 Riza Kirmizioglu*, Koc University; Baris Kaya, Koc University; A. Murat Tekalp, Koc University
-Yanming  Guo*, National University of Defense Technology; Yu Liu, Leiden University; Maaike H.T. de Boer, TNO; Liu Li, National University of Defense Technology, P.R. China; Michael S. Lew, LIACS, Leiden University
+Yanming Guo*, National University of Defense Technology; Yu Liu, Leiden University; Maaike H.T. de Boer, TNO; Liu Li, National University of Defense Technology, P.R. China; Michael S. Lew, LIACS, Leiden University
 Qiaoping Hu*, Shanghai Jiao Tong University; Fei Jiang, Shanghai Jiao Tong University; Chuanneng Mei, Shanghai Jiao Tong University; Ruimin Shen, Shanghai Jiao Tong University
 Xiaoya Wei, Tianjin University; Ziwei Yu, Tianjin University; Changqing Zhang*, Tianjin university; Qinghua Hu, Tianjin University
 Youcheng Ben*, Tsinghua University; Chun Yuan, Tsinghua University
@@ -96,7 +96,7 @@ Yonghua Zhang*, Tianjin university; Liang Li, Tianjin University; Runmin Cong, T
 Jinghui Qian*, Nanjing University; Jie Guo, Nanjing University; Jingui Pan, Nanjing University
 Li Dong*, University of Macau; Jiantao Zhou, University of Macau; Tao Dai, Tsinghua University
 Xinpeng Huang*, Shanghai University; Ping An, Shanghai University; Liang Shan, Shanghai University; Ran Ma, Shanghai University; Liquan Shen, Shanghai University
-Yucheng  Shi, Tianjin University; Yahong Han*, Tianjing University
+Yucheng Shi, Tianjin University; Yahong Han*, Tianjing University
 Wonha Kim*, Kyunghee University; Trung Bui, Kyunghee University
 Mohammadreza Javanmardi*, Utah State University; Xiaojun Qi, USU
 Zhipeng Wang*, School of Communication and Information Engineering, Beijing University of Posts and Telecommunications; Xuanlu Xiang, School of Communication and Information Engineering, Beijing University of Posts and Telecommunications; Zhicheng Zhao, bupt; Fei Su, Beijing University of Posts and Telecommunications
@@ -120,7 +120,7 @@ Yunfei Chu*, Beijing University of Posts and Telecommunications; Chunyan Feng, B
 Xuezhi Liang*, Center for Biometrics and Security Research & National Laboratory of Pattern Recognition Institute of Automation, Chinese Academy of Sciences; Xiaobo Wang, Center for Biometrics and Security Research & National Laboratory of Pattern Recognition Institute of Automation, Chinese Academy of Sciences; Wei Liu, National University of Defense Technology; Yuxuan Chen, Xi'an Jiaotong University; Shengcai Liao, " NLPR, Chinese Academy of Sciences, China"; Stan Li, National Lab. of Pattern Recognition, China
 Yui Matsumoto*, Hokkaido University; Ryosuke Harakawa, Hokkaido University; Takahiro Ogawa, Hokkaido University; Miki Haseyama, Hokkaido University
 Zhenghui Zhao*, Peking University; Shanshe Wang, Peking University; Chuanmin Jia, Peking University; Xinfeng Zhang, USC; Siwei Ma, Peking University, China; Jiansheng Yang, Peking University
-Yilin He*, University of Science and Technology of China; Wengang  Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
+Yilin He*, University of Science and Technology of China; Wengang Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
 Ioannis Mademlis*,  Aristotle University of Thessaloniki; Vasileios Mygdalis, Aristotle University of Thessaloniki; Nikos Nikolaidis, Aristotle University of Thessaloniki; Ioannis Pitas, Aristotle University of Thessaloniki
 Yi Liu, Harbin Institute of Technology Shenzhen Gradudate School; xuan wang, Harbin Institute of Technology Shenzhen Gradudate School; shuhan qi*, Harbin Institute of Technology Shenzhen Gradudate School; jian guan, Harbin Institute of Technology Shenzhen Gradudate School ; lin yao, Pku-hkust Shenzhen-Hongkong Institute
 zhichao peng*, JAIST; zhi zhu, Japan Advanced Institute of Science and Technology; Masashi Unoki, JAIST; Jianwu Dang, Tianjin University; Masato Akagi, Japan Advanced Institute of Science and Technology
@@ -131,13 +131,13 @@ Xuemei Xie*, Xidian University; Chenye Wang, Xidian University; Jiang Du, Xidian
 J. F. Wu*, TCL Multimedia ; Chong Wang, Ningbo University
 Hsin-Yu Hou, National Taiwan University; Sih-Sian Wu*, National Taiwan University; Da-Fang Chang, National Taiwan University; Liang-Gee Chen, National Taiwan University
 Fei Tao, The University of Texas at Dallas; Carlos Busso*, University of Texas at Dallas
-Sih-Huei  Chen*, National Central University; Yuan-Shan Lee, National Central University; Min-Che Hsieh , National Central University; Jia-Ching Wang, National Central University
+Sih-Huei Chen*, National Central University; Yuan-Shan Lee, National Central University; Min-Che Hsieh , National Central University; Jia-Ching Wang, National Central University
 Andrea Britto Mattos*, IBM Research Brazil; Dario Augusto Borges Oliveira, IBM Research Brazil; Edmilson da Silva Morais, IBM Research Brazil
 Huaizheng Zhang*, Nanyang Technological University; Han Hu, Nanyang Technological University; Guanyu Gao, Nanyang Technological University; Yonggang Wen, Nanyang Technological University; Kyle Guan, Nokia Bell Labs
 Shanshan Cai*, university of southern california; Zhuwei Xu, University of Southern California; Zhichao Huang, Tsinghua University; Yueru Chen, University of Southern California; C.-C. Jay Kuo, USC
 Birendra Kathariya*, University of Missouri-kansas City; Li Li, University of Missouri-Kansas City; Zhu Li, university of missouri-kansas city; Jose Alvarez, Futurewei Technologies, Inc.; Jianle Chen, Futurewei Technologies, Inc.
 Hongxiang Gu*, UCLA; Viswanathan Swaminathan, Adobe; Somdeb Sarkhel, Adobe; Saayan Mitra, Adobe
-Yi-Bo Shi, School of Computer Science and Technology, Tianjin University; Fei-Peng  Tian, Tianjin University; Dongxu Miao, School of Computer Software, Tianjin University; Wei Feng*, School of Computer Science and Technology, Tianjin University
+Yi-Bo Shi, School of Computer Science and Technology, Tianjin University; Fei-Peng Tian, Tianjin University; Dongxu Miao, School of Computer Software, Tianjin University; Wei Feng*, School of Computer Science and Technology, Tianjin University
 Amirsina Torfi*, West Virginia University
 Akash Gupta*, University of California, Riverside; niluthpol mithun, UC Riverside; Conrad Rudolph, University of California, Riverside; Amit Roy-Chowdhury , University of California, Riverside, USA 
 ZHENG TANG*, University of Washington; Renshu Gu, University of Washington; Jenq-Neng Hwang, University of WA�
@@ -147,7 +147,7 @@ Xiaojie Guo*, Tianjin University; Siyuan Li, Tianjin University; Liang Li, Tianj
 Xiaobo Wang*, Center for Biometrics and Security Research & National Laboratory of Pattern Recognition Institute of Automation, Chinese Academy of Sciences; Hailin Shi, NLPR; Zhen Lei, NLPR, CASIA, China; Xiaojie Guo, Tianjin University; Xiangyu Zhu, NLPR; Stan Li, National Lab. of Pattern Recognition, China
 Xiaobin Liu*, Peking University; Shiliang Zhang, Beijing University; Qingming Huang, University of Chinese Academy of Sciences; Wen Gao, PKU
 Tao Deng, University of Electronic Science and Technology of China; Feng Qian, University of Electronic Science and Technology of China; Xiao-Yang Liu*, Columbia University; Manyuan Zhang, University of Electronic Science and Technology of China; Anwar Walid, Bell Laboratories
-Wen-Li Wei, Academia Sinica; Jen-Chun  Lin, Yuan Ze University; Tyng-Luh Liu*, Academia Sinica; Yi-Hsuan Yang, Academia Sinica; Hsin-Min Wang, Academia Sinica; Hsiao-Rong Tyan, Chung Yuan Christian University; Mark Liao, Institute of Information Science, Academia Sinica
+Wen-Li Wei, Academia Sinica; Jen-Chun Lin, Yuan Ze University; Tyng-Luh Liu*, Academia Sinica; Yi-Hsuan Yang, Academia Sinica; Hsin-Min Wang, Academia Sinica; Hsiao-Rong Tyan, Chung Yuan Christian University; Mark Liao, Institute of Information Science, Academia Sinica
 Xueping Wang, Hunan University; Min Liu*, Hunan University
 Yuheng Jia, City University of Hong Kong; Sam Kwong, City Univeristy of Hong Kong; WU Wenhui, City Univeristy of Hong Kong; Junhui Hou*, City University of Hong Kong, Hong Kong
 Yijun Jiang, Clarkson University; David Russell, Clarkson University; Timothy Godisart, Oculus Pittsburgh; Natasha Kholgade Banerjee, Clarkson University; Sean Banerjee*, Clarkson University
@@ -159,7 +159,7 @@ Bichuan Guo*, Tsinghua University; Yuxing Han, South China Agriculture Universit
 siwang zhou*, Hunan university; shuzhen Xiang, Hunan university; xingting liu, Hunan university; heng li, hunan university
 Shaoguang Mao, Tsinghua University ; Xu Li, Chinese University of Hong Kong; Runnan Li, Tsinghua University; Helen Meng, The Chinese University of Hong Kong; Zhiyong Wu*, Tsinghua University
 Xiqun Lu*, Zhejiang University; Bolu Liu, Zhejiang University
-zhengguang zhou*, University of Science and Technology of China; Wengang  Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
+zhengguang zhou*, University of Science and Technology of China; Wengang Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
 NITIN SINGH*, SAMSUNG RESEARCH INSTITUTE BANGALORE; Manoj Kumar, Samsung Research Institute Bangalore; Mahesh pj, SAMSUNG RESEARCH INSTITUTE BANGALORE; Rituparna Sarkar, Samsung Research Institute Bangalore
 jianqiang qian, Xiamen University; Rongrong Ji*, Xiamen University, China; xianming lin, Xiamen University; Hong Liu, Xiamen University; youming deng, Xiamen University
 Chunbiao Zhu*, Peking University; xing cai, peking university; Kan Huang, Peking University; Thomas H. Li, Gpower Semiconductor Inc; Gary Li, Peking University
@@ -167,7 +167,7 @@ Suiyi Ling*, University of Nantes ; Gene Cheung, National Institute of Informati
 Han Liu*, School of Computer Science, Wuhan University; Zhen Han, National Engineering Research Center for Multimedia Software, Wuhan University; Jin Guo, Wuhan University; Xin Ding, School of Computer Science，Wuhan University
 Quan Zhou*, Harbin Institute of Technology Shenzhen Gradudate School; shuhan qi, Harbin Institute of Technology Shenzhen Gradudate School; xuan wang, Harbin Institute of Technology Shenzhen Gradudate School; jian guan, Harbin Institute of Technology Shenzhen Gradudate School ; lin yao, Pku-hkust Shenzhen-Hongkong Institute
 Xing Gao*, Shanghai Jiao Tong University; Hongkai Xiong, Shanghai Jiao Tong University
-Delin Chen, SUN YAT-SEN UNIVERSITY; Wenhao Chen, SUN YAT-SEN UNIVERSITY; Jian Chen, SUN YAT-SEN UNIVERSITY; Peijia  Zheng*, Sun Yat-sen University; Jiwu Huang, Sun Yat-sen University
+Delin Chen, SUN YAT-SEN UNIVERSITY; Wenhao Chen, SUN YAT-SEN UNIVERSITY; Jian Chen, SUN YAT-SEN UNIVERSITY; Peijia Zheng*, Sun Yat-sen University; Jiwu Huang, Sun Yat-sen University
 Mikail Demirdelen, IRISA; Mateusz Budnik*, IRISA; Guillaume Gravier, CNRS, IRISA
 Fanyi Duanmu*, New York University; Yixiang Mao, New York University; Shuai Liu, New York University; Sumanth Srinivasan, Vimeo, Inc.; Yao Wang, New York University
 Noureldin Elmadany*, Ryerson Uni
