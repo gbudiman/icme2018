@@ -151,7 +151,12 @@ module DateHelper
   end
 
   def self.get_deadline spec: 
-    return @date[spec][:proposal]
+    #return @date[spec][:proposal]
+    if @date[spec][:extended]
+      return @date[spec][:proposal] + ' (extended ' + @date[spec][:extended] + ')'
+    else
+      return @date[spec][:proposal]
+    end
   end
 
   def self.get_upcoming_deadline
