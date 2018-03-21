@@ -96,6 +96,7 @@ module ContactHelper
       members: ['Prasad Calyam, U. of Missouri, USA'],
       photos: ['Prasad Calyam']
     },
+
     finance: {
       title: 'Finance Chair',
       members: ['Yan Sun, U. of Rhode Island, USA'],
@@ -336,9 +337,9 @@ module ContactHelper
     },
     student_career_dinner: {
       not_oc: true,
-      members: ['Heather Yu', 'Michel Sarkis', 'Liangping Ma'],
-      email: ['heatheryu@huawei.com', 'msarkis@qti.qualcomm.com', 'liangping.ma@interdigital.com'],
-      photos: ['Heather Yu', 'Michel Sarkis', 'Liangping Ma']
+      members: ['Prasad Calyam', 'Heather Yu', 'Michel Sarkis', 'Liangping Ma'],
+      emails: ['calyamp@missouri.edu', 'heatheryu@huawei.com', 'msarkis@qti.qualcomm.com', 'liangping.ma@interdigital.com'],
+      photos: ['Prasad Calyam', 'Heather Yu', 'Michel Sarkis', 'Liangping Ma']
     }
     # industrial_advisory: {
     #   title: 'Industrial Advisory Board',
