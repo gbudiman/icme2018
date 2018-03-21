@@ -45,4 +45,15 @@ class Visa < ApplicationRecord
 
 		@@lut = vlut
 	end
+
+	def self.get_emails
+		email_io = IO.read(Rails.root.join('app', 'models', 'emails.txt')).split(/\n/)
+		emails = []
+
+		email_io.each do |row|
+			emails = emails + row.split(/\;/).map{ |x| x.strip }
+		end
+
+		IO.write(Rails.root.join('app', 'models', 'email_unrolled.txt'), emails.join("\n"))
+	end
 end
