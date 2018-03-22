@@ -44,7 +44,7 @@ Rails.application.routes.draw do
   get      '/accommodations', to: 'pages#accommodations'
   get      '/attractions', to: 'pages#attractions'
   get      '/social', to: 'pages#social'
-  #get      '/visa_invitation', to: 'pages#visa_invitation'
+  get      '/visa_invitation', to: 'pages#visa_invitation'
   #get      '/visa_payment', to: 'pages#visa_payment'
   get      '/copyright', to: 'pages#copyright'
   get      '/copyright_completed', to: 'pages#copyright_completed'
