@@ -73,12 +73,14 @@ class Visa < ApplicationRecord
 
 	def self.get_emails
 		email_io = IO.read(Rails.root.join('app', 'models', 'emails.txt')).split(/\n/)
-		emails = []
+		emails = {}
 
 		email_io.each do |row|
-			emails = emails + row.split(/\;/).map{ |x| x.strip }
+			row.split(/\;/).map do |x| 
+				emails[x.strip] = true
+			end
 		end
 
-		IO.write(Rails.root.join('app', 'models', 'email_unrolled.txt'), emails.join("\n"))
+		IO.write(Rails.root.join('app', 'models', 'email_unrolled.txt'), emails.keys.join("\n"))
 	end
 end
