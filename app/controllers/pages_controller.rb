@@ -20,8 +20,11 @@ class PagesController < ApplicationController
 
   def visa_invitation
     key = request['q']
-    val = Visa.get(key)
-    if val
+    xval = Visa.get(key)
+    ap xval
+    case xval[:status]
+    when :ok
+      val = xval[:value]
       @first_name = val[:name]
       @paper_title = val[:paper_title]
       @paper_date = val[:paper_date]
@@ -29,7 +32,7 @@ class PagesController < ApplicationController
       @authors = val[:authors]
       render partial: 'invitation'
     else
-      render partial: 'invitation_not'
+      render partial: 'invitation_not', locals: { reason: xval[:status] }
     end
   end
 

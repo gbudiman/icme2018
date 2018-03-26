@@ -5,7 +5,17 @@
 	International Conference on Multimedia and Expo (ICME2018)
 
 %div{class: 'invitation-content'}
-	%p We could not find your name in our registered attendees
+	- if reason == :not_registered
+		%p We have your name in our attendees list, but we have not received your registration.
+
+		%p 
+			Please complete the registration procedure first at
+			%a{href: 'http://www.cvent.com/d/1tq5y4'} http://www.cvent.com/d/1tq5y4
+
+		%p
+			Your registration may take up to 48 hours to be reflected on our system.
+	- elsif reason == :not_attending
+		%p We could not find your name in our attendees list
 
 %div{class: 'invitation-footer'}
 	=image_tag 'visa_template_footer.png'

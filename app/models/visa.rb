@@ -14,10 +14,24 @@ class Visa < ApplicationRecord
 	# 		               confirmation: 3510 }
 	# }
 	@@lut = nil
+	@@registereds = nil
 
 	def self.get key
 		if @@lut == nil then Visa.preprocess end
-		return @@lut[key.downcase]
+		if @@registereds == nil then Visa.slurp_cvent_data end
+
+		if @@lut[key.downcase]
+			if @@registereds[key.downcase]
+				return {
+					status: :ok,
+					value: @@lut[key.downcase]
+				}
+			else
+				return { status: :not_registered }
+			end
+		else
+			return { status: :not_attending }
+		end
 	end
 
 	def self.preprocess
@@ -46,14 +60,27 @@ class Visa < ApplicationRecord
 		@@lut = vlut
 	end
 
+	def self.slurp_cvent_data
+		csv = IO.read(Rails.root.join('app', 'models', 'cvent.csv')).split(/\n/)
+		@@registereds = {}
+
+		csv.each do |ks|
+			k = ks.split(/\,/)
+			s = "#{k[0]} #{k[1]}".gsub(/\"/, '').downcase
+			@@registereds[s] = true
+		end
+	end
+
 	def self.get_emails
 		email_io = IO.read(Rails.root.join('app', 'models', 'emails.txt')).split(/\n/)
-		emails = []
+		emails = {}
 
 		email_io.each do |row|
-			emails = emails + row.split(/\;/).map{ |x| x.strip }
+			row.split(/\;/).map do |x| 
+				emails[x.strip] = true
+			end
 		end
 
-		IO.write(Rails.root.join('app', 'models', 'email_unrolled.txt'), emails.join("\n"))
+		IO.write(Rails.root.join('app', 'models', 'email_unrolled.txt'), emails.keys.join("\n"))
 	end
 end
