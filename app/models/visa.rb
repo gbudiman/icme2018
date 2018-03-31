@@ -67,6 +67,7 @@ class Visa < ApplicationRecord
 		csv.each do |ks|
 			k = ks.split(/\,/)
 			s = "#{k[0]} #{k[1]}".gsub(/\"/, '').downcase
+
 			@@registereds[s] = true
 		end
 	end
