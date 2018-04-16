@@ -24,7 +24,7 @@ Fan Li*, Xi'an Jiaotong University; Yixin Mei, Xi'an Jiaotong University; Ziyi L
 Jiaxing Wang, School of Software Engineering, Xi'an Jiaotong University; Jihua Zhu, Xi'an Jiaotong University; Shanmin Pang*, Xi'an Jiaotong University; Zhongyu Li,  University of North Carolina at Charlotte; Yaochen Li, Xi'an Jiaotong University; Xueming Qian, Xi'an Jiaotong Universtiy
 Qi Mao*, Peking University; Shiqi Wang, CityU; Shanshe Wang, Peking University; Xinfeng Zhang, USC; Siwei Ma, Peking University, China
 Jingwen Ye*, Zhejiang University; Zunlei Feng, Zhejiang University; Yongcheng Jing, Zhejiang University; Mingli Song, Zhejiang University
-Yu Yao Shen*, National Cheng Kung University; Chih Hung Kuo, National Cheng Kung University
+Yuyao Shen*, National Cheng Kung University; Chih Hung Kuo, National Cheng Kung University
 Zongxian Li*, Peking University; Yemin Shi, Peking University; Yonghong Tian, PKU; Yaowei Wang, Beijing Institute of Technology; Wei Zeng, Peking University, China
 Long Chen*, Tsinghua University; Haizhou Ai, Tsinghua University; Zijie Zhuang, Tsinghua University; Chong Shang, Tsinghua University
 Yemin Shi*, Peking University; Yonghong Tian, PKU; Tiejun Huang, Peking University; Yaowei Wang, Beijing Institute of Technology
