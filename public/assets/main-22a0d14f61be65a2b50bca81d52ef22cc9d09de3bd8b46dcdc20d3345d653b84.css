@@ -258,3 +258,8 @@ img.carousel {
     margin-top: 10em;
   }
 }
+/* line 228, /home/gbudiman/Documents/icme2018/app/assets/stylesheets/main.css.scss */
+.paper-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
