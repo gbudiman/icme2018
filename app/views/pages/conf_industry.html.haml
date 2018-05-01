@@ -1,4 +1,29 @@
 
 %h1 Industry Forum
 
-%p Industry Forums will be announced soon
+%div{class: 'panel-group', id: 'accordion'}
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-1'}
+					5G-enabled Multimedia User Experience
+		%div{id: 'collapse-1', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Synopsis
+				%p 
+					TBA
+				%h4{class: 'specsess-heading'} Panelists
+				= render 'chairs', target: :industry_a_panelists
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-2'}
+					XR: virtual, augmented and mixed reality
+		%div{id: 'collapse-2', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Synopsis
+				%p 
+					TBA
+				%h4{class: 'specsess-heading'} Panelists
+				= render 'chairs', target: :industry_b_panelists

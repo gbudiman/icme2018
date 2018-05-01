@@ -335,6 +335,21 @@ module ContactHelper
                 'Xian-sheng Hua, Deputy Managing Director at iDST, Alibaba Group',
                 'Tao Mei, Lead Researcher, Microsoft Research Asia']
     },
+    industry_a_panelists: {
+      not_oc: true,
+      members: ['Imed Bouazizi, Principal Research Engineer, Samsung Research America',
+                'Robert DiFazio, Vice President and Head of R&D, InterDigital',
+                'Ajay Luthra, Vice President, Advanced Research and Technology, ARRIS',
+                'Haohong Wang, General Manager, TCL Research America']
+    },
+    industry_b_panelists: {
+      not_oc: true,
+      members: ['IJill Boyce, Fellow and Chief Media Architect, Intel',
+                'Philip A. Chou, Head of Compression, 8i',
+                'Serafin Diaz, VP Engineering, Qualcomm',
+                'Jon Karafin, CEO and Founder, Light Field Lab',
+                'Jens-Rainer Ohm, Professor, RWTH Aachen University, and Co-Chair of the Joint Video Experts Team (JVET)']
+    },
     student_career_dinner: {
       not_oc: true,
       members: ['Prasad Calyam', 'Heather Yu', 'Michel Sarkis', 'Liangping Ma'],
