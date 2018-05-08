@@ -10,16 +10,23 @@
 
 		%p Dear #{@first_name},
 
-		%p 
-			On behalf of the International Conference on Multimedia and Expo (ICME) 2018, I am pleased to inform you that the technical paper titled 
-			%span{class: 'paper-title'}= @paper_title 
-			authored by 
-			%span{class: 'paper-authors'}= @authors
-			has been accepted by the ICME 2018 Technical Committee after review for technical merits. As part of the publication requirements, it is a 
-			%strong
-				%u
-					mandatory requirement 
-			that you attend the Conference to present the paper and discuss your work. Please make the necessary travel arrangements and visa applications as early as possible to be able to present your paper and lead the subsequent technical discussions.
+		- if @paper_title != nil
+			%p 
+				On behalf of the International Conference on Multimedia and Expo (ICME) 2018, I am pleased to inform you that the technical paper titled 
+				%span{class: 'paper-title'}= @paper_title 
+				authored by 
+				%span{class: 'paper-authors'}= @authors
+				has been accepted by the ICME 2018 Technical Committee after review for technical merits. As part of the publication requirements, it is a 
+				%strong
+					%u
+						mandatory requirement 
+				that you attend the Conference to present the paper and discuss your work. Please make the necessary travel arrangements and visa applications as early as possible to be able to present your paper and lead the subsequent technical discussions.
+		- else
+			%p 
+				On behalf of the International Conference on Multimedia and Expo (ICME) 2018, we would like to thank you for your interest in attending the IEEE ICME 2018 conference. This letter is to confirm your registration to the conference and invite you to join the technical presentations and discussions during ICME 2018. We will be glad to see you join this prestigious IEEE event bringing together  academic and  industry research community to share  knowledge  and disseminate the outcomes of cutting edge research.   
+
+			%p
+				Please make the necessary travel arrangements and visa applications as early as possible to be able participate in the conference and relevant  technical discussions
 
 		%p 
 			The Conference will be held July 23-27, 2018 at the Hyatt Regency La Jolla, 3777 La Jolla Village Drive , San Diego, California, USA, 92122. 
