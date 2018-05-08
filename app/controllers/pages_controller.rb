@@ -31,6 +31,10 @@ class PagesController < ApplicationController
       @paper_time = val[:paper_time]
       @authors = val[:authors]
       render partial: 'invitation'
+    when :guest
+      val = xval[:value]
+      @first_name = val[:name]
+      render partial: 'invitation'
     else
       render partial: 'invitation_not', locals: { reason: xval[:status] }
     end

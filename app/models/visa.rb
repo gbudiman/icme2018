@@ -15,6 +15,7 @@ class Visa < ApplicationRecord
 	# }
 	@@lut = nil
 	@@registereds = nil
+	@@r_original_name = nil
 
 	def self.get key
 		if @@lut == nil then Visa.preprocess end
@@ -30,6 +31,13 @@ class Visa < ApplicationRecord
 				return { status: :not_registered }
 			end
 		else
+			if @@registereds[key.downcase]
+				return { 
+					status: :guest,
+					value: { name: @@r_original_name[key.downcase] }
+				}
+			end
+
 			return { status: :not_attending }
 		end
 	end
@@ -63,12 +71,14 @@ class Visa < ApplicationRecord
 	def self.slurp_cvent_data
 		csv = IO.read(Rails.root.join('app', 'models', 'cvent.csv')).split(/\n/)
 		@@registereds = {}
+		@@r_original_name = {}
 
 		csv.each do |ks|
 			k = ks.split(/\,/)
-			s = "#{k[0]} #{k[1]}".gsub(/\"/, '').downcase
+			s = "#{k[0]} #{k[1]}".gsub(/\"/, '')
 
-			@@registereds[s] = true
+			@@registereds[s.downcase] = true
+			@@r_original_name[s.downcase] = s
 		end
 	end
 
