@@ -173,3 +173,98 @@ A Subjective Study of Viewer Navigation Behaviors When Watching 360-Degree Video
 INTEGRATING ENTROPY SKELETON MOTION MAPS AND CONVOLUTIONAL NEURAL NETWORKS FOR HUMAN ACTION RECOGNITION
 FRAME-SUBSAMPLED, DRIFT-RESILIENT LONG-TERM VIDEO OBJECT TRACKING
 Personalized Sequential Check-in Prediction: Beyond Geographical and Temporal Contexts
+DEHAZING WITH A SEE-THROUGH NEAR-EYE DISPLAY
+Radiometric temperature-based pedestrian detection for 24 hour surveillance
+Harnessing Smartphone Users' Contribution for Virtual Tour Construction
+Adversarial generation of defensive trajectories in basketball games
+AUGMENTED REALITY SANDPIT SIMULATING ANT COLONIES
+EYE TRACKING-BASED 360 VR FOVEATED/TILED VIDEO RENDERING
+Server-based Smart Adaptive Bit Rate (SABR) Streaming with Statistical Multiplexing
+Are the Streaming Format Wars Over?
+Enhanced Action Recognition with Visual Attribute-augmented 3D Convolutional Neural Network
+Eye Gazing Enabled Driving Behavior Monitoring and Prediction
+Scalable Cloud Service for Multimedia Analysis based on Deep Learning
+Smartphone-based Crowdsourcing for Panoramic Virtual Tour Construction
+Mobile Learning System with Context-Aware Interactions and Point-of-Interest Understanding
+TV News Story Segmentation Using Deep Neural Network
+Data-driven Shoe Last Generation Based on Preference-aware GAN
+S-Net: A Lightweight Convolutional Neural Network  for N-dimensional Signals
+Intra Block Copy for Next Generation Video Coding
+COMPACT WEB VIDEO SUMMARIZATION VIA SUPERVISED LEARNING
+HIGH QUALITY REAL-TIME PANORAMA ON MOBILE DEVICES
+ADJUSTING CONTENT WORKFLOW INFRASTRUCTURES FOR HDR
+SELFIE STITCH – DUAL HOMOGRAPHY BASED IMAGE STITCHING FOR WIDE-ANGLE SELFIE
+FAST MODE DECISION IN HEVC INTRA PREDICTION, USING REGION WISE CNN FEATURE CLASSIFICATION
+A MOBILE APPLICATION FOR RUNNING FORM ANALYSIS BASED ON POSE ESTIMATION TECHNIQUE
+Content-Adaptive Resolution Control to Improve Video Coding Efficiency
+Improving Pedestrian Detection in Crowds with Synthetic Occlusion Images
+ICME Grand Challenge Results on Heterogeneous Face Recognition: Polarimetric Thermal-to-Visible Matching
+Tile-based QoE-driven HTTP/2 Streaming System for 360 Video
+Parallax View Generation for Static Scenes Using Parallax-Interpolation Adaptive Separable Convolution
+GAME THEORY BASED BITRATE ADAPTATION FOR DASH.JS REFERENCE PLAYER
+Greedy Layer-Wise Training of Long Short Term Memory Networks
+Exploiting Category-specific Information for Image Popularity Prediction in Social Media
+Integration of Graphic QR Code and Identity Documents by Laser Perforation to Enhance  Anti-Counterfeiting Features
+ATTRIBUTE DRIVEN ZERO-SHOT CLASSIFICATION AND SEGMENTATION
+PALMPRINT AND DORSAL HAND VEIN DUALMODAL BIOMETRICS
+AUGMENTED REALITY SANDPIT SIMULATING ANT COLONIES
+Panorama Generation Based on Aerial Images
+Center based Pseudo-Labeling for semi-supervised Person Re-identification
+Anomaly detection and localization: A novel two-phase framework based on trajectory-level characteristics
+DATA AUGMENTATION FOR CNN-BASED PEOPLE DETECTION IN AERIAL IMAGES
+2D TO 3D LABEL PROPAGATION FOR OBJECT DETECTION IN POINT CLOUD 
+Premium HDR: The Impact of a Single Word on the Quality of Experience of HDR Video
+AUTOMATIC WRITER VERIFICATION ALGORITHM FOR CHINESE CHARACTERS USING SEMI-GLOBAL FEATURES AND ADAPTIVE CLASSIFIER
+From visual confidentiality to transparent format-compliant selective encryption of 3D objects
+Video Super Resolution Based on Deep Convolution Neural Network with Two-stage Motion Compensation
+TOWARDS AUGMENTING MULTIMEDIA QOE WITH WEARABLE DEVICES: PERSPECTIVES FROM AN EMPIRICAL STUDY
+PYRAMID NETWORKS WITH DENSELY FEATURE FUSION MODELS FOR OBJECT DETECTION
+HYPER FEATURE FUSION PYRAMID NETWORK FOR OBJECT DETECTION
+FULLY CONVOLUTIONAL NETWORK WITH DENSELY FEATURE FUSION MODELS FOR OBJECT DETECTION
+A Fast No-reference Screen Content Image Quality Prediction using Convolutional Neural Networks
+Micro-Expression Recognition based on the Spatio-Temporal Feature
+An Enhanced Deep Convolutional Neural Network for Person Re-identification
+MULTI-VIEW GAIT IDENTIFICATION BASED ON STACKED SPARSE AUTO-ENCODERS
+Style Transfer at 100+ FPS via Sub-pixel Super-resolution
+Mobile Interface Design for Online Movie Databases - Comparing Active Exploration with Standard UI Designs
+Inverse and transitivity of cross-modal correspondence in Mulsemedia
+Quality Assessment for Tone-Mapped HDR Images Using Multi-Scale and Multi-Layer Information
+SINGLE IMAGE HAZE REMOVAL VIA JOINT ESTIMATION OF DETAIL AND TRANSMISSION
+Fall Detection Using Convolutional Neural Network with Multi-Sensor Fusion
+Physiological Function Assessment Based on RGB-D Camera
+LONG TERM HAND TRACKING WITH PROPOSAL SELECTION
+ANGULAR INTRA PREDICTION BASED MEASUREMENT CODING ALGORITHM FOR COMPRESSIVELY SENSED IMAGE
+DEEP GLOBAL AND LOCAL SALIENCY LEARNING WITH NEW RE-RANKING FOR PERSON RE-IDENTIFICATION
+PERSON RE-IDENTIFICATION WITH A JOINT LEARNING CNN NETWORK AND A NEW GLOBAL LOSS FUNCTION
+A New Enhanced Reversible Data Hiding Using Topology Preserved Chains
+MULTI-STREAM REGION PROPOSAL NETWORK FOR PEDESTRIAN DETECTION
+DEPTH MASKING BASED BINOCULAR JUST-NOTICEABLE-DISTORTION MODEL
+Detection of Food Intake Events from Throat Microphone Recordings using Convolutional Neural Networks
+QoE Tuning for Remote Access of Interactive Volume Visualization Applications
+When Will Breakfast Be Ready: Temporal Prediction of Food Readiness Using Deep Convolutional Neural Networks on Thermal Videos
+DCCN: A DEEP-COLOR CORRECTION NETWORK FOR TRADITIONAL CHINESE MEDICINE TONGUE IMAGES
+Weighted Multi-Region Convolutional Neural Network for Action Recognition with Low-Latency Online Prediction
+HIERARCHICAL LEARNING OF SPARSE IMAGE REPRESENTATIONS USING STEERED MIXTURE-OF-EXPERTS
+OCCLUSION-AND-EDGE-AWARE DEPTH ESTIMATION FROM STEREO IMAGES FOR SYNTHETIC REFOCUSING
+S2L:Single-StreamLine for Complex Video Event Detection
+RGB-D SEMANTIC SEGMENTATION: A REVIEW
+A Multimedia Big Data Retrieval Framework to Detect Dyslexia Among Children 
+TOWARDS ENERGY-EFFICIENT ADAPTIVE MPEG-DASH STREAMING USING HEVC
+AN AUDIO-VISUAL QUALITY ASSESSMENT METHODOLOGY IN VIRTUAL REALITY ENVIRONMENT
+IMPACT OF VISUALISATION STRATEGY FOR SUBJECTIVE QUALITY ASSESSMENT OF POINT CLOUDS
+Quality assessment of compression solutions for light field image coding
+ENHANCING DIGITAL ZOOM IN MOBILE PHONE CAMERAS BY LOW COMPLEXITY SUPER-RESOLUTION
+MULTI-FOCUS IMAGE FUSION FOR EXTENDED DEPTH OF FIELD
+HDR IMAGE RECONSTRUCTION USING LOCALLY WEIGHTED LINEAR REGRESSION
+Supporting Collaboration Among Cyber Security Analysts Through Visualizing their Analytical Reasoning Processes
+A NOVEL METHOD FOR STEREO IMAGE QUALITY ASSESSMENT
+The JPEG-blockchain framework for GLAM services
+SCALABLE MOTION ANALYSIS BASED SURVEILLANCE VIDEO DE-NOISING
+MULTI-LABEL NETWORKS FOR FACE ATTRIBUTES CLASSIFICATION
+MULTIMEDIA FUSION AT SEMANTIC LEVEL IN VEHICLE COOPERACTIVE PERCEPTION
+Robust Weighted Regression for Ultrasound Image Super-Resolution
+SPATIO-TEMPORAL INTERACTIVE LAWS FEATURE CORRELATION METHOD TO VIDEO QUALITY ASSESSMENT
+A MULTI-LAYER APPROACH TO SUPERPIXEL-BASED HIGHER-ORDER CONDITIONAL RANDOM FIELD FOR SEMANTIC IMAGE SEGMENTATION
+Viewport-Driven Rate-Distortion Optimized Live 360◦ Video Network Multicast
+How Experts Search Different Than Novices - An Evaluation of the diveXplore Video Retrieval System at Video Browser Showdown 2018
+MANIFOLD-STRUCTURE PRESERVING BIOMETRIC TEMPLATES - A PRELIMINARY STUDY ON FULLY CANCELABLE SMARTPHONE BIOMETRIC TEMPLATES

@@ -152,7 +152,7 @@ Xueping Wang, Hunan University; Min Liu*, Hunan University
 Yuheng Jia, City University of Hong Kong; Sam Kwong, City Univeristy of Hong Kong; WU Wenhui, City Univeristy of Hong Kong; Junhui Hou*, City University of Hong Kong, Hong Kong
 Yijun Jiang, Clarkson University; David Russell, Clarkson University; Timothy Godisart, Oculus Pittsburgh; Natasha Kholgade Banerjee, Clarkson University; Sean Banerjee*, Clarkson University
 Xing Xu*, University of Electronic Science and Technology of China; Jingkuan Song, UESTC; Huimin Lu, Kyushu Institute of Technology; Li He, Qualcomm; Yang Yang, University of Electronic Science and Technology of China; Fumin Shen, UESTC
-Rui Wang*, Shanghai University; Yujie Wu, Shanghai University; miao Shen, Shanghai University; Wenming Cao, Shenzhen University
+Rui Wang*, Shanghai University; Yujie Wu, Shanghai University; Miaomiao Shen, Shanghai University; Wenming Cao, Shenzhen University
 Ye Yu*, School of Computer and Information, Hefei University of Technology; Qiang Jin, School of Computer and Information, Hefei University of Technology; Chang Wen Chen, SUNY at Buffalo, USA
 Shen LI, VIPL, ICT; Bingpeng Ma, Chinese Academy of Sciences; Hong Chang, Chinese Academy of Sciences; shiguang Shan, Chinese Academy of Sciences; Xilin Chen, China
 Bichuan Guo*, Tsinghua University; Yuxing Han, South China Agriculture University; Jiangtao Wen, Tsinghua University
@@ -173,3 +173,98 @@ Fanyi Duanmu*, New York University; Yixiang Mao, New York University; Shuai Liu,
 Noureldin Elmadany*, Ryerson Uni
 Xuan Wang*, University of Wisconsin Madison; Yu Hen Hu, University of Wisconsin-Madison; Robert Radwin, University of Wisconsin Madison; John Lee, University of Wisconsin Madison
 Shenglin Zhao*, cuhk; Michael Lyu, The Chinese University of Hong Kong; Irwin King, The Chinese University of Hong Kong; Xixian Chen, The Chinese University of Hong Kong
+Kuang-Tsu Shih, National Taiwan University; Kai-En Lin, National Taiwan University; Homer Chen*, National Taiwan University
+Sungho Kim*, Yeungnam Univ; Taehwan Kim, Yeungnam Univ
+Chi Xu*, Simon Fraser University; Qiao Chen, Simon Fraser Univesity; Jiangchuan Liu, Simon Fraser University; Zhi Wang, Tsinghua University; Yueming Hu, South China Agricultural University
+Chieh-Yu Chen, NCTU; Wenze Lai, NCTU; Hsin-Ying Hsieh, NCTU; Yu-Shuen Wang*, NCTU; Wen-Hsiao Peng, Nil; Jung-Hong Chuang, NCTU
+Lachlan Smith, Monash University; Jon McCormack, Monash University; Zixiang Xiong*, Texas A&M University
+Hyunwook Kim, Korea Electronics Technology Institute (KETI); Eun-Seok Ryu*, Gachon University; Woochool Park, Korea Electronics Technology Institute (KETI)
+Ajay Luthra*, Arris; Mark Schmidt, Arris; Praveen Moorthy, Arris
+Ali Begen*, (on behalf of DASH-IF), Ozyegin University and Networked Media; Yasser Syed, Comcast
+Yunfeng Wang*, University of Science and Technology of china; Wengang  Zhou, University of Science and Technology of China; Qilin Zhang, HERE Technologies; Houqiang Li, University of Science and Technology of China
+Xiaoyi Fan*, Simon Fraser University; Feng Wang, The University of Mississippi; Yuhe Lu, Simon Fraser University; Danyang Song, Simon Fraser University; Jiangchuan Liu, Simon Fraser University
+Yangyang Xiang*, Graymatics Inc.; Lusong Li, Beihang University ; Shuen Lyu, Graymatics Inc; Harsh Munshi, Graymatics Inc.
+Chi Xu*, Simon Fraser University; Qiao Chen, Simon Fraser Univesity; Jiangchuan Liu, Simon Fraser University; Zhi Wang, Tsinghua University; Yueming Hu, South China Agricultural University
+Oscal T.-C. Chen*, National Chung Cheng University; Sung-Nien Yu, National Chung Cheng University; Ching-Chun Huang, National Chung Cheng University; Huang-Chen Lee, National Chung Cheng University; Yu-Ling Hsueh, National Chung Cheng University; Jerry Chih-Yuan Sun, National Chiao Tung University
+Zhu Liu*, AT&T; Yuan Wang, NYU
+Shan Huang*, Tsinghua University ; Yanlong Dong, Tsinghua University; Zhi Wang, Tsinghua University; Yong Jiang, Tsinghua University; Xu Zhang, Epoque; Rui Gao, Epoque
+Yingxuan Cui*, Beijing University of Technology; Yunhui Shi, Beijing University of Technology; Xiaoyan Sun, Microsoft Research Asia; Wenbin Yin, Harbin Institute of Technology
+Xiaozhong Xu*, Tencent America; Xiang Li, Tencent America; Shan Liu, Tencent America
+Yang Wang*, Microsoft; Bo Han, Microsoft; Darui Li, Microsoft; Kit Thambiratnam, Microsoft
+PANKAJ BAJPAI*, SAMSUNG RESEARCH & DEVELOPMENT INSTITUTE, BANGALORE; Akshay Upadhyay, SAMSUNG RESEARCH & DEVELOPMENT INSTITUTE, BANGALORE; Sandeep Jana, SAMSUNG RESEARCH & DEVELOPMENT INSTITUTE, BANGALORE; Jaehyun Kim, Samsung Electronics; Vamsee Kalyan  Bandlamudi, SAMSUNG RESEARCH & DEVELOPMENT INSTITUTE, BANGALORE
+Yasser Syed*, Comcast
+Sourabh Yadav*, Samsung R & D Institute India - Banglore; Pradeep Choudhary, Hike Messenger; Srishti Goel, Samsung R & D Institute India - Banglore; Sankaranarayanan Parameswaran, Samsung R&D Institute India - Bangalore, India; Pankaj Bajpai, Samsung R & D Institute India - Bangalore; Jaehyun Kim, Samsung Electronics
+SHIBA KUANAR*, University of Texas Arlington; Kamisetty Rao, University of Texas at Arlington; Christopher Conly, University of Texas at Arlington
+Kazunari Takeichi*, ASICS Corporation; Masaru Ichikawa, ASICS Corporation; Ryota Shinayama, ASICS Corporation; Takehiro Tagawa, ASICS Corporation
+Maryam Jenab*, McMaster University; Ihab Amer, AMD; Boris Ivanovic, AMD; Mehdi Saeedi, AMD; Yang Liu, AMD; Gabor Sines, AMD; Shahram Shiranin, McMaster University
+Chong Shang*, Tsinghua University; Haizhou Ai, Tsinghua University; Zijie Zhuang, Tsinghua University; Long Chen, Tsinghua University; Rui Chen, Tsinghua University
+Benjamin Riggan*, US Army Research Laboratory; Nathan Short, Booz allen Hamilton; M. Sauqib Sarfraz, KIT; Shuowen (Sean) Hu, ARL; He Zhang, Rutgers University ; Vishal Patel, """Rutgers University, USA"""; Seyed mehdi Iranmanesh, West virginia university; Nasser Nasrabadi, West Virginia University
+Zhimin Xu*, Institute of Computer Science & Technology of Peking University; Yixuan Ban, Peking University; Kai Zhang, BUPT; Lan Xie, Peking University; Xinggong Zhang, PKU; Zongming Guo, Peking University
+Yuan Gao*, Kiel University; Reinhard Koch, Kiel University
+Abdelhak Bentaleb*, National University of Singapore; Ali Begen, Ozyegin University; Roger Zimmermann, NUS
+Kaisheng Xu, USTC; Xu Shen, USTC; Ting Yao, Microsoft Research; Xinmei Tian*, USTC; Tao Mei, Microsoft
+Eric  Massip, Polytechnic University of Catalonia; Shintami  Hidayati, SINICA; Wen-Huang Cheng, Academia Sinica; Kai-Lung Hua*, NTUST
+Chia Tsen Sun*,  National Taiwan Normal University; Pei-Chun Kuan, National Taiwan Normal University; Yu-Mei Wang, National Taiwan Normal University; Chun-Shien Lu, Academia Sinica; Hsi-Chun Wang, National Taiwan Normal University
+Shu Yang, Beijing Institute of Technology; Yemin Shi, Peking University; Yaowei Wang*, Beijing Institute of Technology; Jing Wang, Beijing Institute of Technology; Zesong Fei, Beijing Institute of Technology
+Dexing Zhong*, Xi'an Jiaotong University; Menghan Li, Xi'an Jiaotong University; Huikai Shao, Xi'an Jiaotong University; Shuming Liu, Xi'an Jiaotong University; Xuefeng Du, Xi'an Jiaotong University
+Lachlan Smith, Monash University; Jon McCormack, Monash University; Zixiang Xiong*, Texas A&M University
+Jyun-Gu Ye*, National Taiwan University, Taiwan; Hua-Tsung Chen, National Chiao Tung University,Taiwan; Wen-Jiin Tsai, National Chiao Tung University
+Guodong Ding*, Nanjing University of Science and Technology; Shanshan Zhang, Nanjing University of Science and Technology; Salman Khan, Australian National University (ANU); Zhenming Tang,  Nanjing University of Science and Technology
+Kun Zhao, University of Science and Technology of China; Bin Liu*, University of Science and Technology of China; Weihai Li, University of Science and Technology of China; Nenghai Yu, University of Science and Technology of China; Zhiqiang Liu, University of Science and Technology of China
+Hua-Tsung Chen*, National Chia Tung University; Che-Han Liu, National Chia Tung University; Wen-Jiin Tsai, National Chiao Tung University
+Kanokphan Lertniphonphan*, KDDI Research, Inc.
+Peter Kara*, Kingston University; Aron Cserkaszky, Holografika; Maria Martini, Kingston University, UK
+Pin-Xuan Lee, National Taiwan University; Jian-Jiun Ding*, Nil; Ting-Chih Wang, National Taiwan University; Yih-Cherng Lee, National Taiwan University
+Sébastien Beugnon*, Univ. Montpellier; William Puech, Univ. Montpellier, France; Jean-Pierre Pedeboy, Stratégies S.A.
+Haoyu Ren*, Samsung Research USA; Mostafa El-Khamy, Samsung Research USA; Jungwon Lee, Samsung Research USA
+Nadia Hussain*, Brunel University; Gebremariam Assres, Brunel University; Alexandra Covaci, Brunel University; Gheorghita Ghinea, Brunel University London
+ShouZhi Huang*, Beijing University of Posts and Telecommunications; XiaoYu Li, Academy of Broadcasting Science; zhuqing jiang, Beijing University of Posts and Telecommunications; Xiaoqiang Guo, Academy of Broadcasting Science, SAPPRET; aidong men, Beijing University of Posts and Telecommunications
+ShouZhi Huang*, Beijing University of Posts and Telecommunications; XiaoYu Li, Academy of Broadcasting Science; zhuqing jiang, Beijing University of Posts and Telecommunications; Xiaoqiang Guo, Academy of Broadcasting Science, SAPPRET; aidong men, Beijing University of Posts and Telecommunications
+ShouZhi Huang*, Beijing University of Posts and Telecommunications; XiaoYu Li, Academy of Broadcasting Science; zhuqing jiang, Beijing University of Posts and Telecommunications; Xiaoqiang Guo, Academy of Broadcasting Science, SAPPRET; aidong men, Beijing University of Posts and Telecommunications
+Zhengxue Cheng*, Waseda University; Masaru Takeuchi, Waseda University; Kenji Kanai, Waseda University, Japan; Jiro Katto, Waseda University
+Wenchao Su*, Beijing University of Posts and Telecommunications; Yanyan Wang, Imperial College London; Fei Su, Beijing University of Posts and Telecommunications; Zhicheng Zhao, bupt
+tiansheng Guo*, Beijing University of Posts and Telecommunications; dongfei wang, Academy of Broadcasting Science, Beijing; zhuqing jiang, Beijing University of Posts and Telecommunications; aidong men, Beijing University of Posts and Telecommunications; Yun Zhou, Academy of Broadcasting Science
+Suibing Tong*, sjtu; Yuzhuo Fu, sjtu; Hefei Ling, hust
+Haoyu Li, South China University of Technology; Xiangmin Xu*, South China University of Technology; Bolun Cai, South China University of Technology ; Kailing Guo, South China University of Technology; Xiaofen Xing,  South China University of Technology
+Wolfgang Hürst*, Utrecht University; Bruno dos Santos Carvalhal, Utrecht University
+Gebremariam Assres*, Brunel University; Nadia Hussain, Brunel University; Alexandra Covaci, Brunel University; Gheorghita Ghinea, Brunel University London
+Qin He, National Engineering Laboratory for Video Technology; Dingquan Li, Peking University; Tingting Jiang*, Peking University; Ming Jiang, Peking University
+Shengdong Zhang, School of remote sensing information engineering,Institute of Information Engineering, Chinese Academy of Science，Wuhan University State Key Lab of Software Engineering, Wuhan University; Yao Jian*, School of remote sensing information engineering,Wuhan University ; Wenqi Ren, Institute of Information Engineering,  Chinese Academy of Sciences
+Xu Zhou, Beijing Insititute of technology; Li-Chang Qian*, Beijing Insititute of technology ; Peng-Jie You, Beijing Institute of Technology ; Ze-Gang Ding, Beijing Insititute of technology ; yuqi han, Beijing Institute of Technology
+Wenming Cao, Shenzhen University; zhong jianqi, ICME 2018; Guitao Cao, East China Normal University; zhiquan he*, Shenzhen University
+Qingshuang Chen*, PURDUE UNIVERSITY; Fengqing Zhu, Purdue University, USA
+Jianbin Zhou*, Hosei University; Jinjia Zhou, Hosei University; Li Guo, Waseda University
+Wei Fei*, School of Communication and Information Engineering, Beijing University of Posts and Telecommunications; Zhicheng Zhao, bupt; Fei Su, Beijing University of Posts and Telecommunications
+Linrui Xie*,  Beijing University of Posts and Telecommunications  
+Bing Yan, Department of Computer Science and Information Security; Ming Su*, Nankai University; Gang Wang, Department of Computer Science and Information Security; Liu Xiaoguang, Nankai Univerisity; Mingming Ren, Nankai Unviersity
+Jianjun Lei*, Tianjin University; Yue Chen, Tianjin University; Bo Peng, Tianjin University; Qingming Huang, University of Chinese Academy of Sciences; Nam Ling, Department of Computer Engineering Santa Clara University; Chunping Hou, Tianjin University
+Kai Zheng*, Communication University of China; Yana Zhang, Communication University of China
+Mehmet Ali Tugtekin Turan*, Koç University; Engin Erzin, Koç University
+Sam Jonesi, University of Missouri-Columbia; Jerry Adams, University of Hawaii-West Oahu; Samaikya Valluripally, University of Missouri-Columbia; Prasad Calyam*, University of Missouri-Columbia; Brad Hittle, Ohio Supercomputer Center; Albert Lai, Washington University in St. Louis
+Yijun Jiang, Clarkson University; Miao Luo, Clarkson University; Sean Banerjee, Clarkson University; Natasha Kholgade Banerjee*, Clarkson University
+Yunxi Lu*, Beijing University of Technology; Xiaoguang Li, Beijing University of Technology; Li Zhuo, Beijing University of Technology; Jing Zhang, Beijing University of Technology; Hui Zhang, Beijing University of Technology
+Yunfeng Wang*, University of Science and Technology of china; Wengang  Zhou, University of Science and Technology of China; Qilin Zhang, HERE Technologies; Xiaotian Zhu, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
+Rolf Jongebloed*, Technische Universität Berlin; Ruben Verhack, Ghent University; Lieven Lange, Technische Universität Berlin; Thomas Sikora, TU Berlin
+Hua-Yu Chou, National Taiwan University; Kuang-Tsu Shih, National Taiwan University; Homer Chen*, National Taiwan University
+Zijun Xu, University of Chinese Academy of Sciences; Li Su*, University of Chinese Academy of Sciences; Shuhui Wang, vipl,ict,Chinese academic of science; Qingming Huang, University of Chinese Academy of Sciences; Yuan Zhang, Communication University of China
+Yaosi Hu, School of Remote Sensing and Information Engineering, Wuhan University; Zhenzhong Chen*, Wuhan University; Weiyao Lin, Shanghai Jiao Tong university
+Elham Hassanain*, University of Prince Mugrin
+Mikko Uitto*, VTT Technical Research Centre of Finland Ltd. ; Martti Forsell, VTT Technical Research Centre of Finland Ltd.
+Bo Zhang, Beijing Institute of Technology; Zhaoyu Yan, Beijing Institute of Technology; Jing Wang*, Beijing Institute of Technology; YiYu Luo, Beijing Institute of Technology; Shu Yang, Beijing Institute of Technology; Zesong Fei, Beijing Institute of Technology
+Evangelos Alexiou*, ÉCOLE POLYTECHNIQUE FÉDÉRALE DE LAUSANNE; Touradj Ebrahimi, EPFL
+Irene Viola*, EPFL; Touradj Ebrahimi, EPFL
+Farzad Toutounchi*, QMUL; Ebroul Izquierdo, QMUL
+Wisarut Chantara*, Gwangju Institute of Science and Technology; Yo-Sung HO, GIST
+Xiaofen Li, University of Electronic Science and Technology of China; Yongqing Huo*, University of Electronic Science and Technology of China
+Chen Zhong*, Indiana University Kokomo; Awny Alnusair, Indiana University Kokomo
+Tien-Ying Kuo*, National Taipei University of Technology; Yu-Jen Wei, National Taipei University of Technology; Kuan-Hung Wan, National Taipei University of Technology; Cheng Feng-Shih,  National Taipei University of Technology
+Deepayan Bhowmik*, Sheffield Hallam University; Ambarish Natu, Australian Government; Takaaki Ishikawa, Waseda University; Tian Feng, Sheffield Hallam University; Charith Abhayaratne, University of Sheffield
+He Jiang, Shanghai JiaoTong University; Jie Yang*, Shanghai Jiao Tong University
+Sara Ahmed*, Sabanci University; Berrin Yanikoglu, Sabanci University
+Zhongyang Xiao*, Tsinghua University; Zhaobin Mo, Tsinghua University; Kun Jiang, Tsinghua; Diange Yang, Tsinghua University
+Walid Sharabati*, Cerner Corporation; Bowei Xi, Purdue University
+Kuan-Hsien Liu, National Taichung University of Science and Technology; Tsung-Jung Liu*, National Chung Hsing University; Hsin-Hua Liu, National Taiwan University; Soo-Chang Pei, National Taiwan University
+Li Sulimowicz*, University of Texas at Arlington; Ishfaq  Ahmad, University of Texas at Arlington; alexander aved, US Air Force Research Lab
+Ridvan Aksu*, University of Alabama; Viswanathan Swaminathan, Adobe
+Klaus Schoffmann*, University of Klagenfurt; Bernd Münzer, Klagenfurt University; Manfred Primus, Alpen-Adria Universität Klagenfurt; Sabrina Kletz, Klagenfurt University; Andreas Leibetseder, Alpen-Adria-Universität Klagenfurt
+Kiran Raja*, USN

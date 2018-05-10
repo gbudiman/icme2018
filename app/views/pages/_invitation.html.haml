@@ -29,12 +29,14 @@
 				Please make the necessary travel arrangements and visa applications as early as possible to be able participate in the conference and relevant  technical discussions
 
 		%p 
-			The Conference will be held July 23-27, 2018 at the Hyatt Regency La Jolla, 3777 La Jolla Village Drive , San Diego, California, USA, 92122. 
+			The Conference will be held July 23-27, 2018 at the Hyatt Regency La Jolla, 3777 La Jolla Village Drive, San Diego, California, USA, 92122. 
 			/ Your presentation is now scheduled for 
 			/ %span{class: 'paper-date'}= @paper_date 
 			/ at 
 			/ %span{class: 'paper-time'}= @paper_time
 			/ \. 
+
+		- if @paper_title != nil
 			Thank you for submitting a high-quality paper to this prestigious conference, and we look forward to hearing your presentation.
 
 		%p 
