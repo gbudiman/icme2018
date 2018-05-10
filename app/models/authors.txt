@@ -238,7 +238,7 @@ Wei Fei*, School of Communication and Information Engineering, Beijing Universit
 Linrui Xie*,  Beijing University of Posts and Telecommunications  
 Bing Yan, Department of Computer Science and Information Security; Ming Su*, Nankai University; Gang Wang, Department of Computer Science and Information Security; Liu Xiaoguang, Nankai Univerisity; Mingming Ren, Nankai Unviersity
 Jianjun Lei*, Tianjin University; Yue Chen, Tianjin University; Bo Peng, Tianjin University; Qingming Huang, University of Chinese Academy of Sciences; Nam Ling, Department of Computer Engineering Santa Clara University; Chunping Hou, Tianjin University
-Kai Zheng*, Communication University of China; Yana Zhang, Communication University of China
+Kai Zheng*, Communication University of China; Yana Zhang, Communication University of China; Lingling Lv; Cheng Yang
 Mehmet Ali Tugtekin Turan*, Koç University; Engin Erzin, Koç University
 Sam Jonesi, University of Missouri-Columbia; Jerry Adams, University of Hawaii-West Oahu; Samaikya Valluripally, University of Missouri-Columbia; Prasad Calyam*, University of Missouri-Columbia; Brad Hittle, Ohio Supercomputer Center; Albert Lai, Washington University in St. Louis
 Yijun Jiang, Clarkson University; Miao Luo, Clarkson University; Sean Banerjee, Clarkson University; Natasha Kholgade Banerjee*, Clarkson University
