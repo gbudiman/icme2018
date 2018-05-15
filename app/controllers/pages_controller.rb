@@ -8,10 +8,10 @@ class PagesController < ApplicationController
   		'Liangping Ma' => ['Tutorial Speaker', 'Delivering Traditional and Omnidirectional Media'],
   		'Christian Timmerer' => ['Tutorial Speaker', 'Delivering Traditional and Omnidirectional Media'],
   		'Kari Pulli' => ['Tutorial Speaker', 'Interactive Augmented Reality with Meta 2'],
-  		'Charles Niu' => ['Tutorial Speaker', 'Interactive Augmented Reality with Meta 2'],
+  		#'Charles Niu' => ['Tutorial Speaker', 'Interactive Augmented Reality with Meta 2'],
   		'Paulo Jansen' => ['Tutorial Speaker', 'Interactive Augmented Reality with Meta 2'],
-  		'Jens-Rainer Ohm' => ['Tutorial Speaker', 'Interactive Augmented Reality with Meta 2'],
-  		'Mathias Wien' => ['Tutorial Speaker', 'Interactive Augmented Reality with Meta 2'],
+  		'Jens-Rainer Ohm' => ['Tutorial Speaker', 'Trends and Recent Developments in Video Coding Standardization'],
+  		'Mathias Wien' => ['Tutorial Speaker', 'Trends and Recent Developments in Video Coding Standardization'],
   		'Tao Mei' => ['Tutorial Speaker', 'Multimedia and Language: Bridging Multimedia and Natural Language with Deep Learning'],
   		'Jiebo Luo' => ['Tutorial Speaker', 'Multimedia and Language: Bridging Multimedia and Natural Language with Deep Learning']
   	}
