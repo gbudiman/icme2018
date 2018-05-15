@@ -2,11 +2,11 @@
 %h1 Industry Forum
 
 %h3 Panels
-%div{class: 'panel-group', id: 'accordion'}
+%div{class: 'panel-group', id: 'accordion-industry'}
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-1'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion-industry', href: '#collapse-1'}
 					5G-enabled Multimedia User Experience
 		%div{id: 'collapse-1', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
@@ -19,7 +19,7 @@
 	%div{class: 'panel panel-primary'}
 		%div{class: 'panel-heading'}
 			%h4{class: 'panel-title'}
-				%a{'data-toggle': 'collapse', 'data-parent': '#accordion', href: '#collapse-2'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion-industry', href: '#collapse-2'}
 					XR: virtual, augmented and mixed reality
 		%div{id: 'collapse-2', class: 'panel-collapse collapse'}
 			%div{class: 'panel-body'}
@@ -30,6 +30,38 @@
 				= render 'chairs', target: :industry_b_panelists
 
 %h3 Industrial Plenary Talks
-%p -- Under Construction --
+%div{class: 'panel-group', id: 'accordion-plenary'}
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion-plenary', href: '#collapse-3'}
+					InterDigital: 5G is Here - Is it time to celebrate?
+		%div{id: 'collapse-3', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Abstract
+				%p 
+					The widely anticipated 5G cellular specifications, 3GPP Release 15, are here. Deployments are starting, devices will appear soon, and there’s plenty of buzz about who’s first, who’s best and what is to come.  5G brings great promises of 20 Gbps data rates, 1 ms latency, long battery life, and network enhancements: a Service Based Architecture, Network Function Virtualization, and Network Slicing.  But what does it all mean and what is to come? Are we overly enthusiastic, or are those who are ambivalent or skeptical justified? 
+				%p 
+					This talk will take a brief look at the evolution of cellular standards, the expectations, the successes, and the failures. It will then focus on how 5G is different and discuss how success will follow from leveraging the flexible 5G technologies for a larger ecosystem that can benefit from the broadband continuous coverage of cellular networks. Advanced multimedia services are one of the most important use cases. Yet, success may also depend on high performance localized applications using mobile edge computing, IoT, new entrants operating in unlicensed spectrum, contributions to the automobile industry’s plans for autonomous and assisted driving, non-terrestrial networks offering the ability to integrate satellite systems, unmanned aerial vehicles, robotics, and as history shows, those yet-to-be-imagined applications.
+
+				%h4{class: 'specsess-heading'} About the Speaker
+				%img{src: "#{asset_path('photos/Robert DiFazio.jpg')}", class: 'keynote-bio'}
+				%p
+					Dr. Robert A. DiFazio, Head of Research &amp; Development, Vice President, InterDigital Labs, InterDigital Communications, Inc. Dr. Robert A. DiFazio is the Head of Research &amp; Development and Vice President of InterDigital Labs, where he leads a group of engineers who design and develop advanced technologies and applications for mobile communications. He manages and actively participates in numerous projects addressing 5G cellular technology, next generation Wi-Fi, millimeter wave radio systems, small cell and heterogeneous wireless networks, advanced video standards and platforms, emerging network technology, IoT and machine-to- machine communications, and advanced sensor systems for navigation and localization. He contributes to technology planning at InterDigital and the company’s collaboration with many universities. Dr. DiFazio has almost forty years of experience in research, design, implementation, and testing of new technologies for commercial and military wireless systems. Prior to InterDigital, he spent more than twenty years at BAE Systems working on software defined radios, smart antenna systems, jam resistant modems, and low probability of intercept communication and navigation systems. He has a Ph.D. from the NYU Tandon School of Engineering (formerly, Brooklyn Poly). He serves on the Industry Advisory Boards for the NYU Tandon Department of Electrical Engineering and Computer Science and for New York Institute of Technology. He is a Senior Member of the IEEE and holds over forty issued and numerous pending US patents.
+
+	%div{class: 'panel panel-primary'}
+		%div{class: 'panel-heading'}
+			%h4{class: 'panel-title'}
+				%a{'data-toggle': 'collapse', 'data-parent': '#accordion-plenary', href: '#collapse-4'}
+					Tencent: Neural Network in Video Compression and Standard
+		%div{id: 'collapse-4', class: 'panel-collapse collapse'}
+			%div{class: 'panel-body'}
+				%h4{class: 'specsess-heading'} Synopsis
+				%p 
+					HEVC (High Efficiency Video Coding) has emerged as a major step forward in video compression and standardization. This achievement was recognized by the Emmy Engineering Award in October 2017.  At the same time new video compression technologies continue being actively developed beyond HEVC to suit the rapidly growing market demands. A Call for Proposals was jointly issued by ISO/IEC and ITU-T in October 2017 to launch a new standardization project to capture these advances. More than 40 responses were received in April 2018, among which some new elements were presented besides more conventional video coding techniques, including the utilization of neural networks for video compression. Neural network or deep learning technologies have been researched for enhancing video and image qualities, and more recently, video and image compression. This talk will look into the recent work on neural video compression for the next video compression standard and discuss the opportunities as well as challenges.
+				%h4{class: 'specsess-heading'} Panelists
+				%img{src: "#{asset_path('photos/Shan Liu.jpg')}", class: 'keynote-bio'}
+				%p 
+					Shan Liu is a Distinguished Scientist and Vice President of Tencent Media Lab at Tencent America. Prior to Tencent she was the Chief Scientist and Head of America Media Lab at Futurewei Technologies, a.k.a. Huawei USA. She also held senior management and technical positions at MediaTek, Mitsubishi Electric Research Laboratories, Sony Electronics / Sony Computer Entertainment America, and IBM T.J. Watson Research Center. Dr. Liu is the inventor of more than 200 US and global patent applications and the author of more than 30 journal and conference articles. Many of her inventions have been adopted by international standards such as ITU-T H.265 | ISO/IEC HEVC, MPEG-DASH and OMAF, as well as utilized in widely sold commercial products. She has chaired and co-chaired a number of ad-hoc and technical groups through standard development and served as co-Editor of Rec. ITU-T H.265 v4 | ISO/IEC 23008-2:2017. She has been in technical and organizing committees, or an invited speaker, at various international conferences such as IEEE ICIP, VCIP, ICNC, ICME and ACM Multimedia. She served in Industrial Relationship Committee of IEEE Signal Processing Society 2014-2015 and was appointed the VP of Industrial Relations and Development of Asia-Pacific Signal and Information Processing Association (APSIPA) 2016-2017. Dr. Liu obtained her B.Eng. degree in Electronics Engineering from Tsinghua University, Beijing, China and M.S. and Ph.D. degrees in Electrical Engineering from University of Southern California, Los Angeles, USA.
 
 = render 'chairs', target: :industrial_program
