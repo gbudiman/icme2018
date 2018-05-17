@@ -162,7 +162,7 @@ Xiqun Lu*, Zhejiang University; Bolu Liu, Zhejiang University
 zhengguang zhou*, University of Science and Technology of China; Wengang Zhou, University of Science and Technology of China; Houqiang Li, University of Science and Technology of China
 NITIN SINGH*, SAMSUNG RESEARCH INSTITUTE BANGALORE; Manoj Kumar, Samsung Research Institute Bangalore; Mahesh pj, SAMSUNG RESEARCH INSTITUTE BANGALORE; Rituparna Sarkar, Samsung Research Institute Bangalore
 jianqiang qian, Xiamen University; Rongrong Ji*, Xiamen University, China; xianming lin, Xiamen University; Hong Liu, Xiamen University; youming deng, Xiamen University
-Chunbiao Zhu*, Peking University; xing cai, peking university; Kan Huang, Peking University; Thomas H. Li, Gpower Semiconductor Inc; Gary Li, Peking University
+Chunbiao Zhu*, Peking University; xing cai, peking university; Kan Huang, Peking University; Thomas H. Li, Gpower Semiconductor Inc; Ge Li, Peking University
 Suiyi Ling*, University of Nantes ; Gene Cheung, National Institute of Informatics; Patrick Callet, "Universite de Nantes, France"
 Han Liu*, School of Computer Science, Wuhan University; Zhen Han, National Engineering Research Center for Multimedia Software, Wuhan University; Jin Guo, Wuhan University; Xin Ding, School of Computer Science，Wuhan University
 Quan Zhou*, Harbin Institute of Technology Shenzhen Gradudate School; shuhan qi, Harbin Institute of Technology Shenzhen Gradudate School; xuan wang, Harbin Institute of Technology Shenzhen Gradudate School; jian guan, Harbin Institute of Technology Shenzhen Gradudate School ; lin yao, Pku-hkust Shenzhen-Hongkong Institute
