@@ -340,7 +340,7 @@ module ContactHelper
       members: ['Imed Bouazizi, Principal Research Engineer, Samsung Research America',
                 'Robert DiFazio, Vice President and Head of R&D, InterDigital',
                 'Ajay Luthra, Vice President, Advanced Research and Technology, ARRIS',
-                'Haohong Wang, General Manager, TCL Research America']
+                'Manuel Tiglio, CEO and Chair of FASTechMedia']
     },
     industry_b_panelists: {
       not_oc: true,
