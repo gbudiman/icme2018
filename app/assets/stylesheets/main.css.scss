@@ -229,3 +229,30 @@ img.carousel {
   font-weight: bold;
   text-decoration: underline;
 }
+
+.attraction-block {
+  img.attraction {
+    width: 100%;
+  }
+
+  .title {
+    margin-top: -51px;
+    padding-left: 8px;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 36px;
+    position: relative;
+    font-weight: 800;
+    font-style: italic;
+    background-color: rgba(38, 38, 38, 0.6);
+  }
+
+  .title.multi {
+    margin-top: -75px;
+    .small {
+      margin-top: -8px;
+      font-size: 20px;
+      padding-bottom: 4px;
+    }
+  }
+}
