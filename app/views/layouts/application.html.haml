@@ -39,7 +39,7 @@
           = data[:title]
           %div{class: 'row'}
           - data[:logos].each do |company|
-            %div{class: 'col-xs-6 col-sm-3 sponsor-container'}
+            %div{class: 'col-xs-12 col-sm-6 col-md-3 sponsor-container'}
               =image_tag "#{company}.png", class: 'sponsor-logo'
 
 

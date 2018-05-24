@@ -43,6 +43,7 @@ Rails.application.routes.draw do
   get      '/local', to: 'pages#local'
   get      '/accommodations', to: 'pages#accommodations'
   get      '/attractions', to: 'pages#attractions'
+  get      '/transportation', to: 'pages#transportation'
   get      '/social', to: 'pages#social'
   get      '/visa_invitation', to: 'pages#visa_invitation'
   #get      '/visa_payment', to: 'pages#visa_payment'
