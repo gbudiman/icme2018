@@ -21,5 +21,67 @@
 
 %iframe{width:"600", height:"450", frameborder:"0", style:"border:0", id: 'venuemap', src:"https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7SIZEtQG3IARth8Oo_J80qk&key=AIzaSyDihkX5Aj3nLOS30-IZZqMJq9wromhtxPk", allowfullscreen: true}
 
+%img{src: "#{asset_path('hotels/hrlj_street_view.jpg')}", class: 'hotel-street-view'}
+%h3 Accommodations
+%p 417 guestrooms, including 17 suites, Hyatt Business Plan,® Hyatt Gold Passport® and Regency Club® accommodations available
+All Accommodations Offer
+%ul
+  %li Hyatt Grand Bed®
+  %li Free Wi-Fi is available in guestrooms and social spaces like lobbies and restaurants, excluding meeting spaces
+  %li 42-inch LCD high definition television with remote control, cable movie channels, in-room pay movies
+  %li Two-line speaker phone with voicemail and message light
+  %li Individual climate control
+  %li In-room safety deposit box (laptop size)
+  %li Full bath amenities
+  %li Bathrobes for Regency Club®
+  %li Daily newspaper delivery (upon request)
+
+%img{src: "#{asset_path('hotels/hrlj_bedroom.jpg')}", class: 'hotel-img'}
+%img{src: "#{asset_path('hotels/hrlj_bathroom.jpg')}", class: 'hotel-img'}
+
+%h3 Recreational Facilities
+%ul
+  %li 24-hour complimentary Hyatt StayFit gym complete with Life Fitness cardio and strength equipment, plus an outdoor stretching area with medicine balls, resistance bands and yoga mats
+  %li Junior Olympic-size heated outdoor lap pool with individual cabanas, pool bar and oversize firepits
+  %li Outdoor whirlpool and sundeck
+  %li Two tennis courts
+  %li Four miles from world renowned 36-hole Torrey Pines municipal golf course
+%img{src: "#{asset_path('hotels/hrlj_pool.jpg')}", class: 'hotel-img'}
+
+%h3 Services & Facilities
+%ul
+  %li Four business pods offering high-speed Internet and scanner; rates may apply
+  %li Complimentary executive business shuttle transportation daily to local businesses
+  %li 24–hour in-room dining
+  %li Multilingual staff
+  %li Currency exchange
+  %li Safe-deposit boxes at front desk
+  %li Dry cleaning available
+  %li Valet parking, self-parking, covered parking
+
+%h3 Restaurants & Bars
+%ul
+  %li Barcino Grill — featuring a full American breakfast buffet seven days a week
+  %li Cafe Japengo — pacific rim cuisine and award-winning sushi
+  %li DRIFT eat + drink — lunch and dinner are available along with a full selection of beer, wine and spirits
+  %li Fleming’s Prime Steakhouse — serving only the finest quality hand-cut prime steaks and the freshest seafood available
+  %li Perks Coffee Shop General & Sundry Store — offers coffee, breakfast pastries, sandwiches, salads, sushi and sundry items
+  %li Truluck’s — seafood, serving the freshest stone crab
+  %li Melting Pot — featuring fondue for a fun and interactive dining experience
+%img{src: "#{asset_path('hotels/hrlj_firepit.jpg')}", class: 'hotel-img'}
+%img{src: "#{asset_path('hotels/hrlj_patio.jpg')}", class: 'hotel-img'}
+
+%h3 Meeting & Event Space
+%ul 
+  %li A total of 42,000 sq. ft. of flexible indoor and outdoor function space including 10,846 sq. ft. of prefunction space, the 11,800 sq. ft. Aventine Ballroom and the Vicino Ballroom, a 5,850 sq. ft., glass-enclosed structure. The Vicino Ballroom can accommodate up to 500 guests for meetings and receptions
+  %li 26 meeting rooms each with individual or master controls for heat/AC, sound, music, telephones, multiple electrical/microphone outlets, special lighting effects, 110V/220V single-phase electricity; three-phase electricity also available
+  %li Our Catering professionals provide both on-site and off-site catering planning
+%img{src: "#{asset_path('hotels/hrlj_conference.jpg')}", class: 'hotel-img'}
+
+%h3 
+  %a{href: "#{asset_path('hotels/layout.pdf')}"}
+    Room Layout
+    %span{class: 'glyphicon glyphicon-file'}
+
 :javascript
   layout_helper.adjust_map();
