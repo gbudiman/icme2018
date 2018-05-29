@@ -1,4 +1,14 @@
 
 %h1 At a Glance
 
-%p -- Under Construction --
+%table{class: 'table table-striped table-bordered'}
+	- Schedule.parse_csv(path: 'schedule.csv').each do |row|
+		- @highlight = row.first == 'Room'
+		%tr
+		- row.each do |cell|
+			%td
+				- if @highlight
+					%b
+						= cell ? cell.html_safe : ''
+				- else
+					= cell ? cell.html_safe : ''
