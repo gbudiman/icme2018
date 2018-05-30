@@ -268,3 +268,6 @@ Li Sulimowicz*, University of Texas at Arlington; Ishfaq  Ahmad, University of T
 Ridvan Aksu*, University of Alabama; Viswanathan Swaminathan, Adobe
 Klaus Schoffmann*, University of Klagenfurt; Bernd Münzer, Klagenfurt University; Manfred Primus, Alpen-Adria Universität Klagenfurt; Sabrina Kletz, Klagenfurt University; Andreas Leibetseder, Alpen-Adria-Universität Klagenfurt
 Kiran Raja*, USN
+Rameswar Panda*, UC Riverside; Amit Roy-Chowdhury , University of California, Riverside, USA 
+Krishna Somandepalli*, University of Southern California; Naveen Kumar, Sony; Tanaya Guha, IIT Kanpur; Shrikanth Narayanan, University of Southern California
+Meng Yang*, XJTU; Nanning Zheng, Xi'an Jiaotong University
