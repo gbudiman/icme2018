@@ -10,7 +10,7 @@ module SponsorHelper
     },
     silver: {
       title: 'Silver Sponsors',
-      logos: ['logos/mediatek','logos/microsoft', 'logos/mitsubishi'],
+      logos: ['logos/mediatek','logos/microsoft', 'logos/mitsubishi', 'logos/netflix'],
     },
     bronze: {
       title: 'Bronze Sponsors',
