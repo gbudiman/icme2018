@@ -103,7 +103,7 @@ module DateHelper
                           type: :nopropose,
                           is_rebuttal: true},
     student_career_dinner: {title: '3MT and Student Career Dinner Registration',
-                            proposal: 'May 20, 2018',
+                            proposal: 'June 15, 2018',
                             type: :nopropose},
     student_dinner_sponsor: {title: 'Industry Sponsor Registration',
                              proposal: 'July 20, 2018',
