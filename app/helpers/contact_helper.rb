@@ -194,7 +194,7 @@ module ContactHelper
     },
     workshop_mast: {
       not_oc: true,
-      members: ['Naveen Kumar', 'Tanaya Guha', 'Krishna Somandepalli', 'Shri Narayanan'],
+      members: ['Naveen Kumar, Sony Interactive Entertainment', 'Tanaya Guha, Dept. of Electrical Engineering Indian Institute of Technology, Kanpur', 'Krishna Somandepalli, Signal Analysis and Interpretation Laboratory University of Southern California', 'Shri Narayanan, Signal Analysis and Interpretation Laboratory University of Southern California'],
       photos: ['Naveen Kumar', 'Tanaya Guha', 'Krishna Somandepalli', 'Shri Narayanan']
     },
     workshop_msts: {
