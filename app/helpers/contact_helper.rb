@@ -16,7 +16,7 @@ module ContactHelper
                 'Sanghoon Lee, Yonsei U., Korea',
                 'Min Chen, U. of Washington, Bothell, USA',
                 'Mugen Peng, Beijing U of Posts & Telecom, China',
-                'Junsong Yuan, NTU, Singapore'],
+                'Junsong Yuan, State University of New York, Buffalo, USA'],
       photos: ['Pamela Cosman',
                'Yap-Peng Tan',
                'Sanghoon Lee',
