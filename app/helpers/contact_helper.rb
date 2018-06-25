@@ -309,7 +309,7 @@ module ContactHelper
     },
     panel_a_moderator: {
       not_oc: true,
-      members: ['Prof. Junsong Yuan, Nanyang Technological University']
+      members: ['Prof. Junsong Yuan, State University of New York, Buffalo, USA']
     },
     panel_a_panelists: {
       not_oc: true,
