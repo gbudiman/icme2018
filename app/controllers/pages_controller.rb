@@ -51,4 +51,5 @@ class PagesController < ApplicationController
       render partial: 'payment_not'
     end
   end
+
 end

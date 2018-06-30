@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get      '/paper',           to: 'pages#paper'
   get      '/important_dates',        to: 'pages#important_dates'
   get      '/organizing_committee',         to: 'pages#organizing_committee'
+  get      '/contributing_volunteers', to: 'pages#contributing_volunteers'
   get      '/workshop', to: 'pages#workshop'
   get      '/tutorial', to: 'pages#tutorial'
   get      '/special_session', to: 'pages#special_session'

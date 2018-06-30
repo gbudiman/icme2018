@@ -13,7 +13,10 @@
             %img{class: 'oc-photo',
                  src: "#{asset_path('photos/' + (m[1] == nil ? 'user_placeholder' : m[1]) + '.jpg')}"}
           %div{class: 'row'}
-            %div{class: 'oc-name'}= m[0]
+            %div{class: 'oc-name'}
+              = m[0].split(/,/)[0].strip
+              %br
+              %i= m[0].split(/,/)[1..-1].join(', ').strip
 
   / %div{class: 'col-xs-12 col-sm-6'}
   /   %h3 General Chairs
