@@ -1,0 +1,76 @@
+%h1 Contributing Volunteers
+
+%h3 List of Area Chairs
+%hr
+
+- ContactHelper::get_contact.each do |k, v|
+  %div{class: 'panel panel-primary oc-container'}
+    %div{class: 'panel-heading'}
+      %h4= v[:title]
+    %div{class: 'panel-body'}
+      - v[:members].zip(v[:photos]).each do |m|
+        %div{class: 'col-xs-6 col-sm-4 col-lg-3 oc-cell'}
+          %div{class: 'row'}
+            %img{class: 'oc-photo',
+                 src: "#{asset_path('photos/' + (m[1] == nil ? 'user_placeholder' : m[1]) + '.jpg')}"}
+          %div{class: 'row'}
+            %div{class: 'oc-name'}
+              = m[0].split(/,/)[0].strip
+              %br
+              %i= m[0].split(/,/)[1..-1].join(', ').strip
+
+%div{class: 'row ol-xs-12'}
+On behalf of the TPC co-chairs, we would like to acknowledge the following 43 top reviewers for ICME 2018. These reviewers have been identified by the area chairs and TPC co-chairs, out of 548 reviewers in total, so this is a top 8% group.
+
+
+
+%h3 List of Top Reviewers
+%hr 
+%div{class: 'col-xs-12 col-sm-6'}
+  %ul{style: 'margin-bottom: 0'}
+    %li Velibor Adzic
+    %li Pedro Assuncao
+    %li Werner Bailer
+    %li Ivan Bajic
+    %li Erik Bochinski
+    %li Catarina Brites
+    %li Francine Chen
+    %li Wen-Huang Cheng
+    %li Yung-Yu Chuang
+    %li Shaoyi Du
+    %li Yueqi Duan
+    %li Rodrigo Laiola Guimaraes
+    %li Jungong Han
+    %li Xingtong Han
+    %li Shintami Hidayati
+    %li Kai-Lung Hua
+    %li Jan Koloda
+    %li Chen-Yu Lee
+    %li Dalton Lin
+    %li Weiyao Lin
+    %li Ping Liu
+    %li Jing Liu
+    
+%div{class: 'col-xs-12 col-sm-6'}
+  %ul
+    %li Yucheng Liu
+    %li Enrique Sanchez-Lozano
+    %li Jiwen Lu
+    %li Ryan Lustig
+    %li Yan-Tsung Peng
+    %li Fernando Pereira
+    %li Georges Quenot
+    %li Bappaditya Ray
+    %li Mei-Ling Shyu
+    %li Qing Song
+    %li Jiande Sun
+    %li Zheng Tang
+    %li Yonghong Tian
+    %li Gaoang Wang
+    %li Hongxing Wang
+    %li Jianfeng Wang
+    %li Junliang Xing
+    %li Yi-Hsuan Yang
+    %li Yun Ye
+    %li Atsuo Yoshitaka
+    %li H. Vicky Zhao
