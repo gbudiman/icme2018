@@ -1,26 +1,171 @@
 %h1 Contributing Volunteers
 
+On behalf of the TPC co-chairs, we would like to acknowledge the following 43 top reviewers for ICME 2018. These reviewers have been identified by the area chairs and TPC co-chairs, out of 548 reviewers in total, so this is a top 8% group.
+
+
 %h3 List of Area Chairs
 %hr
 
-- ContactHelper::get_contact.each do |k, v|
-  %div{class: 'panel panel-primary oc-container'}
-    %div{class: 'panel-heading'}
-      %h4= v[:title]
-    %div{class: 'panel-body'}
-      - v[:members].zip(v[:photos]).each do |m|
-        %div{class: 'col-xs-6 col-sm-4 col-lg-3 oc-cell'}
-          %div{class: 'row'}
-            %img{class: 'oc-photo',
-                 src: "#{asset_path('photos/' + (m[1] == nil ? 'user_placeholder' : m[1]) + '.jpg')}"}
-          %div{class: 'row'}
-            %div{class: 'oc-name'}
-              = m[0].split(/,/)[0].strip
-              %br
-              %i= m[0].split(/,/)[1..-1].join(', ').strip
-
-%div{class: 'row ol-xs-12'}
-On behalf of the TPC co-chairs, we would like to acknowledge the following 43 top reviewers for ICME 2018. These reviewers have been identified by the area chairs and TPC co-chairs, out of 548 reviewers in total, so this is a top 8% group.
+%ul
+  %li
+    Pradeep Atrey
+    State University of New York at Albany, USA
+  %li
+    Ivan Bajic
+    Simon Fraser University, Canada
+  %li
+    Liangliang Cao
+    Hello Vera, USA
+  %li
+    Zhenzhong Chen
+    Wuhan University, China
+  %li
+    Cunjian Chen
+    Michigan State University, USA
+  %li
+    Wen-Huang Cheng
+    Academia Sinica, Taiwan
+  %li
+    Ngai-Man Cheung
+    Singapore University of Technology and Design, Singapore
+  %li
+    Samson Cheung
+    University of Kentucky, USA
+  %li
+    Lingyu Duan
+    Peking University, China
+  %li
+    Frederic Dufaux
+    CNRS (National Center for Scientific Research), France
+  %li
+    Abdulmotaleb El Saddik
+    University of Ottawa, Canada
+  %li
+    Yuming Fang
+    JiangXi University of Finance and Economics, China
+  %li
+    Lu Fang
+    Tsinghua University, China
+  %li
+    Yue Gao
+    Tsinghua University, China
+  %li
+    Jing-Ming Guo
+    National Taiwan University of Science and Technology, Taiwan
+  %li
+    Wenbo He
+    McMaster University, Canada
+  %li
+    Steven Hoi
+    Singapore Management University, Singapore
+  %li
+    Wolfgang Hürst
+    Utrecht University, Netherlands
+  %li
+    Jenq-Neng Hwang
+    University of Washington, Seattle, USA
+  %li
+    Jia Jia
+    Tsinghua University, China
+  %li
+    André Kaup
+    Friedrich-Alexander University Erlangen-Nürnberg, Germany
+  %li
+    Chang-Su Kim
+    Korea University, Korea
+  %li
+    Patrick Le Callet
+    Université de Nantes, France
+  %li
+    Zhu Li
+    University of Missouri, Kansas City, USA
+  %li
+    Wanqing Li
+    University of Wollongong, Australia
+  %li
+    Houqiang Li
+    University of Science and Technology of China, China
+  %li
+    Weiyao Lin
+    Shanghai Jiaotong University, China
+  %li
+    Jiaying Liu
+    Peking University, China
+  %li
+    Chun-Shien Lu
+    Academia Sinica, Taiwan
+  %li
+    Jiwen Lu
+    Tsinghua University, China
+  %li
+    Siwei Ma
+    Peking University, China
+  %li
+    Tao Mei
+    JD.com, China
+  %li
+    Marta Mrak
+    British Broadcasting Corporation, United Kingdom
+  %li
+    Wen-Hsiao Peng
+    National Chiao Tung University, Taiwan
+  %li
+    Balakrishnan Prabhakaran
+    University of Texas, Dallas, USA
+  %li
+    Xinzhu Sang
+    Beijing University of Posts and Telecommunications, China
+  %li
+    Ju Shen
+    University of Dayton, USA
+  %li
+    Leonel Sousa
+    Universidade de Lisboa, Portugal
+  %li
+    Jelena Tešić
+    Texas State University, USA
+  %li
+    Yonghong Tian
+    Peking University, China
+  %li
+    Qi Tian
+    University of Texas, San Antonio, USA
+  %li
+    Yan Tong
+    University of South Carolina, USA
+  %li
+    Sotirios Tsaftaris
+    University of Edinburgh, UK
+  %li
+    Mathias Wien
+    RWTH Aachen University, Germany
+  %li
+    Wenxian Yang
+    Institute for Infocomm Research, Singapore
+  %li
+    Ting Yao
+    Microsoft Research, China
+  %li
+    Rongshan Yu
+    Xiamen University, China
+  %li
+    Lei Zhang
+    Microsoft Research, USA
+  %li
+    Cha Zhang
+    Microsoft Research, USA
+  %li
+    Xiao-Ping Zhang
+    Ryerson University, Canada
+  %li
+    Yao Zhao
+    Beijing Jiaotong University, China
+  %li
+    Ce Zhu
+    University of Electronic Science and Technology of China, China
+  %li
+    Fengqing Zhu
+    Purdue University, USA
 
 
 
