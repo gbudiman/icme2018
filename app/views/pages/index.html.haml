@@ -16,9 +16,27 @@
   %div{class: 'col-xs-12 col-sm-6'}
     %div{class: 'list-group hilinks'}
       %a{href: '#', class: 'list-group-item active hilinks title'} Highlights
-      %a{href: 'https://goo.gl/forms/nAE0ddGOKzNX3Gom2', target: '_survery', class: 'list-group-item list-group-item-warning'}
-        %span{class: 'glyphicon glyphicon-star'}
+      %a{href: '#', class: 'list-group-item list-group-item-warning', id: 'main-survey'}
+        %span{class: 'glyphicon glyphicon-menu-down'}
         Conference Survey
+      %a{href: 'https://goo.gl/forms/JXF02RfwBA57J34Y2', target: '_survey', class: 'list-group-item list-group-item-info subsurvey'} 
+        %span{class: 'glyphicon glyphicon-tasks'}
+        Basic Questions
+      %a{href: 'https://goo.gl/forms/RQZyaD3BBSBRI13K3', target: '_survey', class: 'list-group-item list-group-item-info subsurvey'} 
+        %span{class: 'glyphicon glyphicon-tasks'}
+        Day 1
+      %a{href: 'https://goo.gl/forms/FpggJVGIMzT8ZmEg2', target: '_survey', class: 'list-group-item list-group-item-info subsurvey'} 
+        %span{class: 'glyphicon glyphicon-tasks'}
+        Day 2
+      %a{href: 'https://goo.gl/forms/vTIhH4W8zgjBxGlv1', target: '_survey', class: 'list-group-item list-group-item-info subsurvey'} 
+        %span{class: 'glyphicon glyphicon-tasks'}
+        Day 3
+      %a{href: 'https://goo.gl/forms/cO3KaATB62uZYZDI3', target: '_survey', class: 'list-group-item list-group-item-info subsurvey'} 
+        %span{class: 'glyphicon glyphicon-tasks'}
+        Day 4
+      %a{href: 'https://goo.gl/forms/veg70tNEdBozSOWp2', target: '_survey', class: 'list-group-item list-group-item-info subsurvey'} 
+        %span{class: 'glyphicon glyphicon-tasks'}
+        Day 5
       %a{href: '/conf_glance', class: 'list-group-item list-group-item-warning'} 
         %span{class: 'glyphicon glyphicon-star'}
         Conference Schedule
@@ -110,3 +128,18 @@
       %a{href: '/sponsors'} Sponsors
 
 = javascript_include_tag 'layout_helper'
+:javascript
+  var subsurvey_loaded = false
+
+  $(document).on('turbolinks:load', function() {
+    if (!subsurvey_loaded) {
+      subsurvey_loaded = true
+      layout_helper.activate_subsurveys()
+    }
+  })
+
+:css
+  .subsurvey {
+    display: none;
+    cursor: pointer;
+  }
