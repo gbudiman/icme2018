@@ -309,31 +309,30 @@ module ContactHelper
     },
     panel_a_moderator: {
       not_oc: true,
-      members: ['Prof. Junsong Yuan, State University of New York, Buffalo, USA']
+      members: ['Prof. Junsong Yuan, State University of New York, Buffalo, USA'],
+      photos: ['Junsong Yuan']
     },
     panel_a_panelists: {
       not_oc: true,
       members: ['Mohan Kankanhalli, National University of Singapore',
-                'Nicu Sebe, University of Trento',
-                'Gang Wang, Research Director of Alibaba AI Lab',
-                'Yi Yang, University of Technology Sydney',
-                'Yuxin Peng, Peking University',
-                'Jiashi Feng, National University of Singapore',
-                'Jiebo Luo, University of Rochester']
+                'Wenjun Zeng, Microsoft Research Asia, China',
+                'Xilin Chen, Chinese Academy of Science, China',
+                'Tao Mei, JD Research, China',
+                'Zhou Ren, Snap, USA'],
+      photos: ['Mohan Kankanhalli', 'Wenjun Zeng', nil, 'Tao Mei', nil]
     },
     panel_b_moderator: {
       not_oc: true,
-      members: ['Dr. Liang Lin, Sensetime']
+      members: ['Dr. Liang Lin, SenseTime Group Ltd., China, Sun Yat-sen University, China']
     },
     panel_b_panelists: {
       not_oc: true,
-      members: ['Shuicheng Yan, National University of Singapore & VP/Director of Research at Qihu 360',
-                'Changhu Wang, Research Director at Toutiao',
-                'Liangliang Cao, Founder of Hello Vera',
-                'Fatih Porikli, Chief Scientist at Huawei & Australia National University',
-                'Cees Snoek, Director of QUVA Lab (joint research lab of Qualcomm and University of Amsterdam',
-                'Xian-sheng Hua, Deputy Managing Director at iDST, Alibaba Group',
-                'Tao Mei, Lead Researcher, Microsoft Research Asia']
+      members: ['Xiaodan Liang, Carnegie Mellon University, USA',
+                'Zhu Li, University of Missouri, USA',
+                'Fatih Porikli, Huawei, USA, Australia National University, Australia',
+                'Lei Zhang, Microsoft Research, USA',
+                'Wen-Huang Cheng, Academia Sincia, Taiwan'],
+      photos: [nil, 'Zhu Li', nil, 'Lei Zhang', 'Wen-Huang Cheng']
     },
     industry_a_panelists: {
       not_oc: true,
