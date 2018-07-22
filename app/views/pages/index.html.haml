@@ -64,15 +64,36 @@
 
   %div{class: 'col-xs-12 col-sm-6'}
     %div{class: 'splash-bright'}
-      %div{class: 'h3 text-center'} 
-        Upcoming Deadlines
-        %a{href: '/important_dates', target: '_schedule'}
-          %span{class: 'glyphicon glyphicon-new-window'}
+      / %div{class: 'h3 text-center'} 
+      /   Upcoming Deadlines
+      /   %a{href: '/important_dates', target: '_schedule'}
+      /     %span{class: 'glyphicon glyphicon-new-window'}
+      / - DateHelper.get_upcoming_deadline.each do |d|
+      /   %tr
+      /     %td{class: 'col-xs-8'}= d[:splash_title]
+      /     %td{class: 'col-xs-4'}= d[:splash_date]
+    %div{class: 'h3 text-center'}
+      Registration Time
+    %table{class: 'table'}
+      %tr
+        %td Sunday
+        %td 12:00 PM - 5:00 PM
+      %tr
+        %td Monday
+        %td 7:30 AM - 5:00 PM
+      %tr
+        %td Tuesday
+        %td 7:30 AM - 6:00 PM
+      %tr
+        %td Wednesday
+        %td 7:30 AM - 6:00 PM
+      %tr
+        %td Thursday
+        %td 7:30 AM - 6:00 PM
+      %tr
+        %td Friday
+        %td 8:00 AM - 3:30 PM
       %table{class: 'table table-condensed'}
-        - DateHelper.get_upcoming_deadline.each do |d|
-          %tr
-            %td{class: 'col-xs-8'}= d[:splash_title]
-            %td{class: 'col-xs-4'}= d[:splash_date]
 
   %div{class: 'col-xs-12 col-sm-6'}
     %div{id: 'landing-carousel', class: 'carousel slide', 'data-ride' => 'carousel'}
