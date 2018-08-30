@@ -264,3 +264,14 @@ img.carousel {
   max-width: 320px;
   max-height: 160px;
 }
+
+.best-papers {
+  .title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .author, .affil {
+    font-style: italic;
+  }
+}
